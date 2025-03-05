@@ -1,0 +1,18 @@
+#### chadwyck.txt
+
+Title Chadwyck Literature Collections
+URL http://collections.chadwyck.com
+HJ collections.chadwyck.com
+HJ collections.chadwyck.co.uk
+Find + sDomain +
+Replace + 'collections.chadwyck.com' +
+
+Title Chadwyck Nineteenth Century Short Title Catalogue
+URL https://nstc.chadwyck.com/
+HJ http://nstc.chadwyck.com/
+HJ nstc.chadwyck.com
+
+Title Monthly Catalog of U.S. Government Publications, 1895-1976
+URL https://monthlycatalog.chadwyck.com
+HJ http://monthlycatalog.chadwyck.com
+HJ monthlycatalog.chadwyck.com

@@ -1,0 +1,611 @@
+#### File for Stub stanzas that reduce needhost errors  ####
+#### Created 8/12/2020 pmaholm
+
+# Added per RAL 2020-04-09
+# Stanza added to reduce needhost errors for non-subscribed resource
+Title Academy of Management
+URL http://aom.org/
+HJ academynews.aom.org
+HJ amd.aom.org
+HJ amj.aom.org
+HJ amle.aom.org
+HJ amp.aom.org
+HJ amr.aom.org
+HJ annals.aom.org
+HJ https://journals.aom.org
+HJ journals.aom.org
+HJ one.aom.org
+HJ proceedings.aom.org
+HJ www.aom.org
+DJ aom.org
+
+# Added per RAL 2020-08-25
+# Brief stanza added to reduce needhost errors for non-subscribed resource
+Title Aerospace Research Central
+URL https://arc.aiaa.org/
+DJ aiaa.org
+
+# Added per RAL 2020-04-28
+# Brief stanza added to reduce needhost errors for non-subscribed resource
+Title AHA Journals
+URL https://www.ahajournals.org
+HJ https://www.ahajournals.org
+HJ ahajournals.org
+DJ ahajournals.org
+
+# Added per ralight 2021-06-24
+# Stanza added to reduce needhost errors for non-subscribed resource
+Title ASTM
+URL https://www.astm.org
+HJ www.astm.org
+DJ astm.org
+
+# Added per RAL 2020-12-03
+# Stanza added to reduce needhost errors for non-subscribed resource
+Title American College of Physicians
+URL https://acpjournals.org
+HJ acpjournals.org
+HJ acphospitalist.org
+HJ acpinternist.org
+HJ acpjc.org
+HJ acponline.org
+HJ annals.org
+HJ https://acphospitalist.org
+HJ https://acpinternist.org
+HJ https://acponline.org
+HJ https://annals.org
+HJ https://www.acphospitalist.org
+HJ https://www.acpinternist.org
+HJ https://www.acpjournals.org
+HJ https://www.acponline.org
+HJ https://www.annals.org
+HJ www.acphospitalist.org
+HJ www.acpinternist.org
+HJ www.acpjc.org
+HJ www.acpjournals.org
+HJ www.acponline.org
+HJ www.annals.org
+DJ acpjournals.org
+DJ acphospitalist.org
+DJ acpinternist.org
+DJ acpjc.org
+DJ acponline.org
+DJ annals.org
+
+# Added per RAL 2020-06-15
+# Brief stanza added to reduce needhost errors for non-subscribed resource
+Title American Diabetes Association
+URL https://www.diabetesjournals.org/
+HJ diabetes.diabetesjournals.org
+HJ care.diabetesjournals.org
+HJ clinical.diabetesjournals.org
+HJ spectrum.diabetesjournals.org
+DJ diabetesjournals.org
+
+# Added per ralight 2022-11-29
+# Brief stanza added to reduce needhost errors for non-subscribed resource
+Title American Journal of Cardiology
+URL https://www.ajconline.org
+HJ www.ajconline.org
+DJ ajconline.org
+
+# Added per RAL 2020-11-10
+# Stanza added to reduce needhost errors for non-subscribed resource
+Title American Journal of the Medical Sciences
+URL https://www.amjmedsci.org/
+HJ www.amjmedsci.org
+HJ https://www.amjmedsci.com
+HJ https://www.amjmed.com
+HJ http://www.amjmed.com
+DJ amjmed.com
+
+DJ amjmedsci.com
+DJ amjmedsci.org
+
+# Added per RAL 2020-05-28
+# Brief stanza added to reduce needhost errors for non-subscribed resource
+Title American Journal of Roentgenology
+URL https://www.ajronline.org/
+HJ www.ajronline.org
+DJ ajronline.org
+
+# Added per RAL 2020-11-30
+# Brief stanza added to reduce needhost errors for non-subscribed resource
+Title American Journal of Tropical Medicine and Hygiene
+URL http://www.ajtmh.org/
+HJ https://www.ajtmh.org
+DJ ajtmh.org
+
+# Added per RAL 2020-08-31
+# Stanza added to reduce needhost errors for non-subscribed resource
+Title American Society of Clinical Oncology (ASCO)
+URL https://ascopubs.org
+HJ ascopubs.org
+HJ click.broadcastemail.asco.org
+HJ edbook.ascopubs.org
+HJ globaloncologyjournal.org
+HJ https://ascopubs.org
+HJ https://jco.ascopubs.org
+HJ https://jgo.ascopubs.org
+HJ https://jop.ascopubs.org
+HJ https://meetinglibrary.asco.org
+HJ https://www.ascopubs.org
+HJ jco.ascopubs.org
+HJ jgo.ascopubs.org
+HJ jop.ascopubs.org
+HJ meetinglibrary.asco.org
+HJ www.ascopubs.org
+HJ www.globaloncologyjournal.org
+DJ asco.org
+DJ ascopubs.org
+DJ globaloncologyjournal.org
+
+# Add per RAL 2020-04-09
+# Brief stanza added to reduce needhost errors for non-subscribed resource
+Title Annals of Internal Medicine
+URL https://annals.org/aim
+H annals.org
+D annals.org
+
+# Added per RAL 2021-11-29
+# Stanza added to reduce needhost errors for non-subscribed resource
+Title The Atlantic Monthly (updated 20210511)
+URL https://www.theatlantic.com
+HJ www.theatlantic.com
+DJ theatlantic.com
+
+# Added per RAL 2020-04-30
+# Brief stanza added to reduce needhost errors for non-subscribed resource
+Title ATS Journals
+URL https://www.atsjournals.org/
+HJ www.atsjournals.org
+HJ atsjournals.org
+DJ atsjournals.org
+
+# Add per RAL 2020-11-23
+# Brief stanza added to reduce needhost errors for non-subscribed resource
+Title Bio-protocol
+URL https://bio-protocol.org/default.aspx
+HJ bio-protocol.org
+DJ bio-protocol.org
+
+# Added per RAL 2020-03-31
+# Brief stanza added to reduce needhost errors for non-subscribed resource
+Title Biotaxa
+URL https://www.biotaxa.org/
+H www.biotaxa.org
+D biotaxa.org
+
+# Added per RAL 2020-06-30
+# Stanza added to reduce needhost errors for non-subscribed resource
+Title Chemistry World
+URL https://www.chemistryworld.com/
+H https://www.chemistryworld.com
+H www.chemistryworld.com
+H chemistryworld.com
+DJ chemistryworld.com
+
+# Added per ralight 2021-1206
+# Stanza added to reduce needhost errors for non-subscribed resource
+Title CHEST Publications (updated 20201127)
+URL http://www.chestnet.org/
+HJ chestjournal.chestpubs.org
+HJ chestjournal.org
+HJ chestnet.org
+HJ https://chestjournal.chestpubs.org
+HJ https://chestjournal.org
+HJ https://chestnet.org
+HJ https://journal.chestnet.org
+HJ https://journal.publications.chestnet.org
+HJ https://publications.chestnet.org
+HJ https://secure.jbs.elsevierhealth.com
+HJ https://www.chestjournal.org
+HJ https://www.chestnet.org
+HJ journal.chestnet.org
+HJ journal.publications.chestnet.org
+HJ publications.chestnet.org
+HJ secure.jbs.elsevierhealth.com
+HJ www.chestjournal.org
+HJ www.chestnet.org
+DJ chestnet.org
+
+# Added per RAL 2020-06-29
+# Stanza added to reduce needhost errors for non-subscribed resource
+Option DomainCookieOnly
+Title Cochrane Library (updated 20200217)
+HTTPHeader -request -process X-Requested-With
+URL http://www.cochranelibrary.com/
+HJ cochrane.org
+HJ cochranelibrary.com
+HJ cochranelibrary-wiley.com
+HJ handbook.cochrane.org
+HJ thecochranelibrary.com
+HJ training.cochrane.org
+HJ www.cochrane.org
+HJ www.cochranejournalclub.com
+HJ www.cochranelibrary.com
+HJ www.thecochranelibrary.com
+HJ https://cochrane.org
+HJ https://cochranelibrary.com
+HJ https://cochranelibrary-wiley.com
+HJ https://handbook.cochrane.org
+HJ https://thecochranelibrary.com
+HJ https://www.cochrane.org
+HJ https://www.cochranelibrary.com
+HJ https://www.thecochranelibrary.com
+HJ https://www.wileyhealthlearning.com
+HJ https://training.cochrane.org
+DJ cochrane.org
+DJ cochranejournalclub.com
+DJ cochranelibrary.com
+DJ cochranelibrary-wiley.com
+DJ thecochranelibrary.com
+#DJ wiley.com
+DJ wileyhealthlearning.com
+Neverproxy https://static.cochrane.org
+NeverProxy https://static.test.cochrane.org
+Neverproxy http://static.cochrane.org
+NeverProxy http://static.test.cochrane.org
+Neverproxy https://data.cochrane.org
+Neverproxy http://data.cochrane.org
+NeverProxy https://data.test.cochrane.org
+NeverProxy httP://data.test.cochrane.org
+Find https://cochranelibrary#x2e;com
+Replace https://^scochranelibrary.com^
+Find https://cochranelibrary-wiley#x2e;com
+Replace https://^scochranelibrary-wiley.com^
+Find https://thecochranelibrary#x2e;com
+Replace https://^sthecochranelibrary.com^
+Find https://www.cochranelibrary.com
+Replace https://^swww.cochranelibrary.com^
+Option Cookie
+
+# Added per RAL 2020-07-08
+# Brief stanza added to reduce needhost errors for non-subscribed resource
+Title The Economist
+URL https://www.economist.com/
+H www.economist.com
+D economist.com
+
+# Added per RAL 2020-04-09
+# Brief stanza added to reduce needhost errors for non-subscribed resource
+Title Eureka Select
+URL http://www.eurekaselect.com
+H https://www.eurekaselect.com
+H www.eurekaselect.com
+D eurekaselect.com
+
+Title Future Medicine
+# Added per RAL 2020-05-04
+# Brief stanza added to reduce needhost errors for non-subscribed resource
+URL https://www.futuremedicine.com/
+HJ www.futuremedicine.com
+DJ futuremedicine.com
+
+# Added per RAL 2020-07-24
+# Stanza added to reduce needhost errors for non-subscribed resource
+Title Future Science
+URL https://www.future-science.com/
+HJ www.future-science.com
+DJ future-science.com
+
+# Added per RAL 2020-09-03
+# Brief stanza added to reduce needhost errors for non-subscribed resource
+Title Hogrefe eContent
+URL https://econtent.hogrefe.com
+HJ econtent.hogrefe.com
+HJ https://econtent.hogrefe.com
+HJ econtent.hogrefe-prod.literatumonline.com
+HJ hogrefe-prod.literatumonline.com
+DJ hogrefe.com
+
+# Added per RAL 2020-10-12
+# Brief stanza added to reduce needhost errors for non-subscribed resource
+Title ICE Virtual Library
+URL https://www.icevirtuallibrary.com
+HJ www.icevirtuallibrary.com
+DJ icevirtuallibrary.com
+
+# Added per RAL 2020-08-10
+# Stanza added to reduce needhost errors for non-subscribed resource
+Title Infona
+URL https://www.infona.pl/
+HJ www.infona.pl
+
+# Added per RAL 2020-04-09
+# Stanza added to reduce needhost errors to non-subscribed resource
+Title Informit Search
+AnonymousURL -RE -CS +http://search\.informit\.com\.au/.*/[A-Z0-9]+\.mp4
+URL https://search.informit.com.au
+H http://search.informit.com.au
+HJ search.informit.com.au
+DJ informit.com.au
+AnonymousURL -*
+
+# Added per RAL 2020-04-10
+# Brief stanza added to reduce needhost errors for non-subscribed resource
+Title International Institute of Anticancer Research
+URL http://iiarjournals.org/
+H http://ar.iiarjournals.org
+H http://cgp.iiarjournals.org/
+H http://iv.iiarjournals.org/
+D iiarjournals.org
+
+# Added per ralight 2022-04-11
+# Brief stanza added to reduce needhost errors for non-subscribed resource
+Title Isho Publications
+URL https://webview.isho.jp
+HJ webview.isho.jp
+DJ isho.jp
+
+# Added per RAL 2020-05-18
+# Stanza added to reduce needhost errors for non-subscribed resource
+Title Journal of Immunology
+URL https://www.jimmunol.org/
+HJ www.jimmunol.org
+DJ jimmunol.org
+
+# Added per RAL 2020-10-28
+# Stanza added to reduce needhost errors for non-subscribed resource
+Title Journal of Pharmaceutical Sciences
+URL https://jpharmsci.org/
+DJ jpharmsci.org
+
+# Added per RAL 2021-03-16
+# Stanza added to reduce needhost errors for non-subscribed resource
+Title Journal of the Physical Society of Japan
+URL https://journals.jps.jp/journal/jpsj
+HJ http://journals.jps.jp
+DJ jps.jp
+
+# Added per RAL 2020-12-03
+# Brief stanza added to reduce needhost errors for non-subscribed resource
+Title Journals of the American College of Cardiology
+URL https://www.jacc.org/
+HJ www.jacc.org
+HJ jacc.org
+DJ jacc.org
+
+# Added per RAL 2020-04-09
+# Brief stanza added to reduce needhost errors for non-subscribed resource
+Title J-Stage
+URL https://www.jstage.jst.go.jp
+H www.jstage.jst.go.jp
+D jstage.jst.go.jp
+
+# Added per RAL 2020-04-09
+# Brief stanza added to reduce needhost errors for non-subscribed resource
+Title The Lancet
+URL https://www.thelancet.com/
+H www.thelancet.com
+D thelancet.com
+
+# Modified per RAL 2020-07-02
+# Brief stanza to avoid needhost errors for a SSO/SAML authenticated resource
+Title LexisNexis Digital Library
+NeverProxy https://lexisdl.com/welcome/login/maurer
+
+# Added per RAL 2020-07-01
+# Stanza added to reduce needhost errors for non-subscribed resource
+Title MAG Online Library
+URL https://www.magonlinelibrary.com/
+HJ www.magonlinelibrary.com
+DJ magonlinelibrary.com
+
+# Added per RAL 2020-06-17
+# Stanza added to reduce needhost errors for non-subscribed resource
+Title Medscape
+URL https://www.medscape.com/
+HJ emedicine.medscape.com
+DJ Medscape.com
+
+# Added per ralight 2022-11-07
+# Stanza added to reduce needhost errors for non-subscribed resource
+Title MIS Quarterly
+URL https://misq.umn.edu
+HJ misq.umn.edu
+HJ https://misq.org
+DJ misq.org
+
+# Updated per RAL 2020-09-17
+# Brief stanza added to reduce needhost errors for non-subscribed resource
+Title Neurology Journals
+URL https://www.neurology.org/
+HJ https://n.neurology.org
+HJ https://cp.neurology.org
+HJ https://ng.neurology.org
+HJ https://nn.neurology.org
+
+# Previously used for trial access, stanza kept to avoid needhost errors per ralight 2021-11-29
+# added per CWL 8-6-20
+AnonymousURL +https://search.openedition.org/*
+AnonymousURL +https://search-api.openedition.org/*
+Title OpenEdition (updated 20190305)
+URL http://www.openedition.org
+NeverProxy static.openedition.org
+NeverProxy static-origin.openedition.org
+DJ openedition.org
+HJ https://books.openedition.org
+HJ https://journals.openedition.org
+HJ https://www.openedition.org
+HJ https://auth.openedition.org
+HJ https://search.openedition.org
+HJ https://search-api.openedition.org
+HJ books.openedition.org
+HJ journals.openedition.org
+HJ www.openedition.org
+HJ auth.openedition.org
+HJ search.openedition.org
+HJ search-api.openedition.org
+Find http:\/\/
+Replace http://
+Find https:\/\/
+Replace https:\/\/
+AnonymousURL -*
+
+# Added per ralight 2021-07-15
+# Brief stanza added to reduce needhost errors for non-subscribed resource
+Title Ophthalmology
+URL https://www.aaojournal.org/
+HJ www.aaojournal.org
+DJ aaojournal.org
+
+# Added per RAL 2020-04-24
+# Brief stanza added to reduce needhost errors for non-subscribed resource
+Title Psychiatrist.com
+URL http://www.psychiatrist.com
+H https://www.psychiatrist.com
+H www.psychiatrist.com
+D psychiatrist.com
+
+# Added per RAL 2020-08-20
+# Stanza added to reduce needhost errors for non-subscribed resource
+Title Radiological Society of North America
+URL https://pubs.rsna.org
+HJ pubs.rsna.org
+
+# Added per RAL 2020-11-10
+# Stanza added to reduce needhost errors for non-subscribed resource
+Title Scientific.Net
+URL https://www.scientific.net/
+HJ www.scientific.net
+DJ scientific.net
+
+# Added per ralight 2022-08-22
+# Brief stanza added to reduce needhost errors for non-subscribed resource
+Title Signals Notebook
+URL https://chemdraweln.signalsnotebook.perkinelmer.cloud/
+DJ perkinelmer.cloud
+
+# Added per RAL 2020-07-31
+# Stanza added to reduce needhost errors for non-subscribed resource
+Title SpringerMaterials
+URL https://www.springermaterials.com
+HJ materials.springer.com
+HJ https://materials.springer.com
+Domain springermaterials.com
+
+# Added per RAL 2020-09-22
+# Stanza added to reduce needhost errors for non-subscribed resource
+Title TIB
+URL https://www.tib.eu/en/
+HJ www.tib.eu
+DJ tib.eu
+
+# Added to prevent needhost error per RAL 2019-08-21
+Title Tijdschrift voor muziektheorie
+URL https://lup.be/pages/archief-tijdschrift-voor-muziektheorie
+
+# Added per RAL 2020-09-04
+# Brief stanza added to reduce needhost errors for non-subscribed resource
+Title ASCE Library
+URL https://ascelibrary.org/
+
+# Added per RAL 2020-09-04
+# Brief stanza added to reduce
+Title ERS Publications
+URL https://www.ersjournals.com/
+HJ erj.ersjournals.com
+HJ err.ersjournals.com
+HJ breathe.ersjournals.com
+HJ books.ersjournals.com
+DJ ersjournals.com
+
+# Added per RAL 2020-11-02
+# Brief stanza added to reduce needhost errors for non-subscribed resource
+Title AVMA Journals Online
+URL https://avmajournals.avma.org
+DJ avma.org
+
+# Added per RAL 2021-02-25
+# Stanza added to reduce needhost errors for non-subscribed resource
+Title IET Digital Library
+URL https://digital-library.theiet.org/
+HJ digital-library.theiet.org
+DJ digital-library.theiet.org
+
+# Added per RAL 2020-11-05
+# Stanza added to reduce needhost errors for non-subscribed resource
+Title IWA Publishing
+URL https://www.iwaponline.com/
+HJ https://iwaponline.com
+HJ iwaponline.com
+HJ jh.iwaponline.com
+HJ www.iwaponline.com
+DJ iwaponline.com
+
+# Added per RAL 2021-03-11
+# Brief stanza added to reduce needhost errors for non-subscribed resource
+Title RCNi Journals
+URL https://journals.rcni.com
+HJ https://rcni.com
+DJ rcni.com
+
+# Added to reduce needhost errors per ralight 2022-03-30
+Option CookiePassThrough
+Title WANFANG DATA (CHINA) (updated 20210503)
+URL https://www.wanfangdata.com.cn/
+HJ http://www.wanfangdata.com.cn
+DJ wanfangdata.com.cn
+HJ wanfangdata.com.cn
+HJ www.wanfangdata.com.cn
+HJ c.wanfangdata.com.cn
+HJ s.wanfangdata.com.cn
+HJ d.wanfangdata.com.cn
+HJ login.wanfangdata.com.cn
+HJ common.wanfangdata.com.cn
+HJ my.wanfangdata.com.cn
+HJ miner.wanfangdata.com.cn
+HJ work.wanfangdata.com.cn
+HJ advert.wanfangdata.com.cn
+HJ library.wanfangdata.com.cn
+HJ g.wanfangdata.com.cn
+HJ check.wanfangdata.com.cn
+HJ loginbyurl.wanfangdata.com.cn
+HJ oss.wanfangdata.com.cn
+HJ trend.wanfangdata.com.cn
+HJ topic.wanfangdata.com.cn
+HJ fire.wanfangdata.com.cn
+HJ f.wanfangdata.com.cn
+HJ w.wanfangdata.com.cn
+HJ abc.wan.com
+NeverProxy cdn.wanfangdata.com.cn
+NeverProxy cdn.login.wanfangdata.com.cn
+NeverProxy cdn.advert.wanfangdata.com.cn
+Option Cookie
+
+# Added per ralight 2023-09-22
+# Stanza added to reduce needhost errors for non-subscribed resource
+Title CSJ Journals
+URL https://www.journal.csj.jp/
+HJ www.journal.csj.jp
+HJ journal.csj.jp
+HJ http://www.journal.csj.jp
+DJ csj.jp
+
+# Added per ralight 2024-06-20
+# Brief stanza added to reduce needhost errors for non-subscribed resource
+Title American Journal of Ophthalmology
+URL https://www.ajo.com/
+HJ www.ajo.com
+DJ ajo.com
+
+# Added per ralight 2024-08-19
+# Brief stanza added to reduce needhost errors for non-subscribed resource
+Title Scite.Ai
+URL https://scite.ai
+DJ scite.ai
+
+# Added per ralight 2024-10-02
+# Brief stanza added to reduce needhost errors for non-subscribed resource
+Title Journal of Clinical Sleep Medicine
+URL https://jcsm.aasm.org
+HJ jcsm.aasm.org
+DJ aasm.org
+
+# Added per ralight 2024-10-09
+# Brief stanza added to reduce needhost errors for non-subscribed resource
+Title ASME Digital Collection (updated 20220712)
+URL https://asmedigitalcollection.asme.org
+HJ asmedigitalcollection.asme.org
+DJ asme.org

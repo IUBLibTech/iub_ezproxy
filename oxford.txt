@@ -1,0 +1,1528 @@
+#### oxford.txt
+
+# Updated per ralight 2023-01-10
+AnonymousURL +https://oup.silverchair-cdn.com/
+Title Oxford Academic (formerly Oxford Journals) (updated 20230106)
+HTTPHeader -request -inject x-proxy-server (server:url:http =~ "@^http://([^:]+)@", re:1)
+URL https://academic.oup.com/
+HJ https://academic.oup.com
+HJ https://global.oup.com
+HJ https://click.skem1.com
+HJ global.oup.com
+HJ academic.oup.com
+HJ click.skem1.com
+DJ oup.com
+DJ watermark.silverchair.com
+Find domain="//global.oup.com"
+Replace domain="//^sglobal.oup.com^"
+AnonymousURL -*
+NeverProxy oup3-idp.sams-sigma.com
+NeverProxy oup2-idp.sams-sigma.com
+NeverProxy oup-idp.sams-sigma.com
+
+Title Oxford Language Dictionaries Online
+URL http://www.oxfordlanguagedictionaries.com
+HJ www.oxfordlanguagedictionaries.com
+HJ oxfordlanguagedictionaries.com
+DJ oxfordlanguagedictionaries.com
+HJ www.oxforddictionaries.com
+HJ blog.oxforddictionaries.com
+HJ community.oxforddictionaries.com
+DJ oxforddictionaries.com 
+
+# Updated per RAL 2020-12-04
+Title Oxford Reference
+URL https://www.oxfordreference.com
+HJ https://oxfordreference.com
+HJ oxfordreference.com
+HJ www.oxfordreference.com
+DJ oxfordreference.com
+
+# Updated per RAL 2020-12-04
+Title Oxford Music Online
+URL https://www.oxfordmusiconline.com
+HJ https://oxfordmusiconline.com
+HJ www.oxfordmusiconline.com
+HJ oxfordmusiconline.com
+DJ oxfordmusiconline.com
+
+# Updated per RAL 2020-12-04
+Title Oxford Art Online
+URL https://www.oxfordartonline.com
+HJ https://oxfordartonline.com
+HJ www.oxfordartonline.com
+HJ oxfordartonline.com
+HJ https://groveart.com
+HJ groveart.com
+DJ groveart.com
+DJ oxfordartonline.com
+
+# Updated per RAL 2020-12-04
+Title Oxford Bibliographies
+URL https://www.oxfordbibliographies.com
+HJ https://oxfordbibliographies.com
+HJ www.oxfordbibliographies.com
+HJ oxfordbibliographies.com
+HJ oxfordbibliographiesonline.com
+HJ www.oxfordbibliographiesonline.com
+DJ oxfordbibliographies.com
+
+Title Oxford Dictionaries Premium
+URL https://premium.oxforddictionaries.com
+Domain premium.oxforddictionaries.com
+HJ premium.oxforddictionaries.com
+DJ ouptag.scholarlyiq.com
+
+# Updated per RAL 2020-12-04
+Title Oxford Dictionary of National Biography
+URL https://www.oxforddnb.com
+HJ https://oxforddnb.com
+HJ www.oxforddnb.com
+HJ oxforddnb.com
+DJ oxforddnb.com
+
+## The following stanzas account for old URLs that redirect to new platform
+
+Title Oxford Journals - Old Platform
+URL http://www.oxfordjournals.org
+Host https://www.oxfordjournals.org
+Domain oxfordjournals.org
+DJ oxfordjournals.org
+
+# Updated per RAL 2020-12-04
+Title Oxford Research Encyclopedia - Including Encyclopedia of Social Work
+URL https://oxfordre.com
+HJ https://www.oxfordre.com
+HJ oxfordre.com
+HJ www.oxfordre.com
+HJ https://politics.oxfordre.com
+HJ politics.oxfordre.com
+DJ oxfordre.com
+DJ prototypes.filtro.us
+
+# Added per RAL 2020-03-04
+Title Oxford University Press Law
+URL https://oxfordlawreports.com/
+HJ https://www.oxfordlawreports.com/
+HJ academic.oup.com
+HJ ildc.oxfordlawreports.com
+HJ oxfordlawreports.com
+HJ www.oxfordlawreports.com
+HJ citator.ouplaw.com
+HJ olrl.ouplaw.com
+HJ opil.ouplaw.com
+HJ oxcat.ouplaw.com
+HJ oxia.ouplaw.com
+HJ oxcon.ouplaw.com
+HJ www.olrl.ouplaw.com
+HJ www.ouplaw.com
+HJ www.oxcat.ouplaw.com
+HJ www.oxia.ouplaw.com
+HJ www.oxcon.ouplaw.com
+HJ ouplaw.com
+HJ https://academic.oup.com
+HJ https://ildc.oxfordlawreports.com
+HJ https://oxfordlawreports.com
+HJ https://www.oxfordlawreports.com
+HJ https://citator.ouplaw.com
+HJ https://olrl.ouplaw.com
+HJ https://opil.ouplaw.com
+HJ https://oxcat.ouplaw.com
+HJ https://oxia.ouplaw.com
+HJ https://oxcon.ouplaw.com
+HJ https://www.olrl.ouplaw.com
+HJ https://www.ouplaw.com
+HJ https://www.oxcat.ouplaw.com
+HJ https://www.oxia.ouplaw.com
+HJ http://www.oxcon.ouplaw.com
+HJ https://ouplaw.com
+HJ https://global.oup.com
+HJ https://www.oup.com
+DJ oxfordlawreports.com
+DJ ouplaw.com
+DJ oup.com
+
+Title Aesthetic Surgery Journal
+Host asj.oxfordjournals.org
+Host https://asj.oxfordjournals.org
+
+Title African Affairs
+Host afraf.oxfordjournals.org
+Host https://afraf.oxfordjournals.org
+
+Title Age and Ageing
+Host ageing.oxfordjournals.org
+Host https://ageing.oxfordjournals.org
+
+Title AIBS Bulletin
+Host aibsbulletin.oxfordjournals.org
+Host https://aibsbulletin.oxfordjournals.org
+
+Title Alcohol and Alcoholism
+Host alcalc.oxfordjournals.org
+Host https://alcalc.oxfordjournals.org
+
+Title American Entomologist
+Host ae.oxfordjournals.org
+Host https://ae.oxfordjournals.org
+
+Title The American Historical Review
+Host ahr.oxfordjournals.org
+Host https://ahr.oxfordjournals.org
+
+Title American Journal of Epidemiology
+Host aje.oxfordjournals.org
+Host https://aje.oxfordjournals.org
+
+Title American Journal of Agricultural Economics
+Host ajae.oxfordjournals.org
+Host https://ajae.oxfordjournals.org
+
+Title American Journal of Clinical Pathology
+Host ajcp.oxfordjournals.org 
+Host https://ajcp.oxfordjournals.org 
+
+Title American Journal of Hypertension
+Host ajh.oxfordjournals.org
+Host https://ajh.oxfordjournals.org
+
+Title American Journal of Legal History
+Host ajlh.oxfordjournals.org
+Host https://ajlh.oxfordjournals.org
+
+Title American Literary History
+Host alh.oxfordjournals.org
+Host https://alh.oxfordjournals.org
+
+Title American Zoologist
+Host az.oxfordjournals.org
+Host https://az.oxfordjournals.org
+
+Title Analysis
+Host analysis.oxfordjournals.org
+Host https://analysis.oxfordjournals.org
+
+Title Annals of Botany
+Host aob.oxfordjournals.org
+Host https://aob.oxfordjournals.org
+
+Title The Annals of Occupational Hygiene
+Host annhyg.oxfordjournals.org
+Host https://annhyg.oxfordjournals.org
+
+Title Annals of Oncology
+Host annonc.oxfordjournals.org
+Host https://annonc.oxfordjournals.org
+
+Title Annals of the Entomological Society of America
+Host aesa.oxfordjournals.org
+Host https://aesa.oxfordjournals.org
+
+Title AoB PLANTS
+Host aobpla.oxfordjournals.org
+Host https://aobpla.oxfordjournals.org
+
+Title Applied Economic Perspectives and Policy
+Host aepp.oxfordjournals.org
+Host https://aepp.oxfordjournals.org
+
+Title Applied Linguistics
+Host applij.oxfordjournals.org
+Host https://applij.oxfordjournals.org
+
+Title Arbitration International
+Host arbitration.oxfordjournals.org
+Host https://arbitration.oxfordjournals.org
+
+Title Arbitration Law Reports and Review
+Host alrr.oxfordjournals.org
+Host https://alrr.oxfordjournals.org
+
+Title Archives of Clinical Neuropsychology
+Host acn.oxfordjournals.org
+Host https://acn.oxfordjournals.org
+
+Title Aristotelian Society Supplementary Volume
+Host aristoteliansupp.oxfordjournals.org
+Host https://aristoteliansupp.oxfordjournals.org
+
+Title Arthropod Management Tests
+Host amt.oxfordjournals.org
+Host https://amt.oxfordjournals.org
+
+Title Astronomy & Geophysics
+Host astrogeo.oxfordjournals.org
+Host https://astrogeo.oxfordjournals.org
+
+Title Background
+Host background.oxfordjournals.org
+Host https://background.oxfordjournals.org
+
+Title Background on World Politics
+Host backgroundwp.oxfordjournals.org
+Host https://backgroundwp.oxfordjournals.org
+
+Title Behavioral Ecology
+Host beheco.oxfordjournals.org
+Host https://beheco.oxfordjournals.org
+
+Title Bioinformatics
+Host bioinformatics.oxfordjournals.org
+Host https://bioinformatics.oxfordjournals.org
+
+Title Biometrika
+Host biomet.oxfordjournals.org
+Host https://biomet.oxfordjournals.org
+
+Title BioScience
+Host bioscience.oxfordjournals.org
+Host https://bioscience.oxfordjournals.org
+
+Title Bioscience Horizons: The International Journal of Student Research
+Host biohorizons.oxfordjournals.org
+Host https://biohorizons.oxfordjournals.org
+
+Title Biostatistics
+Host biostatistics.oxfordjournals.org
+Host https://biostatistics.oxfordjournals.org
+
+Title BJA: British Journal of Anaesthesia
+Host bja.oxfordjournals.org
+Host https://bja.oxfordjournals.org
+
+Title Brain
+Host brain.oxfordjournals.org
+Host https://brain.oxfordjournals.org
+
+Title Briefings in Bioinformatics
+Host bib.oxfordjournals.org
+Host https://bib.oxfordjournals.org
+
+Title Briefings in Functional Genomics
+Host bfg.oxfordjournals.org
+Host https://bfg.oxfordjournals.org
+
+Title The British Journal of Aesthetics
+Host bjaesthetics.oxfordjournals.org
+Host https://bjaesthetics.oxfordjournals.org
+
+Title The British Journal of Criminology
+Host bjc.oxfordjournals.org
+Host https://bjc.oxfordjournals.org
+
+Title The British Journal for the Philosophy of Science
+Host bjps.oxfordjournals.org
+Host https://bjps.oxfordjournals.org
+
+Title The British Journal of Social Work
+Host bjsw.oxfordjournals.org
+Host https://bjsw.oxfordjournals.org
+
+Title British Medical Bulletin
+Host bmb.oxfordjournals.org
+Host https://bmb.oxfordjournals.org
+
+
+Title Bulletin of the Entomological Society of America
+Host besa.oxfordjournals.org
+Host https://besa.oxfordjournals.org
+
+Title Bulletin of the London Mathematical Society
+Host blms.oxfordjournals.org
+Host https://blms.oxfordjournals.org
+
+Title Cambridge Journal of Economics
+Host cje.oxfordjournals.org
+Host https://cje.oxfordjournals.org
+
+Title Cambridge Journal of Regions, Economy and Society
+Host cjres.oxfordjournals.org
+Host https://cjres.oxfordjournals.org
+
+Title The Cambridge Quarterly
+Host camqtly.oxfordjournals.org
+Host https://camqtly.oxfordjournals.org
+
+Title Carcinogenesis
+Host carcin.oxfordjournals.org
+Host https://carcin.oxfordjournals.org
+
+Title Cardiovascular Research
+Host cardiovascres.oxfordjournals.org
+Host https://cardiovascres.oxfordjournals.org
+
+Title Cerebral Cortex
+Host cercor.oxfordjournals.org
+Host https://cercor.oxfordjournals.org
+
+Title Chemical Senses
+Host chemse.oxfordjournals.org
+Host https://chemse.oxfordjournals.org
+
+Title Children & Schools
+Host cs.oxfordjournals.org
+Host https://cs.oxfordjournals.org
+
+Title The Chinese Journal of International Politics
+Host cjip.oxfordjournals.org
+Host https://cjip.oxfordjournals.org
+
+Title Christian bioethics: Non-Ecumenical Studies in Medical Morality
+Host cb.oxfordjournals.org
+Host https://cb.oxfordjournals.org
+
+Title Classical Receptions Journal
+Host crj.oxfordjournals.org
+Host https://crj.oxfordjournals.org
+
+Title Clinical Infectious Diseases
+Host cid.oxfordjournals.org
+Host https://cid.oxfordjournals.org
+
+Title Clinical Kidney Journal
+Host ckj.oxfordjournals.org
+Host https://ckj.oxfordjournals.org
+
+Title Community Development Journal
+Host cdj.oxfordjournals.org
+Host https://cdj.oxfordjournals.org
+
+Title The Computer Journal
+Host comjnl.oxfordjournals.org
+Host https://comjnl.oxfordjournals.org
+
+Title Conservation Physiology
+Host conphys.oxfordjournals.org
+Host https://conphys.oxfordjournals.org
+
+Title Continuing Education in Anaesthesia, Critical Care & Pain
+Host ceaccp.oxfordjournals.org
+Host https://ceaccp.oxfordjournals.org
+
+Title Contributions to Political Economy
+Host cpe.oxfordjournals.org
+Host https://cpe.oxfordjournals.org
+
+Title Current Legal Problems
+Host clp.oxfordjournals.org
+Host https://clp.oxfordjournals.org
+
+Title Current Zoology
+Host cz.oxfordjournals.org
+Host https://cz.oxfordjournals.org
+
+Title Database
+Host database.oxfordjournals.org
+Host https://database.oxfordjournals.org
+
+Title Digital Scholarship in the Humanities
+Host dsh.oxfordjournals.org
+Host https://dsh.oxfordjournals.org
+
+Title Diplomatic History
+Host dh.oxfordjournals.org
+Host https://dh.oxfordjournals.org
+
+Title DNA Research
+Host dnaresearch.oxfordjournals.org
+Host https://dnaresearch.oxfordjournals.org
+
+Title Dynamics and Statistics of the Climate System
+Host climatesystem.oxfordjournals.org
+Host https://climatesystem.oxfordjournals.org
+
+Title Early Music
+Host em.oxfordjournals.org
+Host https://em.oxfordjournals.org
+
+Title Economic Policy
+Host economicpolicy.oxfordjournals.org
+Host https://economicpolicy.oxfordjournals.org
+
+Title ELT Journal
+Host eltj.oxfordjournals.org
+Host https://eltj.oxfordjournals.org
+
+Title English: Journal of the English Association
+Host english.oxfordjournals.org
+Host https://english.oxfordjournals.org
+
+Title The English Historical Review
+Host ehr.oxfordjournals.org
+Host https://ehr.oxfordjournals.org
+
+Title Environmental Entomology
+Host ee.oxfordjournals.org
+Host https://ee.oxfordjournals.org
+
+Title Environmental History
+Host envhis.oxfordjournals.org
+Host https://envhis.oxfordjournals.org
+
+Title EP Europace
+Host europace.oxfordjournals.org
+Host https://europace.oxfordjournals.org
+
+Title Epidemiologic Reviews
+Host epirev.oxfordjournals.org
+Host https://epirev.oxfordjournals.org
+
+Title ESHRE Monographs
+Host eshremonographs.oxfordjournals.org
+Host https://eshremonographs.oxfordjournals.org
+
+Title Essays in Criticism
+Host eic.oxfordjournals.org
+Host https://eic.oxfordjournals.org
+
+Title European Heart Journal
+Host eurheartj.oxfordjournals.org
+Host https://eurheartj.oxfordjournals.org
+
+Title EUROPEAN HEART JOURNAL SUPPLEMENTS
+URL https://eurheartjsupp.oxfordjournals.org/content/by/year
+Host https://eurheartjsupp.oxfordjournals.org
+
+Title European Heart Journal - Cardiovascular Pharmacotherapy
+Host ehjcvp.oxfordjournals.org
+Host https://ehjcvp.oxfordjournals.org
+
+Title European Heart Journal - Cardiovascular Imaging
+Host ehjcimaging.oxfordjournals.org
+Host https://ehjcimaging.oxfordjournals.org
+
+Title European Journal of Cardio-Thoracic Surgery
+Host ejcts.oxfordjournals.org
+Host https://ejcts.oxfordjournals.org
+
+Title European Journal of Orthodontics
+Host ejo.oxfordjournals.org
+Host https://ejo.oxfordjournals.org
+
+Title European Journal of Public Health
+Host eurpub.oxfordjournals.org
+Host https://eurpub.oxfordjournals.org
+
+Title European Review of Agricultural Economics
+Host erae.oxfordjournals.org
+Host https://erae.oxfordjournals.org
+
+Title European Sociological Review
+Host esr.oxfordjournals.org
+Host https://esr.oxfordjournals.org
+
+Title Evolution, Medicine, and Public Health
+Host emph.oxfordjournals.org
+Host https://emph.oxfordjournals.org
+
+Title Family Practice
+Host fampra.oxfordjournals.org
+Host https://fampra.oxfordjournals.org
+
+Title FEMS Immunology & Medical Microbiology
+Host femsim.oxfordjournals.org
+Host https://femsim.oxfordjournals.org
+
+Title FEMS Microbiology Ecology
+Host femsec.oxfordjournals.org
+Host https://femsec.oxfordjournals.org
+
+Title FEMS Microbiology Immunology
+Host femsmi.oxfordjournals.org
+Host https://femsmi.oxfordjournals.org
+
+Title FEMS Microbiology Letters
+Host femsle.oxfordjournals.org
+Host https://femsle.oxfordjournals.org
+
+Title FEMS Microbiology Reviews
+Host femsre.oxfordjournals.org
+Host https://femsre.oxfordjournals.org
+
+Title FEMS Yeast Research
+Host femsyr.oxfordjournals.org
+Host https://femsyr.oxfordjournals.org
+
+Title Foreign Policy Analysis
+Host fpa.oxfordjournals.org/
+Host https://fpa.oxfordjournals.org/
+
+Title Forestry: An International Journal of Forest Research
+Host forestry.oxfordjournals.org
+Host https://forestry.oxfordjournals.org
+
+Title Forum for Modern Language Studies
+Host fmls.oxfordjournals.org
+Host https://fmls.oxfordjournals.org
+
+Title French History
+Host fh.oxfordjournals.org
+Host https://fh.oxfordjournals.org
+
+Title French Studies
+Host fs.oxfordjournals.org
+Host https://fs.oxfordjournals.org
+
+Title French Studies Bulletin
+Host fsb.oxfordjournals.org
+Host https://fsb.oxfordjournals.org
+
+Title Gastroenterology Report
+Host gastro.oxfordjournals.org
+Host https://gastro.oxfordjournals.org
+
+Title Genome Biology and Evolution
+Host gbe.oxfordjournals.org
+Host https://gbe.oxfordjournals.org
+
+Title Geophysical Journal International
+Host gji.oxfordjournals.org
+Host https://gji.oxfordjournals.org
+
+Title German History
+Host gh.oxfordjournals.org
+Host https://gh.oxfordjournals.org
+
+Title The Gerontologist
+Host gerontologist.oxfordjournals.org
+Host https://gerontologist.oxfordjournals.org
+
+Title Glycobiology
+Host glycob.oxfordjournals.org
+Host https://glycob.oxfordjournals.org
+
+Title Health & Social Work
+Host hsw.oxfordjournals.org
+Host https://hsw.oxfordjournals.org
+
+Title Health Education Research
+Host her.oxfordjournals.org
+Host https://her.oxfordjournals.org
+
+Title Health Policy and Planning
+Host heapol.oxfordjournals.org
+Host https://heapol.oxfordjournals.org
+
+Title Health Promotion International
+Host heapro.oxfordjournals.org
+Host https://heapro.oxfordjournals.org
+
+Title History Workshop Journal
+Host hwj.oxfordjournals.org
+Host https://hwj.oxfordjournals.org
+
+Title Holocaust and Genocide Studies
+Host hgs.oxfordjournals.org
+Host https://hgs.oxfordjournals.org
+
+Title Human Molecular Genetics
+Host hmg.oxfordjournals.org
+Host https://hmg.oxfordjournals.org
+
+Title Human Reproduction
+Host humrep.oxfordjournals.org
+Host https://humrep.oxfordjournals.org
+
+Title Human Reproduction Update
+Host humupd.oxfordjournals.org
+Host https://humupd.oxfordjournals.org
+
+Title ICES Journal of Marine Science
+Host icesjms.oxfordjournals.org
+Host https://icesjms.oxfordjournals.org
+
+Title ILAR Journal
+Host ilarjournal.oxfordjournals.org
+Host https://ilarjournal.oxfordjournals.org
+
+Title IMA Journal of Applied Mathematics
+Host imamat.oxfordjournals.org
+Host https://imamat.oxfordjournals.org
+
+Title IMA Journal of Management Mathematics
+Host imaman.oxfordjournals.org
+Host https://imaman.oxfordjournals.org
+
+Title IMA Journal of Mathematical Control and Information
+Host imamci.oxfordjournals.org
+Host https://imamci.oxfordjournals.org
+
+Title IMA Journal of Numerical Analysis
+Host imajna.oxfordjournals.org
+Host https://imajna.oxfordjournals.org
+
+Title Industrial and Corporate Change
+Host icc.oxfordjournals.org
+Host https://icc.oxfordjournals.org
+
+Title Integrative and Comparative Biology
+Host icb.oxfordjournals.org
+Host https://icb.oxfordjournals.org
+
+Title Interacting with Computers
+Host iwc.oxfordjournals.org
+Host https://iwc.oxfordjournals.org
+
+Title Interactive CardioVascular and Thoracic Surgery
+Host icvts.oxfordjournals.org
+Host https://icvts.oxfordjournals.org
+
+Title Interdisciplinary Studies in Literature and Environment
+Host isle.oxfordjournals.org
+Host https://isle.oxfordjournals.org
+
+Title International Health
+Host inthealth.oxfordjournals.org
+Host https://inthealth.oxfordjournals.org
+
+Title International Immunology
+Host intimm.oxfordjournals.org
+Host https://intimm.oxfordjournals.org
+
+Title International Journal of Epidemiology
+Host ije.oxfordjournals.org
+Host https://ije.oxfordjournals.org
+
+Title International Journal of Lexicography
+Host ijl.oxfordjournals.org
+Host https://ijl.oxfordjournals.org
+
+Title International Journal of Low-Carbon Technologies
+Host ijlct.oxfordjournals.org
+Host https://ijlct.oxfordjournals.org
+
+Title International Journal of Neuropsychopharmacology
+Host ijnp.oxfordjournals.org
+Host https://ijnp.oxfordjournals.org
+
+Title International Journal of Public Opinion Research
+Host ijpor.oxfordjournals.org
+Host https://ijpor.oxfordjournals.org
+
+Title International Journal of Refugee Law 
+Host ijrl.oxfordjournals.org 
+Host https://ijrl.oxfordjournals.org
+
+Title International Journal for Quality in Health Care
+Host intqhc.oxfordjournals.org
+Host https://intqhc.oxfordjournals.org
+
+Title International Mathematics Research Notices
+Host imrn.oxfordjournals.org
+Host https://imrn.oxfordjournals.org
+
+Title International Mathematics Research Papers
+Host imrp.oxfordjournals.org
+Host https://imrp.oxfordjournals.org
+
+Title International Mathematics Research Surveys
+Host imrs.oxfordjournals.org
+Host https://imrs.oxfordjournals.org
+
+Title International Political Sociology
+Host ips.oxfordjournals.org/
+Host https://ips.oxfordjournals.org/
+
+Title International Data Privacy Law
+Host idpl.oxfordjournals.org
+Host https://idpl.oxfordjournals.org
+
+Title International Studies Perspectives
+Host isp.oxfordjournals.org
+Host https://isp.oxfordjournals.org
+
+Title International Studies Quarterly
+Host isq.oxfordjournals.org/
+Host https://isq.oxfordjournals.org/
+
+Title International Studies Review
+Host isr.oxfordjournals.org/
+Host https://isr.oxfordjournals.org/
+
+Title ITNOW
+Host itnow.oxfordjournals.org
+Host https://itnow.oxfordjournals.org
+
+Title Japanese Journal of Clinical Oncology
+Host jjco.oxfordjournals.org
+Host https://jjco.oxfordjournals.org
+
+Title Journal of African Economies
+Host jae.oxfordjournals.org
+Host https://jae.oxfordjournals.org
+
+Title Journal of the American Academy of Religion
+Host jaar.oxfordjournals.org
+Host https://jaar.oxfordjournals.org
+
+Title Journal of American History
+Host jah.oxfordjournals.org
+Host https://jah.oxfordjournals.org
+
+Title Journal of the American Medical Informatics Association
+Host jamia.oxfordjournals.org
+Host https://jamia.oxfordjournals.org
+
+Title Journal of Analytical Toxicology
+Host jat.oxfordjournals.org
+Host https://jat.oxfordjournals.org
+
+Title Journal of Antimicrobial Chemotherapy
+Host jac.oxfordjournals.org
+Host https://jac.oxfordjournals.org
+
+Title The Journal of Applied Poultry Research
+Host japr.oxfordjournals.org
+Host https://japr.oxfordjournals.org
+
+Title The Journal of Biochemistry
+Host jb.oxfordjournals.org
+Host https://jb.oxfordjournals.org
+
+Title Journal of Chromatographic Science
+Host chromsci.oxfordjournals.org
+Host https://chromsci.oxfordjournals.org
+
+Title Journal of Church and State
+Host jcs.oxfordjournals.org
+Host https://jcs.oxfordjournals.org
+
+Title Journal of Consumer Research
+Host jcr.oxfordjournals.org
+Host https://jcr.oxfordjournals.org
+
+Title Journal of Crohn's and Colitis
+Host ecco-jcc.oxfordjournals.org
+Host https://ecco-jcc.oxfordjournals.org
+
+Title Journal of Crohn's and Colitis Supplements
+Host ecco-jccs.oxfordjournals.org
+Host https://ecco-jccs.oxfordjournals.org
+
+Title Journal of Cybersecurity
+Host cybersecurity.oxfordjournals.org
+Host https://cybersecurity.oxfordjournals.org
+
+Title The Journal of Deaf Studies and Deaf Education
+Host jdsde.oxfordjournals.org
+Host https://jdsde.oxfordjournals.org
+
+Title Journal of Design History
+Host jdh.oxfordjournals.org
+Host https://jdh.oxfordjournals.org
+
+Title Journal of Economic Entomology
+Host jee.oxfordjournals.org
+Host https://jee.oxfordjournals.org
+
+Title Journal of Economic Geography
+Host joeg.oxfordjournals.org
+Host https://joeg.oxfordjournals.org
+
+Title Journal of Environmental Law
+Host jel.oxfordjournals.org
+Host https://jel.oxfordjournals.org
+
+Title Journal of Experimental Botany
+Host jxb.oxfordjournals.org
+Host https://jxb.oxfordjournals.org
+
+Title Journal of Financial Econometrics
+Host jfec.oxfordjournals.org
+Host https://jfec.oxfordjournals.org
+
+Title Journal of Gerontology
+Host geronj.oxfordjournals.org
+Host https://geronj.oxfordjournals.org
+
+Title The Journals of Gerontology: Series A
+Host biomedgerontology.oxfordjournals.org
+Host https://biomedgerontology.oxfordjournals.org
+
+Title The Journals of Gerontology: Series B
+Host psychsocgerontology.oxfordjournals.org
+Host https://psychsocgerontology.oxfordjournals.org
+
+Title Journal of Global Security Studies
+Host jogss.oxfordjournals.org
+Host https://jogss.oxfordjournals.org
+
+Title Journal of Heredity
+Host jhered.oxfordjournals.org
+Host https://jhered.oxfordjournals.org
+
+Title Journal of Hip Preservation Surgery
+Host jhps.oxfordjournals.org
+Host https://jhps.oxfordjournals.org
+
+Title Journal of the History of Collections
+Host jhc.oxfordjournals.org
+Host https://jhc.oxfordjournals.org
+
+Title Journal of the History of Medicine and Allied Sciences
+Host jhmas.oxfordjournals.org
+Host https://jhmas.oxfordjournals.org
+
+Title The Journal of Infectious Diseases
+Host jid.oxfordjournals.org
+Host https://jid.oxfordjournals.org
+
+Title Journal of Insect Science
+Host jinsectscience.oxfordjournals.org
+Host https://jinsectscience.oxfordjournals.org
+
+Title Journal of Integrable Systems
+Host integrablesystems.oxfordjournals.org
+Host https://integrablesystems.oxfordjournals.org
+
+Title Journal of Integrated Pest Management
+Host jipm.oxfordjournals.org
+Host https://jipm.oxfordjournals.org
+
+Title Journal of International Economic Law
+Host jiel.oxfordjournals.org
+Host https://jiel.oxfordjournals?.org
+
+Title Journal of the International Commission on Radiation Units and Measurements
+Host jicru.oxfordjournals.org
+Host https://jicru.oxfordjournals.org
+
+Title Journal of Islamic Studies
+Host jis.oxfordjournals.org
+Host https://jis.oxfordjournals.org
+
+Title Journal of Law and the Biosciences
+Host jlb.oxfordjournals.org
+Host https://jlb.oxfordjournals.org
+
+Title The Journal of Law, Economics, and Organization
+Host jleo.oxfordjournals.org
+Host https://jleo.oxfordjournals.org
+
+Title Journal of Legal Analysis
+Host jla.oxfordjournals.org
+Host https://jla.oxfordjournals.org
+
+Title Journal of Logic and Computation
+Host logcom.oxfordjournals.org
+Host https://logcom.oxfordjournals.org
+
+Title Journal of the London Mathematical Society
+Host jlms.oxfordjournals.org
+Host https://jlms.oxfordjournals.org
+
+Title Journal of Mammalogy
+Host jmammal.oxfordjournals.org
+Host https://jmammal.oxfordjournals.org
+
+Title Journal of Medical and Veterinary Mycology
+Host jmvm.oxfordjournals.org
+Host https://jmvm.oxfordjournals.org
+
+Title Journal of Medical Entomology
+Host jme.oxfordjournals.org
+Host https://jme.oxfordjournals.org
+
+Title The Journal of Medicine and Philosophy: A Forum for Bioethics and Philosophy of Medicine
+Host jmp.oxfordjournals.org
+Host https://jmp.oxfordjournals.org
+
+Title Journal of Molecular Cell Biology
+Host jmcb.oxfordjournals.org
+Host https://jmcb.oxfordjournals.org
+
+Title Journal of Molluscan Studies
+Host mollus.oxfordjournals.org
+Host https://mollus.oxfordjournals.org
+
+Title Journal of Music Therapy
+Host jmt.oxfordjournals.org
+Host https://jmt.oxfordjournals.org
+
+Title JNCI: Journal of the National Cancer Institute
+Host jnci.oxfordjournals.org
+Host https://jnci.oxfordjournals.org
+
+Title JNCI Monographs
+Host jncimono.oxfordjournals.org
+Host https://jncimono.oxfordjournals.org
+
+Title Journal of Neuropathology & Experimental Neurology
+Host jnen.oxfordjournals.org
+Host https://jnen.oxfordjournals.org
+
+Title Journal of the Pediatric Infectious Diseases Society
+Host jpids.oxfordjournals.org
+Host https://jpids.oxfordjournals.org
+
+Title Journal of Pediatric Psychology
+Host jpepsy.oxfordjournals.org
+Host https://jpepsy.oxfordjournals.org
+
+Title Journal of Petrology
+Host petrology.oxfordjournals.org
+Host https://petrology.oxfordjournals.org
+
+Title Journal of Plankton Research
+Host plankt.oxfordjournals.org
+Host https://plankt.oxfordjournals.org
+
+Title Journal of Public Administration Research and Theory
+Host jpart.oxfordjournals.org
+Host https://jpart.oxfordjournals.org
+
+Title Journal of Public Health
+Host jpubhealth.oxfordjournals.org
+Host https://jpubhealth.oxfordjournals.org
+
+Title Journal of Radiation Research
+Host jrr.oxfordjournals.org
+Host https://jrr.oxfordjournals.org
+
+Title Journal of Refugee Studies
+Host jrs.oxfordjournals.org
+Host https://jrs.oxfordjournals.org
+
+Title Journal of Semantics
+Host jos.oxfordjournals.org
+Host https://jos.oxfordjournals.org
+
+Title Journal of Semitic Studies
+Host jss.oxfordjournals.org
+Host https://jss.oxfordjournals.org
+
+Title Journal of Social History
+Host jsh.oxfordjournals.org
+Host https://jsh.oxfordjournals.org
+
+Title Journal of Surgical Case Reports
+Host jscr.oxfordjournals.org
+Host https://jscr.oxfordjournals.org
+
+Title Journal of Survey Statistics and Methodology
+Host jssam.oxfordjournals.org
+Host https://jssam.oxfordjournals.org
+
+Title The Journal of Theological Studies
+Host jts.oxfordjournals.org
+Host https://jts.oxfordjournals.org
+
+Title Journal of Topology
+Host jtopol.oxfordjournals.org
+Host https://jtopol.oxfordjournals.org
+
+Title Journal of Tropical Pediatrics
+Host tropej.oxfordjournals.org
+Host https://tropej.oxfordjournals.org
+
+Title Journal of Travel Medicine
+Host jtm.oxfordjournals.org
+Host https://jtm.oxfordjournals.org
+
+Title Laboratory Medicine
+Host labmed.oxfordjournals.org 
+Host https://labmed.oxfordjournals.org 
+
+Title The Leo Baeck Institute Yearbook
+Host leobaeck.oxfordjournals.org
+Host https://leobaeck.oxfordjournals.org
+
+Title The Library
+Host library.oxfordjournals.org
+Host https://library.oxfordjournals.org
+
+Title Literary Imagination
+Host litimag.oxfordjournals.org
+Host https://litimag.oxfordjournals.org
+
+Title Literary and Linguistic Computing
+Host llc.oxfordjournals.org
+Host https://llc.oxfordjournals.org
+
+Title Literature and Theology
+Host litthe.oxfordjournals.org
+Host https://litthe.oxfordjournals.org
+
+Title Logic Journal of the IGPL
+Host jigpal.oxfordjournals.org
+Host https://jigpal.oxfordjournals.org
+
+Title Mammalian Species
+Host mspecies.oxfordjournals.org
+Host https://mspecies.oxfordjournals.org
+
+Title Mathematical Medicine and Biology: A Journal of the IMA
+Host imammb.oxfordjournals.org
+Host https://imammb.oxfordjournals.org
+
+Title Medical Law Review
+Host medlaw.oxfordjournals.org
+Host https://medlaw.oxfordjournals.org
+
+Title Medical Mycology
+Host mmy.oxfordjournals.org
+Host https://mmy.oxfordjournals.org
+
+Title MELUS: Multi-Ethnic Literature of the United States
+Host melus.oxfordjournals.org
+Host https://melus.oxfordjournals.org
+
+Title Mershon International Studies Review
+Host misr.oxfordjournals.org
+Host https://misr.oxfordjournals.org
+
+Title MHR: Basic science of reproductive medicine
+Host molehr.oxfordjournals.org
+Host https://molehr.oxfordjournals.org
+
+Title Microscopy
+Host jmicro.oxfordjournals.org
+Host https://jmicro.oxfordjournals.org
+
+Title Mind
+Host mind.oxfordjournals.org
+Host https://mind.oxfordjournals.org
+
+Title Modern Judaism - A Journal of Jewish Ideas and Experience
+Host mj.oxfordjournals.org
+Host https://mj.oxfordjournals.org
+
+Title Molecular Biology and Evolution
+Host mbe.oxfordjournals.org
+Host https://mbe.oxfordjournals.org
+
+Title Monthly Notices of the Royal Astronomical Society
+Host mnras.oxfordjournals.org
+Host https://mnras.oxfordjournals.org
+
+Title Monthly Notices of the Royal Astronomical Society: Letters
+Host mnrasl.oxfordjournals.org
+Host https://mnrasl.oxfordjournals.org
+
+Title Music and Letters
+Host ml.oxfordjournals.org
+Host https://ml.oxfordjournals.org
+
+Title Music Theory Spectrum
+Host mts.oxfordjournals.org
+Host https://mts.oxfordjournals.org
+
+Title Music Therapy
+Host musictherapy.oxfordjournals.org
+Host https://musictherapy.oxfordjournals.org
+
+Title Music Therapy Perspectives
+Host mtp.oxfordjournals.org
+Host https://mtp.oxfordjournals.org
+
+Title The Musical Quarterly
+Host mq.oxfordjournals.org
+Host https://mq.oxfordjournals.org
+
+Title Mutagenesis
+Host mutage.oxfordjournals.org
+Host https://mutage.oxfordjournals.org
+
+Title Nephrology Dialysis Transplantation
+Host ndt.oxfordjournals.org
+Host https://ndt.oxfordjournals.org
+
+Title Neuro-Oncology
+Host neuro-oncology.oxfordjournals.org
+Host https://neuro-oncology.oxfordjournals.org
+
+Title Neuro-Oncology Practice
+Host nop.oxfordjournals.org
+Host https://nop.oxfordjournals.org
+
+Title Neuroscience of Consciousness
+Host nc.oxfordjournals.org
+Host https://nc.oxfordjournals.org
+
+Title Nicotine and Tobacco Research
+Host ntr.oxfordjournals.org
+Host https://ntr.oxfordjournals.org
+
+Title Notes and Queries
+Host nq.oxfordjournals.org
+Host https://nq.oxfordjournals.org
+
+Title Nucleic Acids Research
+Host nar.oxfordjournals.org
+Host https://nar.oxfordjournals.org
+
+Title Nutrition Reviews
+Host nutritionreviews.oxfordjournals.org
+Host https://nutritionreviews.oxfordjournals.org
+
+Title Nucleic Acids Symposium Series
+Host nass.oxfordjournals.org
+Host https://nass.oxfordjournals.org
+
+Title OAH Magazine of History
+Host maghis.oxfordjournals.org
+Host https://maghis.oxfordjournals.org
+
+Title Occupational Medicine
+Host occmed.oxfordjournals.org
+Host https://occmed.oxfordjournals.org
+
+Title Open Forum Infectious Diseases
+Host ofid.oxfordjournals.org
+Host https://ofid.oxfordjournals.org
+
+Title The Opera Quarterly
+Host oq.oxfordjournals.org
+Host https://oq.oxfordjournals.org
+
+Title The Oral History Review
+Host ohr.oxfordjournals.org
+Host https://ohr.oxfordjournals.org
+
+Title Oxford Art Journal
+Host oaj.oxfordjournals.org
+Host https://oaj.oxfordjournals.org
+
+Title Oxford Economic Papers
+Host oep.oxfordjournals.org
+Host https://oep.oxfordjournals.org
+
+Title Oxford Medical Case Reports
+Host omcr.oxfordjournals.org
+Host https://omcr.oxfordjournals.org
+
+Title Oxford Review of Economic Policy
+Host oxrep.oxfordjournals.org
+Host https://oxrep.oxfordjournals.org
+
+Title Pain Medicine
+Host painmedicine.oxfordjournals.org
+Host https://painmedicine.oxfordjournals.org
+
+Title Parliamentary Affairs
+URL http://pa.oupjournals.org
+Host pa.oxfordjournals.org
+Host https://pa.oxfordjournals.org
+
+Title Past & Present
+Host past.oxfordjournals.org
+Host https://past.oxfordjournals.org
+
+Title Pathogens and Disease
+Host femspd.oxfordjournals.org
+Host https://femspd.oxfordjournals.org
+
+Title Philosophia Mathematica
+Host philmat.oxfordjournals.org
+Host https://philmat.oxfordjournals.org
+
+Title The Philosophical Quarterly
+Host pq.oxfordjournals.org
+Host https://pq.oxfordjournals.org
+
+Title Plant and Cell Physiology
+Host pcp.oxfordjournals.org
+Host https://pcp.oxfordjournals.org
+
+Title Political Analysis
+Host pan.oxfordjournals.org
+Host https://pan.oxfordjournals.org
+
+Title Poultry Science
+Host ps.oxfordjournals.org
+Host https://ps.oxfordjournals.org
+
+Title Proceedings of the Aristotelian Society
+Host aristotelian.oxfordjournals.org
+Host https://aristotelian.oxfordjournals.org
+
+Title Proceedings of the London Mathematical Society
+Host plms.oxfordjournals.org
+Host https://plms.oxfordjournals.org
+
+Title Progress of Theoretical Physics
+Host ptp.oxfordjournals.org
+Host https://ptp.oxfordjournals.org
+
+Title Progress of Theoretical Physics Supplement
+Host ptps.oxfordjournals.org
+Host https://ptps.oxfordjournals.org
+
+Title Progress of Theoretical and Experimental Physics
+Host ptep.oxfordjournals.org
+Host https://ptep.oxfordjournals.org
+
+Title Protein Engineering, Design and Selection
+Host peds.oxfordjournals.org
+Host https://peds.oxfordjournals.org
+
+Title Public Health Ethics
+Host phe.oxfordjournals.org
+Host https://phe.oxfordjournals.org
+
+Title Public Opinion Quarterly
+Host poq.oxfordjournals.org
+Host https://poq.oxfordjournals.org
+
+Title Publications of the Astronomical Society of Japan
+Host pasj.oxfordjournals.org
+Host https://pasj.oxfordjournals.org
+
+Title Publius: The Journal of Federalism
+Host publius.oxfordjournals.org
+Host https://publius.oxfordjournals.org
+
+Title QJM: An International Journal of Medicine
+Host qjmed.oxfordjournals.org
+Host https://qjmed.oxfordjournals.org
+
+Title The Quarterly Journal of Economics
+Host qje.oxfordjournals.org
+Host https://qje.oxfordjournals.org
+
+Title The Quarterly Journal of Mathematics
+Host qjmath.oxfordjournals.org
+Host https://qjmath.oxfordjournals.org
+
+Title The Quarterly Journal of Mechanics and Applied Mathematics
+Host qjmam.oxfordjournals.org
+Host https://qjmam.oxfordjournals.org
+
+Title Radiation Protection Dosimetry
+Host rpd.oxfordjournals.org
+Host https://rpd.oxfordjournals.org
+
+Title Refugee Survey Quarterly
+Host rsq.oxfordjournals.org
+Host https://rsq.oxfordjournals.org
+
+Title Regenerative Biomaterials
+Host rb.oxfordjournals.org
+Host https://rb.oxfordjournals.org
+
+Title Research Evaluation
+Host rev.oxfordjournals.org
+Host https://rev.oxfordjournals.org
+
+Title The Review of Asset Pricing Studies
+Host raps.oxfordjournals.org
+Host https://raps.oxfordjournals.org
+
+Title The Review of Corporate Finance Studies
+Host rcfs.oxfordjournals.org
+Host https://rcfs.oxfordjournals.org
+
+Title The Review of Economic Studies
+Host restud.oxfordjournals.org
+Host https://restud.oxfordjournals.org
+
+Title The Review of English Studies
+Host res.oxfordjournals.org
+Host https://res.oxfordjournals.org
+
+Title Review of Environmental Economics and Policy
+Host reep.oxfordjournals.org
+Host https://reep.oxfordjournals.org
+
+Title Review of Finance
+Host rof.oxfordjournals.org
+Host https://rof.oxfordjournals.org
+
+Title The Review of Financial Studies
+Host rfs.oxfordjournals.org
+Host https://rfs.oxfordjournals.org
+
+Title Rheumatology
+Host rheumatology.oxfordjournals.org
+Host https://rheumatology.oxfordjournals.org
+
+Title Sabouraudia
+Host sabouraudia.oxfordjournals.org
+Host https://sabouraudia.oxfordjournals.org
+
+Title Schizophrenia Bulletin
+Host schizophreniabulletin.oxfordjournals.org
+Host https://schizophreniabulletin.oxfordjournals.org
+
+Title Science and Public Policy
+Host spp.oxfordjournals.org
+Host https://spp.oxfordjournals.org
+
+Title Screen
+Host screen.oxfordjournals.org
+Host https://screen.oxfordjournals.org
+
+Title Social Cognitive and Affective Neuroscience
+Host scan.oxfordjournals.org
+Host https://scan.oxfordjournals.org
+
+Title Social Forces
+Host sf.oxfordjournals.org
+Host https://sf.oxfordjournals.org
+
+Title Social History of Medicine
+Host shm.oxfordjournals.org
+Host https://shm.oxfordjournals.org
+
+Title Social Politics: International Studies in Gender, State & Society
+Host sp.oxfordjournals.org
+Host https://sp.oxfordjournals.org
+
+Title Social Problems
+Host socpro.oxfordjournals.org
+Host https://socpro.oxfordjournals.org
+
+Title Social Science Japan Journal
+Host ssjj.oxfordjournals.org
+Host https://ssjj.oxfordjournals.org
+
+Title Social Work
+Host sw.oxfordjournals.org
+Host https://sw.oxfordjournals.org
+
+Title Social Work Research
+Host swr.oxfordjournals.org
+Host https://swr.oxfordjournals.org
+
+Title Social Work Research and Abstracts
+Host swra.oxfordjournals.org
+Host https://swra.oxfordjournals.org
+
+Title Socio-Economic Review
+Host ser.oxfordjournals.org
+Host https://ser.oxfordjournals.org
+
+Title Sociology of Religion
+Host socrel.oxfordjournals.org
+Host https://socrel.oxfordjournals.org
+
+Title Statue Law Review
+Host slr.oxfordjournals.org
+Host https://slr.oxfordjournals.org
+
+Title Systematic Biology
+Host sysbio.oxfordjournals.org
+Host https://sysbio.oxfordjournals.org
+
+Title Teaching Mathematics and its Applications: An International Journal of the IMA
+Host teamat.oxfordjournals.org
+Host https://teamat.oxfordjournals.org
+
+Title The Monist
+Host monist.oxfordjournals.org
+Host https://monist.oxfordjournals.org
+
+Title Toxicological Sciences
+Host toxsci.oxfordjournals.org
+Host https://toxsci.oxfordjournals.org
+
+Title Transactions of The Royal Society of Tropical Medicine and Hygiene
+Host trstmh.oxfordjournals.org
+Host https://trstmh.oxfordjournals.org
+
+Title Tree Physiology
+Host treephys.oxfordjournals.org
+Host https://treephys.oxfordjournals.org
+
+Title Twentieth Century British History
+Host tcbh.oxfordjournals.org
+Host https://tcbh.oxfordjournals.org
+
+Title The World Bank Economic Review
+Host wber.oxfordjournals.org
+Host https://wber.oxfordjournals.org
+
+Title The World Bank Research Observer
+Host wbro.oxfordjournals.org
+Host https://wbro.oxfordjournals.org
+
+Title Virus Evolution
+Host ve.oxfordjournals.org
+Host https://ve.oxfordjournals.org
+
+Title Western Historical Quarterly
+Host whq.oxfordjournals.org
+Host https://whq.oxfordjournals.org
+
+Title The Year's Work in Critical and Cultural Theory
+Host ywcct.oxfordjournals.org
+Host https://ywcct.oxfordjournals.org
+
+Title The Year's Work in English Studies
+Host ywes.oxfordjournals.org
+Host https://ywes.oxfordjournals.org
+
+Title ICSID Review
+Host icsidreview.oxfordjournals.org
+Host https://icsidreview.oxfordjournals.org
+
+Title Journal of International Dispute Settlement
+Host jids.oxfordjournals.org
+Host https://jids.oxfordjournals.org
+
+Title European Journal of International Law
+Host ejil.oxfordjournals.org
+Host https://ejil.oxfordjournals.org
+
+Title British Yearbook of International Law
+Host bybil.oxfordjournals.org
+Host https://bybil.oxfordjournals.org
+
+Title Oxford Journal of Legal Studies
+Host ojls.oxfordjournals.org
+Host https://ojls.oxfordjournals.org
+
+Title American Journal of Jurisprudence
+Host ajj.oxfordjournals.org
+Host https://ajj.oxfordjournals.org
+
+Title Jerusalem Review of Legal Studies
+Host jrls.oxfordjournals.org
+Host https://jrls.oxfordjournals.org
+
+Title Capital Markets Law Journal
+Host cmlj.oxfordjournals.org
+Host https://cmlj.oxfordjournals.org
+
+Title Chinese Journal of International Law
+Host chinesejil.oxfordjournals.org
+Host https://chinesejil.oxfordjournals.org
+
+Title Industrial Law Journal
+Host ilj.oxfordjournals.org
+Host https://ilj.oxfordjournals.org
+
+Title International Journal of Constitutional Law
+Host icon.oxfordjournals.org
+Host https://icon.oxfordjournals.org
+
+Title Conflict & Security Law
+Host jcsl.oxfordjournals.org
+Host https://jcsl.oxfordjournals.org
+
+Title Reports of Patent, Design and Trade Mark Cases
+Host rpc.oxfordjournals.org
+Host https://rpc.oxfordjournals.org
+
+# Updated per RAL 2020-12-04
+Title Oxford Scholarly Editions Online
+URL https://www.oxfordscholarlyeditions.com
+HJ https://oxfordscholarlyeditions.com
+HJ www.oxfordscholarlyeditions.com
+HJ oxfordscholarlyeditions.com
+DJ oxfordscholarlyeditions.com
+
+# Added per ralight 2023-03-10
+# Added to reduce needhost errors on old hosts that still redirect to Oxford academic
+Title Legacy Oxford Linking
+URL https://www.oxfordhandbooks.com
+HJ www.oxfordhandbooks.com
+
+# Updated per ralight 2024-03-20
+Title Oxford African American Studies Center (updated 20240319)
+HTTPHeader -request -process X-Requested-With
+URL https://www.oxfordaasc.com/
+HJ https://oxfordaasc.com
+HJ oxfordaasc.com
+HJ www.oxfordaasc.com
+DJ oxfordaasc.com

@@ -1,0 +1,613 @@
+# Updated per ralight 2023-07-14
+Title Sage Journals (updated 20230710)
+HTTPHeader -request -process X-Requested-With
+HTTPHeader -request -process __RequestVerificationToken
+HTTPHeader -request -process X-XSRF-Token
+URL https://journals.sagepub.com
+HJ advance.sagepub.com/
+HJ au.sagepub.com
+HJ businessresearcher.sagepub.com
+HJ data.sagepub.com
+HJ in.sagepub.com
+HJ journals.sagepub.com
+HJ library.cqpress.com
+HJ methods.sagepub.com
+HJ sk.sagepub.com
+HJ uk.sagepub.com
+HJ us.corwin.com
+HJ el.sagepub.com
+HJ sage.cnpereading.com
+DJ cnpereading.com
+HJ us.sagepub.com
+HJ www.methodspace.com
+HJ www.nybooks.com
+HJ www.physiology.org
+HJ www.sagepub.co.uk
+HJ www.sagepub.com
+HJ campus.sagepub.com
+HJ cqpress.sagepub.com
+HJ https://cqpress.sagepub.com
+HJ https://campus.sagepub.com
+HJ https://advance.sagepub.com/
+HJ https://au.sagepub.com
+HJ https://businessresearcher.sagepub.com
+HJ https://data.sagepub.com
+HJ https://in.sagepub.com
+HJ https://classroom.sagepub.com
+HJ https://journals.sagepub.com
+HJ https://library.cqpress.com
+HJ https://methods.sagepub.com
+HJ https://search.sagepub.com
+HJ https://sk.sagepub.com
+HJ https://uk.sagepub.com
+HJ https://us.corwin.com
+HJ https://us.sagepub.com
+HJ https://www.methodspace.com
+HJ https://www.nybooks.com
+HJ https://www.physiology.org
+HJ https://www.sagepub.co.uk
+HJ https://www.sagepub.com
+HJ https://el.sagepub.com
+DJ cnpereading.com
+DJ corwin.com
+DJ cqpress.com
+DJ methodspace.com
+DJ nybooks.com
+DJ physiology.org
+DJ sagepub.co.uk
+DJ sagepub.com
+NeverProxy widgets.sagepub.com
+NeverProxy widgetscdn.sagepub.com
+NeverProxy scpassetsrepcdn.sagepub.com
+NeverProxy scpassetscdn.sagepub.com
+NeverProxy scpassetsreplegcdn.sagepub.com
+NeverProxy scpassetslegcdn.sagepub.com
+Find https:\/\/classroom.sagepub.com
+Replace https:\/\/^Sclassroom.sagepub.com^
+Find url = "http://
+Replace url = "http://^A
+Find url = "https://
+Replace url = "https://^A
+Find url = document.location.protocol + "//" + document.location.host
+Replace url = "https://journals.sagepub.com/"
+
+### Commented out due to change per Ruth
+### Remove after 4/24/2020
+# HTTPHeader X-Requested-With
+# Option CookiePassThrough
+# Title SAGE Journals
+# URL http://journals.sagepub.com
+# HJ https://journals.sagepub.com
+# HJ http://library.cqpress.com
+# HJ https://library.cqpress.com
+# HJ businessresearcher.sagepub.com
+# HJ www.sagepub.co.uk
+# HJ data.sagepub.com
+# HJ sk.sagepub.com
+# HJ library.cqpress.com
+# HJ uk.sagepub.com
+# HJ methods.sagepub.com
+# HJ sage.cnpereading.com
+# DJ cnpereading.com
+# DJ sagepub.com
+# DJ sagepub.co.uk
+# DJ cqpress.com
+# Find url = "http://
+# Replace url = "http://^A
+# Find "google-analytics.com
+# Replace "^pgoogle-analytics.com^
+# Find url = document.location.protocol + "//" + document.location.host
+# Replace url = "http://journals.sagepub.com/"
+# Option Cookie
+
+Title Biological Research for Nursing
+URL http://brn.sagepub.com
+Host brn.sagepub.com
+
+# Updated per ralight 2023-01-10
+Title CQ Researcher  (updated 20230106)
+URL http://library.cqpress.com/cqresearcher/
+HJ library.cqpress.com
+# Additional https HJ added, not included in OCLC stanza
+HJ https://library.cqpress.com
+DJ library.cqpress.com
+DJ cqpress.com
+Find &url=http://
+Replace &url=http://^A
+Find &url=https://
+Replace &url=https://^A
+
+# The following stanzas account for URL changes that redirect to the new platform
+
+Title Journal of management education
+URL http://jme.sagepub.com
+Host jme.sagepub.com
+
+Title Administration & Society
+URL http://aas.sagepub.com
+Host aas.sagepub.com
+
+Title American Journal of Evaluation
+URL http://aje.sagepub.com/archive
+Host aje.sagepub.com
+
+Title American Journal of Sports Medicine
+Host ajs.sagepub.com
+
+Title Anthropological Theory
+URL http://ant.sagepub.com
+Host ant.sagepub.com
+
+Title Behavior Modification
+URL http://bmo.sagepub.com
+Host bmo.sagepub.com
+
+# Added per RAL 2019-12-10
+Title Childhood
+URL http://chd.sagepub.com
+HJ chd.sagepub.com
+DJ sagepub.com
+
+Title China Information
+URL http://cin.sagepub.com
+Host cin.sagepub.com
+
+Title Communication Research
+URL http://crx.sagepub.com
+Host crx.sagepub.com
+
+Title Cultural Studies Critical Methodologies
+URL http://csc.sagepub.com
+Host csc.sagepub.com
+
+Title Current Directions in Psychological Science
+URL http://cdp.sagepub.com
+Host cdp.sagepub.com
+
+Title Discourse Studies
+URL http://dis.sagepub.com
+Host dis.sagepub.com
+
+Title Economic Development Quarterly
+URL http://edq.sagepub.com
+Host edq.sagepub.com
+
+Title Educational and Psychological Measurement
+URL http://epm.sagepub.com/archive/2001.dtl
+Host epm.sagepub.com
+
+Title Educational Policy
+URL http://epx.sagepub.com
+Host epx.sagepub.com
+
+Title Evaluation
+URL http://evi.sagepub.com
+Host evi.sagepub.com
+
+Title Evaluation Review 
+URL http://erx.sagepub.com
+Host erx.sagepub.com
+
+# Added per RAL 2020-01-28
+Title Experimental Biology and Medicine
+URL http://ebm.sagepub.com
+HJ ebm.sagepub.com
+
+Title The Expository Times
+URL http://ext.sagepub.com
+HJ ext.sagepub.com
+
+Title Feminist Theory
+URL http://fty.sagepub.com
+Host fty.sagepub.com
+
+Title Forum Italicum
+URL http://foi.sagepub.com
+HJ foi.sagepub.com
+DJ sagepub.com
+
+Title German History
+URL http://ghj.sagepub.com
+Host ghj.sagepub.com
+
+Title Gifted Child today
+URL http://gct.sagepub.com
+HJ gct.sagepub.com
+
+Title Health Education & Behavior
+URL http://heb.sagepub.com
+Host heb.sagepub.com
+
+Title Health Education Journal
+URL http://hej.sagepub.com
+Host hej.sagepub.com
+
+Title Human Relations 
+URL http://hum.sagepub.com
+Host hum.sagepub.com
+
+Title Index on Censorship
+URL http://ioc.sagepub.com
+HJ https://ioc.sagepub.com
+
+Title InnovAiT
+URL http://ino.sagepub.com
+
+Title International Journal of Business Communication
+URL http://job.sagepub.com
+HJ job.sagepub.com
+
+Title International Sociology
+URL http://iss.sagepub.com
+Host iss.sagepub.com
+
+Title Interpretation: A Journal of Bible and Theology
+URL http://int.sagepub.com
+
+Title JDMS : The Journal of Defense Modeling and Simulation
+URL http://dms.sagepub.com
+Host dms.sagepub.com
+
+Title Journal of Career Assessment
+URL http://jca.sagepub.com
+Host jca.sagepub.com
+
+Title Journal of Commonwealth Literature
+URL http://jcl.sagepub.com
+HJ jcl.sagepub.com
+
+Title Journal of Communication Inquiry
+URL http://jci.sagepub.com
+Host jci.sagepub.com
+
+Title Journal of Early Adolescence
+URL http://jea.sagepub.com
+Host jea.sagepub.com
+
+# Added per RAL 2019-03-01
+Title Journal of Endovascular Therapy
+URL http://jet.sagepub.com
+HJ jet.sagepub.com
+
+Title Journal of English Linguistics
+URL http://eng.sagepub.com
+Host eng.sagepub.com
+
+Title Journal of Family Issues
+URL http://fji.sagepub.com
+Host fji.sagepub.com
+
+Title Journal of Information Science
+URL http://jis.sagepub.com
+Host jis.sagepub.com
+
+Title Journal of International Political Theory
+URL http://ipt.sagepub.com
+HJ ipt.sagepub.com
+
+Title Journal of Management
+URL http://jom.sagepub.com
+Host jom.sagepub.com
+
+Title Journal of Material Culture
+URL http://mcu.sagepub.com
+Host mcu.sagepub.com
+
+Title Journal of Sport and Social Issues
+URL http://jss.sagepub.com
+Host jss.sagepub.com
+
+Title Journal of Teacher Education
+URL http://jte.sagepub.com
+Host jte.sagepub.com
+
+Title Journal of the Academy of Marketing
+URL http://jam.sagepub.com
+Host jam.sagepub.com
+
+Title Journal of Travel Research
+URL http://jtr.sagepub.com
+Host jtr.sagepub.com
+
+Title Journal of Vacation Marketing
+URL http://jvm.sagepub.com/
+Host jvm.sagepub.com
+
+Title Journal of Veterinary Diagnostic Investigation
+URL http://vdi.sagepub.com
+
+Title Media, Culture and Society
+URL http://mcs.sagepub.com
+Host mcs.sagepub.com
+
+Title Medico-Legal Journal
+URL http://mlj.sagepub.com/content/by/year
+Host mlj.sagepub.com
+
+Title Mobile Media & Communication
+URL http://mmc.sagepub.com
+HJ https://mmc.sagepub.com
+
+Title Modern China
+URL http://mcx.sagepub.com
+Host mcx.sagepub.com
+
+Title New Media & Society
+URL http://nms.sagepub.com
+Host nms.sagepub.com
+
+Title Nonprofit and Voluntary Sector Quarterly
+URL http://nvs.sagepub.com
+
+Title Nursing Science Quarterly
+URL http://nsq.sagepub.com
+Host nsq.sagepub.com
+
+Title Operational Research Methods
+URL http://orm.sagepub.com
+Host orm.sagepub.com
+
+Title Organization
+URL http://org.sagepub.com
+Host org.sagepub.com
+
+Title Personality and Social Psychology Bulletin
+URL http://psp.sagepub.com
+Host psp.sagepub.com
+
+Title Psychological Science in the Public Interest
+URL http://psi.sagepub.com/
+Host psi.sagepub.com
+
+Title Public Works Management & Policy
+URL http://pwm.sagepub.com
+Host pwm.sagepub.com
+
+Title Qualitative Health Research
+URL http://qhr.sagepub.com
+Host qhr.sagepub.com
+
+Title Qualitative Inquiry
+URL http://qix.sagepub.com
+Host qix.sagepub.com
+
+Title Race & Class
+URL http://rac.sagepub.com
+Host rac.sagepub.com
+
+Title Research on Aging
+URL http://roa.sagepub.com
+Host roa.sagepub.com
+
+# Updated per ralight 2024-01-29
+# HTTPheader line localized by recommendation from OCLC to resolve issue with other resources.
+T SAGE Research Methods
+HTTPHeader -request -process X-Requested-With
+U http://methods.sagepub.com
+DJ sagepub.com
+DJ methods.sagepub.com
+DJ widgets.twimg.com
+MimeFilter application/json .* javascript
+Find url = "http://
+Replace url = "http://^A
+HJ methods.sagepub.com
+HJ widgets.twimg.com
+Find "google-analytics.com
+Replace "^pgoogle-analytics.com^
+
+Title Sociological Methodology
+URL http://smx.sagepub.com/
+
+# URL Changes from CSA Illumina to SAGE [per libera] 30 June 2009 cs
+Title Child Maltreatment
+URL http://cmx.sagepub.com
+Title Crime and Delinquency
+URL http://cas.sagepub.com
+Title Crime, Media, Culture
+URL http://cmc.sagepub.com
+Title Criminology and Criminal Justice
+URL http://crj.sagepub.com
+Title Criminal Justice and Behavior
+URL http://cjb.sagepub.com
+Title Criminal Justice Policy Review
+URL http://cjp.sagepub.com
+Title Criminal Justice Review 
+URL http://cjr.sagepub.com
+Title European Journal of Criminology
+URL http://euc.sagepub.com
+Title Feminist Criminology
+URL http://fcx.sagepub.com
+Title Homicide Studies
+URL http://hsx.sagepub.com
+Title International Criminal Justice Review
+URL http://icj.sagepub.com
+Title International Journal of Offender Therapy and Comparative Criminology
+URL http://ijo.sagepub.com
+Title Journal of Contemporary Criminal Justice
+URL http://ccj.sagepub.com
+Title Journal of Interpersonal Violence
+URL http://jiv.sagepub.com
+Title Journal of Research in Crime and Delinquency
+URL http://jrc.sagepub.com
+Title Police Quarterly
+URL http://pqx.sagepub.com
+Title The Prison Journal
+URL http://tpj.sagepub.com
+Title Probation Journal
+URL http://prb.sagepub.com
+Title Punishment and Society
+URL http://pun.sagepub.com
+Title Sexual Abuse: A Journal of Research and Treatment
+URL http://sax.sagepub.com
+Title Theoretical Criminology
+URL http://tcr.sagepub.com
+Title Trauma, Violence and Abuse
+URL http://tva.sagepub.com
+Title Violence Against Women
+URL http://vaw.sagepub.com
+Title Youth Justice
+URL http://yjj.sagepub.com
+# Political Science Collection
+Title Administration and Society
+URL http://aas.sagepub.com
+Title American Politics Research
+URL http://apr.sagepub.com
+Title The American Review of Public Administration
+URL http://arp.sagepub.com
+Title The Annals of the American Academy of Political and Social Science
+URL http://ann.sagepub.com
+Title Armed Forces and Society
+URL http://afs.sagepub.com
+Title Comparative Political Studies 
+URL http://cps.sagepub.com
+Title Cooperation and Conflict
+URL http://cac.sagepub.com
+Title East European Politics & Societies
+URL http://eep.sagepub.com
+Title European Journal of International Relations
+URL http://ejt.sagepub.com
+Title European Journal of Political Theory
+URL http://ept.sagepub.com
+Title European Union Politics
+URL http://eup.sagepub.com
+Title International Political Science Review
+URL http://ips.sagepub.com
+Title International Relations
+URL http://ire.sagepub.com
+Title International Review of Administrative Sciences
+URL http://ras.sagepub.com
+Title International Studies
+URL http://isq.sagepub.com
+Title Journal of Conflict Resolution
+URL http://jcr.sagepub.com
+Title Journal of Developing Societies
+URL http://jds.sagepub.com
+Title Journal of Peace Research
+URL http://jpr.sagepub.com
+Title Journal of Theoretical Politics
+URL http://jtp.sagepub.com
+Title Party Politics
+URL http://ppq.sagepub.com
+Title Political Research Quarterly
+URL http://prq.sagepub.com
+Title Political Theory
+URL http://ptx.sagepub.com
+Title Politics and Society
+URL http://pas.sagepub.com
+Title Politics, Philosophy & Economics
+URL http://ppe.sagepub.com
+Title Public Policy and Administration
+URL http://ppa.sagepub.com
+Title Public Works Management & Policy
+URL http://pwm.sagepub.com
+Title Review of Radical Political Economics
+URL http://rrp.sagepub.com
+Title Security Dialogue
+URL http://sdi.sagepub.com
+Title Urban Affairs Review
+URL http://uar.sagepub.com
+Domain sagepub.com
+
+# Updated per ralight 2021-06-17
+Title Sage Publications (updated 20201207)
+HTTPHeader -request -process X-Requested-With
+HTTPHeader -request -process __RequestVerificationToken
+HTTPHeader -request -process X-XSRF-Token
+URL http://online.sagepub.com
+DJ sagepub.com
+DJ widgets.twimg.com
+Find url = "http://
+Replace url = "http://^A
+HJ widgets.twimg.com
+Find "google-analytics.com
+Replace "^pgoogle-analytics.com^
+Find url = document.location.protocol + "//" + document.location.host
+Replace url = "http://^Aonline.sagepub.com"
+
+# Updated per ralight 2021-09-23
+# Sage statistical products moved to Data Planet platform with 2021
+Title Data Planet (updated 20210909)
+HTTPHeader -request -process X-XSRF-Token
+HTTPHeader -request -process __RequestVerificationToken
+URL https://dataplanet.sagepub.com
+HJ http://statisticaldatasets.data-planet.com
+HJ https://dataplanet.sagepub.com
+HJ https://dataplanet-auth.sagepub.com
+# extra host added per ralight 2021-09-23
+HJ http://dataplanet.sagepub.com/
+DJ data-planet.com
+
+Title Simulation & Gaming
+URL http://sag.sagepub.com
+Host sag.sagepub.com
+
+Title Small Group Research
+URL http://sgr.sagepub.com
+Host sgr.sagepub.com
+
+Title Social Science Computer Review
+URL http://ssc.sagepub.com
+Host ssc.sagepub.com
+
+Title Sociological Methods & Research
+URL http://smr.sagepub.com
+Host smr.sagepub.com
+
+Title Sociology
+URL http://soc.sagepub.com
+Host soc.sagepub.com
+
+Title Television & New Media
+URL http://tvn.sagepub.com
+Host tvn.sagepub.com
+
+Title The Counseling Psychologist
+URL http://tcp.sagepub.com
+
+Title Theory, Culture and Society
+URL http://tcs.sagepub.com
+Host tcs.sagepub.com
+
+Title Urban Education
+URL http://uex.sagepub.com
+Host uex.sagepub.com
+
+Title Work and Occupations
+URL http://wox.sagepub.com
+Host wox.sagepub.com
+
+Title Written Communication
+URL http://wcx.sagepub.com
+Host wcx.sagepub.com
+
+Title Youth & Society
+URL http://yas.sagepub.com
+Host yas.sagepub.com
+
+Title Journal of Health Management
+URL http://jhm.sagepub.com
+
+Title Management Teaching Review
+URL http://mtr.sagepub.com
+HJ mtr.sagepub.com
+
+Title Police Journal
+URL http://pjx.sagepub.com
+HJ pjx.sagepub.com
+
+Title Philosophy & Social Criticism
+URL http://psc.sagepub.com
+HJ psc.sagepub.com
+
+Title Social Science Information
+URL http://ssi.sagepub.com
+Host ssi.sagepub.com
+
+Title Human Factors
+URL http://hfs.sagepub.com
+Host hfs.sagepub.com
+Host https://hfs.sagepub.com
+
+Title Information Visualization
+URL http://ivi.sagepub.com
+Host ivi.sagepub.com

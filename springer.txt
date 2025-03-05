@@ -1,0 +1,44 @@
+#### springer.txt
+
+# Updated per ralight 2023-05-09
+Option DomainCookieOnly
+Title SpringerLink (Updated OCLC IncludeFile 20230502)
+URL https://link.springer.com
+HJ aa.springer.de
+HJ adisonline.com
+HJ download.springer.com
+HJ ebooks.springerlink.com
+HJ https://adisonline.com
+HJ https://link.springer.com
+HJ https://rd.springer.com
+HJ https://springer.com
+HJ https://www.adisonline.com
+HJ https://www.link.springer.com
+HJ https://www.springer.com
+HJ https://www.springerlink.com
+HJ link.springer-ny.com
+HJ link.springer.com
+HJ link.springer.de
+HJ rd.springer.com
+HJ springer.com
+HJ springerlink.metapress.com
+HJ www.adisonline.com
+HJ www.link.springer.com
+HJ www.springer.com
+HJ www.springerlink.com
+DJ springer.de
+DJ springerlink.com
+DJ springer.com
+DJ sprn.gr 
+DJ springer-ny.com
+NeverProxy static-content.springer.com
+Option Cookie
+
+# Added per ralight 2022-04-28
+# Formerly called Springer Protocols
+Title Springer Nature Experiments (updated 20190531)
+URL https://experiments.springernature.com
+HJ http://experiments.springernature.com
+HJ springernature.com
+DJ springernature.com
+

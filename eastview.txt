@@ -1,0 +1,141 @@
+
+#### eastview.txt
+
+# Updated per ralight 2022-03-28
+AnonymousURL +https://static-cdn.arcanum.hu* 
+Title Arcanum Digitheca
+URL https://adtplus.arcanum.hu/en/ 
+HJ adtplus.arcanum.hu 
+HJ https://adt.arcanum.com
+HJ adt.arcanum.com
+DJ arcanum.hu 
+AnonymousURL -*
+
+# Updated per ralight 2024-07-17
+Option CookiePassThrough
+AnonymousURL +https://o.oversea.cnki.net/EcpApi_oversea/OLoginApi/IpLogin*
+AnonymousURL +https://o.oversea.cnki.net/ecpoversea/EcpApi_oversea/OLoginApi/IpLogin*
+AnonymousURL +https://o.oversea.cnki.net/ecpoversea/EcpApi_oversea/OLoginApi/IpLoginFlush*
+AnonymousURL +https://oversea.cnki.net/restapi/*
+AnonymousURL +https://recsys.oversea.cnki.net/RCDService/api/UserDataCenter/*
+AnonymousURL +https://recsys.oversea.cnki.net/RCDService/api/UtilityOpenApi/*
+Title CNKI Main Page (updated 20240716)
+HTTPHeader -response -edit location RewriteURL(REReplace("!https%3a%2f%2fo\.oversea\.cnki.\net!g", RewriteURL("https://o.oversea.cnki.net"), hh:value))
+HTTPHeader -request -process Appid
+HTTPHeader -request -process Clientid
+HTTPHeader -request -process Signature
+HTTPHeader -request -process Timestamp
+HTTPHeader -request -process Nonce
+URL https://oversea.cnki.net
+HJ aismart.oversea.cnki.net
+HJ ar.oversea.cnki.net
+HJ book.oversea.cnki.net
+HJ chn.oversea.cnki.net
+HJ cn.oversea.cnki.net
+HJ data.oversea.cnki.net
+HJ en.oversea.cnki.net
+HJ gongjushu.oversea.cnki.net
+HJ hd.oversea.cnki.net
+HJ http://tcm.oversea.cnki.net
+HJ https://aismart.oversea.cnki.net
+HJ https://ar.oversea.cnki.net
+HJ https://book.oversea.cnki.net
+HJ https://chn.oversea.cnki.net
+HJ https://cn.oversea.cnki.net
+HJ https://data.oversea.cnki.net
+HJ https://en.oversea.cnki.net
+HJ https://gongjushu.oversea.cnki.net
+HJ https://hd.oversea.cnki.net
+HJ https://kbsi.oversea.cnki.net
+HJ https://law.oversea.cnki.net
+HJ https://npcd.oversea.cnki.net
+HJ https://o.oversea.cnki.net
+HJ https://oversea.cnki.net
+HJ https://t.oversea.cnki.net
+HJ https://tra.oversea.cnki.net
+HJ https://zhengbao.oversea.cnki.net
+HJ kbsi.oversea.cnki.net
+HJ law.oversea.cnki.net
+HJ npcd.oversea.cnki.net
+HJ o.oversea.cnki.net
+HJ oversea.cnki.net
+HJ t.oversea.cnki.net
+HJ tcm.oversea.cnki.net
+HJ tra.oversea.cnki.net
+HJ zhengbao.oversea.cnki.net
+DJ cnki.net
+Find src='//o.oversea.cnki.net
+Replace src='//^So.oversea.cnki.net^
+Find IncludeCss('//o.oversea.cnki.net
+Replace IncludeCss('//^So.oversea.cnki.net^
+AnonymousURL -*
+Option Cookie
+
+Title Kotobarabia Arabic E-Library
+URL http://kotobarabia.eastview.com
+HJ https://kotobarabia.eastview.com
+HJ kotobarabia.eastview.com
+DJ eastview.com
+
+# Updated per ralight 2023-09-22
+Title East View UDB Statistics
+URL https://udbstat.eastview.com/
+HJ http://udbstat.eastview.com
+HJ udbstat.eastview.com
+DJ eastview.com
+
+# Updated per ralight 2023-09-28
+Title Han yu da ci dian and Kangxi zi dian
+URL https://hd.oversea.cnki.net
+HJ https://hd.cnki.net
+HJ hd.oversea.cnki.net
+HJ oversea.cnki.net
+HJ hd.cnki.net
+HJ global.cnki.net
+HJ gb.global.cnki.net
+DJ oversea.cnki.net
+DJ cnki.net
+
+# Updated per ralight 2022-12-28
+Title World News Connection
+URL https://wnc.eastview.com/
+HJ http://wnc.eastview.com
+HJ wnc.eastview.com
+DJ eastview.com
+
+# Updated per ralight 2024-11-27
+Title East View Information Services Inc (updated 20241125)
+HTTPHeader -request -process Bib-Token
+URL https://dlib.eastview.com/login
+HJ bib.eastview.com
+HJ ccg.eastview.com
+HJ crg.eastview.com
+HJ dlib.eastview.com
+HJ eastview.com
+HJ gca.eastview.com
+HJ gpa.eastview.com
+HJ https://bib.eastview.com
+HJ https://ccg.eastview.com
+HJ https://crg.eastview.com
+HJ https://dlib.eastview.com
+HJ https://eastview.com
+HJ https://gca.eastview.com
+HJ https://gpa.eastview.com
+HJ https://kodeks.eastview.com
+HJ https://www.eastview.com
+HJ kodeks.eastview.com
+HJ news.mosinfo.ru
+HJ online.eastview.com
+HJ www.eastview.com
+DJ eastview.com
+DJ mosinfo.ru
+
+Title National Palace Museum Journals Archive
+URL https://p.udpweb.com/ 
+HJ p.udpweb.com
+DJ p.udpweb.com
+
+T Global Census Archive
+U https://gca.eastview.com/ 
+HJ gca.eastview.com
+DJ eastview.com

@@ -1,0 +1,7 @@
+#### umich.txt
+
+# Updated per ralight 2022-12-28
+Title Text Creation Partnership
+URL https://quod.lib.umich.edu
+HJ http://quod.lib.umich.edu
+HJ quod.lib.umich.edu

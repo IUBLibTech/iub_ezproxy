@@ -1,0 +1,385 @@
+#### Stanzas in this file will always require CAS authentication to access ####
+
+# TEST for IUB Libraries websites only accessable to IUB Users
+Option MetaEZproxyRewriting
+Title IUB Libraries
+HTTPHeader -inject -request From-EZproxy "TRUE"
+URL https://libraries.indiana.edu
+HJ https://libraries.indiana.edu
+HJ https://dev.libraries.indiana.edu
+HJ https://d9-6c4orfa-wdb7uvioauztu.us.platform.sh
+Option NoMetaEZproxyRewriting
+
+
+# Moved to always authenticate because vendor does not support IPV6
+# Added per ralight 2022-06-13
+# New platform replacing Kikuzo II Visual for Libraries
+HTTPMethod OPTIONS
+AnonymousURL -OPTIONS +https://api.dango.asahi.com*
+Title Asahi Shimbun Cross-Search
+URL https://xsearch.asahi.com/iplogin2/
+HOST https://xsearch.asahi.com
+HJ xsearch.asahi.com
+DJ xsearch.asahi.com
+HJ api.dango.asahi.com
+DJ api.dango.asahi.com
+AnonymousURL -*
+
+# Moved to always authenticate because vendor does not support IPV6
+# Updated per ralight 2023-07-06
+T The Japan Times Digital Archives (updated 20230626)
+U https://jt-archives.jp
+HJ https://jt-archives.jp
+HJ http://jt-archives.jp
+# Extra hosts included to avoid needhost errors
+HJ http://ipm-archives.japantimes.co.jp
+HJ ipm-archives.japantimes.co.jp
+DJ jt-archives.jp
+
+# Moved to always authenticate because vendor does not support IPV6
+# Updated per ralight 2023-07-06
+Title The Japan Times Digital (Added 20230706)
+URL https://www.japantimes.co.jp
+HJ https://www.japantimes.co.jp
+HJ http://www.japantimes.co.jp
+HJ https://www.piano.io
+HJ http://www.piano.io
+HJ http://alpha.japantimes.co.jp
+HJ https://alpha.japantimes.co.jp
+HJ https://epaper.japantimes.co.jp
+HJ epaper.japantimes.co.jp
+DJ japantimes.co.jp
+DJ piano.io
+
+# Updated per ralight 2024-10-02
+# Does not allow walk-in user access
+AnonymousURL +https://pro.fontawesome.com/*
+AnonymousURL +https://cdn.media.euromonitor.com/*
+AnonymousURL +https://microfrontend-passport.euromonitor.com/*
+Title Passport (Euromonitor International) (updated 20240930)
+HTTPHeader -request -process Access-Control-Allow-Origin
+HTTPHeader -request -process Access-Control-Expose-Headers
+MimeFilter text/html https://cdn.media.euromonitor.com/* html
+URL https://www.portal.euromonitor.com
+HJ cdn.media.euromonitor.com
+HJ https://cdn.media.euromonitor.com
+HJ https://economic-barometer-extract.euromonitor.com
+HJ https://microfrontend-passport.euromonitor.com
+HJ https://portal.euromonitor.com
+HJ https://www.portal.euromonitor.com
+HJ portal.euromonitor.com
+HJ www.portal.euromonitor.com
+DJ euromonitor.com
+Find //www.portal.euromonitor.com/
+Replace //^swww.portal.euromonitor.com^/
+Find cdn.media.euromonitor.com
+Replace ^scdn.media.euromonitor.com^
+AnonymousURL -*
+NeverProxy api.passport.euromonitor.com
+NeverProxy cdn.jsdelivr.net
+NeverProxy download-portal.euromonitor.com
+NeverProxy economic-barometer.euromonitor.com
+NeverProxy help.passport.euromonitor.com
+NeverProxy mediaconverter.euromonitor.com
+NeverProxy microservices.euromonitor.com
+NeverProxy notification-service.euromonitor.com
+NeverProxy search-service.euromonitor.com
+NeverProxy service-portal.euromonitor.com
+NeverProxy tableau.euromonitor.com
+NeverProxy www.euromonitor.com
+
+# Added per ralight 2022-10-05
+Option CookiePassthrough
+Title Cabinet Magazine (updated 20210304)
+URL https://www.cabinetmagazine.org
+HJ cabinetmagazine.org
+HJ https://cabinetmagazine.org
+HJ https://www.cabinetmagazine.org
+HJ www.cabinetmagazine.org
+DJ cabinetmagazine.org
+Option Cookie
+
+# Updated per ralight 2022-04-05
+# Stanza previously called Environment & Energy Publishing
+AnonymousURL https://sail-prod.politicopro.com/*
+Title E&E News
+MimeFilter text/plain https://subscriber.politicopro.com/pro-api/.* javascript
+URL https://subscriber.politicopro.com/eenews
+HJ sail-prod.politicopro.com
+HJ https://sail-prod.politicopro.com
+DJ  politicopro.com
+DJ politictatic.politico.com
+Find https:\/\/subscriber.politicopro.com
+Replace https://subscriber.politicopro.com
+NeverProxy images.politicopro.com
+NeverProxy static3.politico.com
+NeverProxy static.politico.com
+NeverProxy morph.politico.com
+AnonymousURL -*
+
+# Updated per ralight 2023-07-07
+# IPv6 not yet supported
+Title Education Week (OCLC IncludeFile updated 20230615)
+URL https://www.edweek.org/
+HJ www.edweek.org
+# Extra host included during resource change process. Can be removed in the future.
+HJ http://www.edweek.org/
+DJ edweek.org
+DJ pelcro.com
+
+#Title Ethnologue
+#URL https://www.ethnologue.com
+#HJ ethnologue.com
+#DJ ethnologue.com
+
+Title Cross-National Time Series Data Archive
+URL http://www.databanksinternational.com
+HJ www.databanksinternational.com
+DJ databanksinternational.com
+
+# Moved to always authenticate because vendor does not support IPV6
+# Updated per ralight 2024-08-24
+Option CookiePassThrough
+Title National Journal (updated 20240802)
+HTTPHeader -request -process X-CSRFToken
+URL https://www.nationaljournal.com/
+HJ https://www.nationaljournal.com
+HJ https://nationaljournal.com
+HJ http://www.nationaljournal.com
+HJ http://nationaljournal.com
+DJ nationaljournal.com
+Option Cookie
+NeverProxy fonts.googleapis.com
+NeverProxy fonts.gstatic.com
+NeverProxy p.typekit.net
+NeverProxy use.typekit.net
+
+# added per CWL 4-2-21
+# Moved to always authenticate because vendor does not support IPV6
+Title OntheBoards.tv
+URL https://www.ontheboards.tv
+HJ www.ontheboards.tv
+HJ ontheboards.tv
+DJ ontheboards.tv
+
+# Added per ralight 2022-07-07
+# Vendor does not support IPv6
+Title Societe d'Histoire du Theatre
+URL https://sht.asso.fr/
+HJ sht.asso.fr
+DJ asso.fr
+
+# Added per ralight 2023-05-24
+# Does not allow walk-in user access
+# New platform replacing Advertising Insights
+Title Vivvix 360 
+URL https://edu.app.vivvix.com
+HOST edu.app.vivvix.com
+HOST app.vivvix.com
+HJ vivvix.com
+HJ edu.app.vivvix.com
+HJ app.vivvix.com
+DJ vivvix.com
+DJ edu.app.vivvix.com
+DJ app.vivvix.com
+
+# Added per ralight 2021-08-30
+Title Zambia Maps
+URL http://bl-libg-doghill.ads.iu.edu/gpd-web/Zambia
+HJ bl-libg-doghill.ads.iu.edu
+HJ https://bl-libg-doghill.ads.iu.edu
+
+# Moved to always authenticate because vendor does not support IPV6
+# Updated per ralight 2022-09-27
+#This stanza below should not be in the production Database Stanzas website - but is needed for legacy link management.
+T -hide Frost old
+U http://www.frost.com
+HJ www.frost.com
+Find e.href = "http:"+e.href.substr(6)
+Replace e.href = "http://^pwww.frost.com^/"; + e.pathname + e.search
+
+# Moved to always authenticate because vendor does not support IPV6
+# Updated per ralight 2023-08-30
+Title Frost & Sullivan Member Portal (updated 20230828)
+MimeFilter text/html .* javascript
+URL https://member.frost.com
+HJ https://member.frost.com
+HJ https://research.frost.com
+DJ frost.com
+NeverProxy wwwcdn.frost.com
+NeverProxy memberportalapi.frost.com
+Find e.href = "https:"+e.href.substr(6)
+Replace e.href = "https://^smember.frost.com^/"; + e.pathname + https://e.search
+
+# Moved to always authenticate because vendor does not support IPV6
+# Updated per ralight 2023-11-15
+Title Bulletins of American paleontology
+URL https://www.priweb.org/index.php/pubs-bap
+HJ www.priweb.org
+HJ https://bap.priweb.org
+HJ bap.priweb.org
+DJ priweb.org
+
+# Moved to always authenticate because vendor does not support IPV6
+## Added per ralight 2023-03-08
+# Required for EndNote online and InCites stanza
+Option CookiePassThrough
+PHE access.clarivate.com$ access-clarivate-com
+Title Clarivate Authentication (updated 20230301)
+URL https://access.clarivate.com
+HTTPHeader -request -process generatedOn
+HTTPHeader -request -process text
+HTTPHeader -request -process textInput
+HJ https://access.clarivate.com
+Host https://access.clarivate.com
+DJ access.clarivate.com
+DJ d3gs88v2si9epo.cloudfront.net
+DJ apps.clarivate.com
+DJ dlt9ksh5o30zl.cloudfront.net
+Find access.clarivate.com
+Replace ^saccess.clarivate.com^
+Option Cookie
+
+# Moved to always authenticate because vendor does not support IPV6
+# Updated per ralight 2023-03-08
+Option DomainCookieOnly
+Title EndNote online and InCites (updated 20230307)
+HTTPMethod DELETE
+HTTPMethod PUT
+BinaryTimeout 600
+ClientTimeout 600
+HTTPHeader -request -process X-1P-INC-SID
+MimeFilter application/json .* javascript
+URL http://www.myendnoteweb.com
+HJ https://esi.clarivate.com
+HJ https://my.endnote.com
+HJ https://myorg.clarivate.com
+HJ https://incites.clarivate.com
+HJ https://www.myendnoteweb.com
+HJ https://jcr.clarivate.com
+HJ https://jcr3.clarivate.com
+HJ error.incites.clarivate.com
+HJ esi.clarivate.com
+HJ help.incites.clarivate.com
+HJ incites.isiknowledge.com
+HJ login.incites.clarivate.com
+HJ my.endnote.com
+HJ jcr3.clarivate.com
+HJ jcr.clarivate.com
+HJ myorg.clarivate.com
+DJ clarivate.com
+DJ endnote.com
+DJ myendnoteweb.com
+Find access.clarivate.com
+Replace ^saccess.clarivate.com^
+Option Cookie
+
+# Moved to always authenticate because vendor does not support IPV6
+Title Initium
+HTTPHeader -request -process resource
+HTTPHeader -request -process session
+HTTPHeader -request -process Access-Control-Allow-Origin
+URL https://theinitium.com
+HJ https://theinitium.com
+HJ http://theinitium.com
+HJ https://wallkit.net
+HJ http://wallkit.net
+HJ https://api.wallkit.net
+HJ http://api.wallkit.net
+DJ theinitium.com
+DJ wallkit.net
+DJ api.wallkit.net
+NeverProxy www.google.com
+NeverProxy maps.gstatic.com
+NeverProxy developers.google.com
+
+# Does not allow walk-in user access
+# Updated per ralight 2024-08-24
+Option MetaEZproxyRewriting
+HTTPMethod OPTIONS
+AnonymousURL +https://api.mintel.com/*
+AnonymousURL -OPTIONS +https://www.gnpd.com/sinatra/api/*
+AnonymousURL +https://oauth.mintel.com/token/
+AnonymousURL -OPTIONS +https://eks-prod-appshell.otlp-frontend.mintel.cloud/collect
+AnonymousURL +https://eks-prod-appshell.otlp-frontend.mintel.cloud/collect
+AnonymousURL +https://notifications.mintel.com/notification/*
+AnonymousURL +https://portal.mintel.com/*
+Title Mintel (updated 20240802)
+MimeFilter text/event-stream .* javascript
+HTTPHeader -request -process X-CSRFToken
+URL https://clients.mintel.com/
+HJ clients.mintel.com
+HJ portal.mintel.com
+HJ www.gnpd.com
+HJ reports.mintel.com
+HJ trends.mintel.com
+HJ academic.mintel.com
+HJ data.mintel.com
+HJ marketsizes.mintel.com
+HJ gmn.mintel.com
+HJ https://gmn.mintel.com
+HJ https://clients.mintel.com
+HJ https://portal.mintel.com
+HJ https://www.gnpd.com
+HJ https://reports.mintel.com
+HJ https://trends.mintel.com
+HJ https://academic.mintel.com
+HJ https://data.mintel.com
+HJ https://marketsizes.mintel.com
+HJ help.mintel.com
+HJ https://help.mintel.com
+HJ http://help.mintel.com
+DJ mintel.com
+Find src="/jwplayer/wmvplayer/
+Replace src="http://^A/jwplayer/wmvplayer/
+Find \u0022//portal.mintel.com/\u0022
+Replace \u0022//^sportal.mintel.com^/\u0022
+AnonymousURL -*
+Option NoMetaEZproxyRewriting
+NeverProxy shibboleth.mintel.com
+
+# Added per ralight 2024-07-25
+# Moved to always authenticate because vendor does not support IPV6
+# Split off from the Herald Times Online stanza
+Title Herald Times E-Edition
+URL https://heraldtimesonline-in.newsmemory.com/?forceCDN=0
+HJ https://heraldtimesonline-in.newsmemory.com
+HJ http://digital.olivesoftware.com
+HJ https://digital.olivesoftware.com
+HJ digital.olivesoftware.com
+HJ lbus6do-cdn.newsmemory.com
+DJ newsmemory.com 
+Find var frameSrc = "//
+Replace var frameSrc = "https://
+
+# Updated per RAL 2020-10-29
+Option DomainCookieOnly
+Title IOS Press
+URL https://content.iospress.com
+HJ content.iospress.com
+HJ ebooks.iospress.com
+HJ https://content.iospress.com
+HJ https://www.iospress.nl
+HJ www.ebooks.iospress.com
+HJ www.iospress.nl
+HJ ebooks.iospress.nl
+DJ iospress.com
+DJ iospress.nl
+Option Cookie
+
+# Updated per ralight 2021-07-02
+Title Equinox Publishing Ltd. (updated 20210629)
+URL https://www.equinoxpub.com/home/
+HJ equinoxpub.com
+HJ https://equinoxpub.com
+HJ https://journal.equinoxpub.com
+HJ https://journals.equinoxpub.com
+HJ https://www.equinoxpub.com
+HJ journal.equinoxpub.com
+HJ journals.equinoxpub.com
+HJ www.equinoxjournals.com
+HJ www.equinoxpub.com
+DJ equinoxjournals.com
+DJ equinoxpub.com
+
+INCLUDEFILE ../common_stanzas/aacrjournals.txt
