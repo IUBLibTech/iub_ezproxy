@@ -1331,7 +1331,7 @@ HJ http://hw.oeaw.ac.at
 HJ hw.oeaw.ac.at
 DJ austriaca.at
 
-# Added per ralight 2024-04-17
+# Updated per ralight 2025-03-10
 # Replaces separate stanzas for Collection of Chinese Rare Medicine Books in Overseas and Zhonghua jing dian gu ji ku
 Title Ancient Books (updated 20240401)
 URL https://ancientbooks.cn
@@ -1375,9 +1375,9 @@ HJ http://southwest.ancientbooks.cn/
 HJ southwest.ancientbooks.cn/
 HJ http://wenku.ancientbooks.cn/
 HJ wenku.ancientbooks.cn/
-# Extra hosts added to avoid needhost errors during switch from http to https per ralight 2024-04-17
-HJ http://publish.ancientbooks.cn
-HJ http://abcircle.ancientbooks.cn
+# Extra hosts added during migration to new interface for Zhonghua jing dian gu ji ku
+HJ https://jingdian.ancientbooks.cn
+HJ jingdian.ancientbooks.cn
 DJ ancientbooks.cn
 Neverproxy image.ancientbooks.cn
 
