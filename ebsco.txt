@@ -1,5 +1,0 @@
-Title EBSCO Electronic Journals Service
-URL http://ejournals.ebsco.com
-HJ ejscontent.ebsco.com
-DJ ebsco.com
-HJ content.ebsco.com
