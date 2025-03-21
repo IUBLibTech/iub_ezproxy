@@ -1379,6 +1379,7 @@ HJ wenku.ancientbooks.cn/
 HJ https://jingdian.ancientbooks.cn
 HJ jingdian.ancientbooks.cn
 DJ ancientbooks.cn
+HJ pubapi.ancientbooks.cn
 Neverproxy image.ancientbooks.cn
 
 Title Ancestry Library
