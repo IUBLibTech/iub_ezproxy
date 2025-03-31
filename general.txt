@@ -6164,12 +6164,11 @@ HJ www.rivistadistudiitaliani.it
 DJ rivistadistudiitaliani.it
 DJ journalofitalianstudies.com
 
-# added per CWL 12-18-23
-Title Rivista di matematica della Universit� di Parma
-URL http://rivista.math.unipr.it/
-HJ rivista.math.unipr.it
-HJ math.unipr.it
-DJ math.unipr.it
+# Updated per ralight 2025-03-28
+Title Rivista di matematica della Università di Parma
+URL https://www.rivmat.unipr.it/
+HJ www.rivmat.unipr.it
+HJ rivmat.unipr.it
 DJ unipr.it
 
 # Updated per ralight 2022-04-07
