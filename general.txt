@@ -202,6 +202,19 @@ DJ flyoverzone.com
 Find https:\/\/
 Replace https://
 
+# Temporary access 
+# Updated per cwlamb 2025-04-01
+Title The Database of the Communist Party of China (CPC) 
+URL https://www.oriprobe.com/cpc.shtml 
+HJ http://data.peopletech.cn
+HJ https://data.peopletech.cn
+HJ http://data.people.com.cn 
+HJ https://data.people.com.cn
+DJ data.people.com.cn
+DJ people.com.cn
+DJ data.peopletech.cn
+DJ peopletech.cn
+
 ####################################################################################################
 
 
