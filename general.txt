@@ -4473,16 +4473,6 @@ Replace document.domain="kluweronline.com.^h"
 Find document.domain = thisDomain
 Replace document.domain = "kluweronline.com.^h"; // thisDomain 
 
-# Updated per ralight 2021-06-03
-Title Knovel (updated 20210521)
-URL https://app.knovel.com/kn
-HJ http://app.knovel.com
-HJ https://app.knovel.com
-HJ https://www.knovel.com
-HJ app.knovel.com
-DJ knovel.com
-NeverProxy content.knovel.com
-
 # Updated per ralight 2022-02-10
 Title Knowledge Quest AASL
 URL https://knowledgequest.aasl.org/ 
