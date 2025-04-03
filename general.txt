@@ -1986,7 +1986,7 @@ DJ cabdirect.org
 HJ cabidigitallibrary.scienceconnect.io
 DJ cabidigitallibrary.scienceconnect.io
 
-# Updated per ralight 2024-10-02
+# Updated per ralight 2025-04-02
 Option DomainCookieOnly
 Title CABI digital library
 URL https://cabidigitallibrary.org
@@ -1997,6 +1997,7 @@ HJ tourism.cabi.org
 HJ www.cabidigitallibrary.org
 DJ cabidigitallibrary.org
 Option Cookie
+NeverProxy cabi.scienceconnect.io
 
 # Updated per ralight 2025-02-26
 AnonymousURL +*.woff*
