@@ -4681,11 +4681,9 @@ HJ http://commons.emich.edu/loexquarterly
 HJ commons.emich.edu
 DJ emich.edu
 
-# Updated per ralight 2022-03-03
-Title Luci e ombre
-URL http://rivistalucieombre.com
-HJ https://rivistalucieombre.com/
-DJ rivistalucieombre.com
+# Updated per ralight 2025-04-03
+URL https://nuovarivistalucieombre.org/
+DJ nuovarivistalucieombre.org
 
 # Updated per ralight 2024-10-16
 Title Lyell Collection: Geological Society Publications Online (updated 20241011)
