@@ -2945,11 +2945,6 @@ URL https://www.ejcancer.com/
 HJ www.ejcancer.com
 DJ ejcancer.com
 
-Title EVGeoCloud
-URL http://wms.cartographic.com/EVGC/IndianaUniversity
-HJ wms.cartographic.com
-DJ cartographic.com
-
 Title Evolutionary Ecology Research
 URL http://www.evolutionary-ecology.com
 HJ www.evolutionary-ecology.com
