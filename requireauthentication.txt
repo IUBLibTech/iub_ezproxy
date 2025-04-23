@@ -526,3 +526,9 @@ HJ https://politics.oxfordre.com
 HJ politics.oxfordre.com
 DJ oxfordre.com
 DJ prototypes.filtro.us
+
+# Moved to always authenticate because vendor does not support IPV6
+Title AUSTRALIAN BOOK REVIEW
+URL http://www.australianbookreview.com.au
+HJ https://www.australianbookreview.com.au
+DJ australianbookreview.com.au

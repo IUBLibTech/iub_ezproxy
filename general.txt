@@ -1376,11 +1376,6 @@ HJ http://www.austlit.edu.au
 HJ www.austlit.edu.au
 DJ austlit.edu.au
 
-Title AUSTRALIAN BOOK REVIEW
-URL http://www.australianbookreview.com.au
-HJ https://www.australianbookreview.com.au
-DJ australianbookreview.com.au
-
 Title Australian Literary Studies Coverage: 1963-present
 URL https://www.australianliterarystudies.com.au/archive
 HJ www.australianliterarystudies.com.au
