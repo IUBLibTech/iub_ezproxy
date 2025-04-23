@@ -3912,21 +3912,20 @@ HJ https://aafnet.integrum.ru
 DJ aafnet.integrum.ru
 DJ integrum.ru
 
-# Updated per ralight 2022-09-16
-#Updated to include https
-Title InteLex Past Masters
-URL http://pm.nlx.com
-HJ https://pm.nlx.com
+# Updated per ralight 2025-04-16
+Title InteLex Past Masters (updated 20250401)
+URL https://pm.nlx.com/
 HJ crkn.nlx.com
 HJ https://crkn.nlx.com
-HJ library.nlx.com
 HJ https://library.nlx.com
-HJ trial.nlx.com
+HJ https://nlx.com
 HJ https://trial.nlx.com
-HJ www.nlx.com
 HJ https://www.nlx.com
-HJ www.library.nlx.com
-HJ https://www.library.nlx.com
+HJ library.nlx.com
+HJ nlx.com
+HJ pm.nlx.com
+HJ trial.nlx.com
+HJ www.nlx.com
 DJ nlx.com
 
 # Updated per ralight 2023-03-02
