@@ -6552,13 +6552,20 @@ HJ www.lieberman-institute.com
 HJ http://www.lieberman-institute.com
 DJ lieberman-institute.com
 
-# Updated per RAL 2020-05-12
-# Legacy URLs included due to CrossRef proxy errors
-Title SPIE Digital Library
+# Updated per ralight 2025-04-23
+Title SPIE Digital Library (updated 20250421)
 URL https://www.spiedigitallibrary.org
+HJ https://www.spiedigitallibrary.org
 HJ www.spiedigitallibrary.org
+HJ https://datacoll.spie.org
 HJ datacoll.spie.org
+HJ https://login.spie.org
 HJ login.spie.org
+HJ https://oauth.spie.org
+HJ oauth.spie.org
+DJ spiedigitallibrary.org
+DJ spie.org
+# Legacy URLs included due to CrossRef-related needhost errors per ralight 2025-04-23
 HJ http://remotesensing.spiedigitallibrary.org
 HJ http://astronomicaltelescopes.spiedigitallibrary.org
 HJ http://biomedicaloptics.spiedigitallibrary.org
@@ -6569,9 +6576,6 @@ HJ http://nanophotonics.spiedigitallibrary.org
 HJ http://photonicsforenergy.spiedigitallibrary.org
 HJ http://neurophotonics.spiedigitallibrary.org
 HJ http://opticalengineering.spiedigitallibrary.org
-DJ spiedigitallibrary.org
-DJ spie.org
-# Additional hosts added to reduce needhost errors per ralight 2024-02-22
 HJ http://proceedings.spiedigitallibrary.org
 HJ https://proceedings.spiedigitallibrary.org
 HJ proceedings.spiedigitallibrary.org
