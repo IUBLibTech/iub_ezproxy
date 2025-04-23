@@ -515,3 +515,14 @@ HJ https://oxforddnb.com
 HJ www.oxforddnb.com
 HJ oxforddnb.com
 DJ oxforddnb.com
+
+# Updated per RAL 2020-12-04
+Title Oxford Research Encyclopedia - Including Encyclopedia of Social Work
+URL https://oxfordre.com
+HJ https://www.oxfordre.com
+HJ oxfordre.com
+HJ www.oxfordre.com
+HJ https://politics.oxfordre.com
+HJ politics.oxfordre.com
+DJ oxfordre.com
+DJ prototypes.filtro.us
