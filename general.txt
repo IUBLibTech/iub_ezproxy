@@ -4226,39 +4226,6 @@ HJ www.journalofweathermodification.org
 HJ journalofweathermodification.org
 DJ journalofweathermodification.org
 
-# Updated per ralight 2022-12-29
-# MUST include the Option DomainCookieOnly line at the top of the stanza and Option Cookie line at the bottom of the stanza to prevent access problems for some users
-Option DomainCookieOnly
-HTTPMethod PUT
-HTTPMethod PATCH
-HTTPMethod OPTIONS
-HTTPMethod DELETE
-Title JSTOR (updated 20221013)
-HTTPHeader -request -process X-Requested-With
-URL http://www.jstor.org/
-HJ https://www.jstor.org
-HJ www.jstor.org
-HJ www.jstore.org
-HJ jstor.org
-HJ jstore.org
-HJ dfr.jstor.org
-HJ labs.jstor.org
-HJ links.jstor.org
-HJ mobile.jstor.org
-HJ about.jstor.org
-HJ plants.jstor.org
-HJ uk.jstor.org
-HJ https://uk.jstor.org
-HJ https://dfr.jstor.org
-HJ https://labs.jstor.org
-HJ https://links.jstor.org
-HJ https://mobile.jstor.org
-HJ https://about.jstor.org
-HJ https://plants.jstor.org
-HJ https://uk.jstor.org
-DJ jstor.org
-Option Cookie
-
 #Title Judaic Scholar Digital Reference Library
 #URL https://publishersrow.com/indiana
 #HJ http://www.publishersrow.com
