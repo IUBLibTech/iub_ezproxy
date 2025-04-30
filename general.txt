@@ -663,14 +663,6 @@ Find hostprod="pubs.acs.org"
 Replace hostprod="^ppubs.acs.org^"
 Option Cookie
 
-# Updated per ralight 2022-08-29
-Title Chorus America
-URL https://secure.chorusamerica.org/publications/voice
-HJ https://www.chorusamerica.org
-HJ secure.chorusamerica.org
-HJ www.chorusamerica.org
-DJ chorusamerica.org
-
 Title American Institute of Mathematical Sciences
 URL http://aimsciences.org/journals/index.jsp
 HJ www.aimsciences.org
