@@ -215,6 +215,13 @@ DJ people.com.cn
 DJ data.peopletech.cn
 DJ peopletech.cn
 
+# Temporary access 
+# added per CWL 4-24-25
+Title: Khabar Lahariya Chambal Media
+URL https://khabarlahariya.org/
+HJ https://khabarlahariya.org/
+DJ khabarlahariya.org
+
 ####################################################################################################
 
 
