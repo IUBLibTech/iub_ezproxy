@@ -1417,6 +1417,18 @@ NeverProxy chartservice.auditedmedia.com
 NeverProxy https://xhr.spec.whatwg.org/
 AnonymousURL -*
 
+# Updated per ralight 2025-05-06
+Title Audio Engineering Society  
+URL https://aes2.org/publications/elibrary/  
+HJ https://www.aes.org  
+HJ https://www.aes2.org  
+HJ www.aes2.org  
+HJ www.aes.org  
+HJ https://secure.aes.org  
+HJ secure.aes.org  
+DJ aes.org  
+DJ aes2.org  
+NeverProxy elibrary.aes2.org
 
 ## **************************BBBBB*****************************************************************
 
@@ -4184,13 +4196,6 @@ Title Journal of the Academy of Nutrition and Dietetics
 URL https://www.jandonline.org/
 HJ www.jandonline.org
 DJ jandonline.org
-
-# Updated per ralight 2021-12-23
-Title Journal of the Audio Engineering Society
-URL http://www.aes.org/journal/inst/
-HJ https://www.aes.org
-HJ www.aes.org
-DJ aes.org
 
 # Added per RAL 2020-06-29
 # Elsevier title with access on native platform
