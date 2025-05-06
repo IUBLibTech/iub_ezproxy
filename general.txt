@@ -6669,13 +6669,6 @@ NeverProxy cdn.polyfill.io
 NeverProxy cdnjs.cloudflare.com
 AnonymousURL -*
 
-# Updated per ralight 2024-02-19
-Title Studi Musical
-URL https://studimusicali.santacecilia.it/ANSC-SM/home.html
-HJ http://studimusicali.santacecilia.it
-HJ studimusicali.santacecilia.it
-DJ santacecilia.it
-
 # Updated per ralight 2024-11-05
 # Neverproxy lines added per Swank support. Does not match OCLC stanza
 Title Swank Digital Campus
