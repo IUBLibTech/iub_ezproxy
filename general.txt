@@ -2280,12 +2280,6 @@ HJ https://www.classiques-garnier.com
 HJ classiques-garnier.com
 DJ classiques-garnier.com
 
-Title Clinical Kinesiology
-URL http://ejs.clinicalkinesiology.net
-HJ ejs.clinicalkinesiology.net
-HJ clinicalkinesiology.net
-DJ clinicalkinesiology.net
-
 # New [per prowens] 17 July 2012 cs
 Title CLOCKSS
 URL http://www.clockss.org/clockss
