@@ -2502,6 +2502,13 @@ DJ search.mandumah.com
 DJ content.mandumah.com
 DJ stats.mandumah.com
 
+# Added per ralight 2025-05-12
+Title Database for the History of Contemporary Chinese Political Movements 
+URL http://ccrd.usc.cuhk.edu.hk/
+HJ https://ccrd.usc.cuhk.edu.hk/
+HJ ccrd.usc.cuhk.edu.hk
+DJ cuhk.edu.hk
+
 Title Datenbank-Paket Duden
 URL https://www.munzinger.de/search/query?query.id=query-duden
 HJ www.munzinger.de
