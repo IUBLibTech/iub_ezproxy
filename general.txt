@@ -839,19 +839,6 @@ DJ recreationtherapy.org
 Find wmpllc.org
 Replace ^swmpllc.org^
 
-# Updated per CWL 2023-06-21
-Title American Journal of Science
-URL http://www.ajsonline.org/
-HJ https://ajs.scholasticahq.com/
-HJ ajsonline.org
-HJ ajs.scholasticahq.com
-HJ https://ajsonline.org
-HJ https://www.ajsonline.org
-HJ www.ajsonline.org
-DJ ajsonline.org
-DJ ajs.scholasticahq.com
-DJ scholasticahq.com
-
 T American Mathematical Society Journals
 URL http://www.ams.org
 HJ www.ams.org
