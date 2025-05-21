@@ -2926,19 +2926,18 @@ HJ http://www.europaworld.com
 HJ www.europaworld.com
 DJ europaworld.com
 
-# Updated per ralight 2022-10-14
-T EMS Publishing (OCLC IncludeFile updated 20221010)
-U https://www.ems-ph.org/
-HJ ems-ph.org
-HJ ems.press
-HJ https://ems-ph.org
-HJ https://ems.press
-HJ https://www.ems-ph.org
-HJ https://www.ems.press
-HJ www.ems-ph.org
-HJ www.ems.press
-DJ ems-ph.org
-DJ ems.press
+# Updated per ralight 2025-05-21
+Title EMS Press (updated 20250427)
+URL https://ems.press
+H ems.press
+H https://www.ems.press
+H www.ems.press
+H https://ems-ph.org
+H ems-ph.org
+H https://www.ems-ph.org
+H www.ems-ph.org
+D ems-ph.org
+D ems.press
 NeverProxy content.ems.press
 
 # Added per RAL 2020-12-10
