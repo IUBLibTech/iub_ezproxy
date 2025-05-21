@@ -5909,6 +5909,12 @@ DJ tennessee.edu
 
 ## **************************RRRRR*****************************************************************
 
+# Added per ralight 2025-05-21
+Title R. Politik
+URL https://rpolitik.com/bulletin?
+HJ rpolitik.com
+DJ rpolitik.com
+
 # Added per RAL 2020-09-21
 Title r2library.com
 URL http://www.r2library.com
