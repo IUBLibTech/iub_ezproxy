@@ -5563,57 +5563,6 @@ HJ http://www.peaceresearch.ca/
 HJ www.peaceresearch.ca
 DJ peaceresearch.ca
 
-# Updated per ralight 2022-06-16
-Title American Academy of Pediatrics (updated 20220609)
-URL https://publications.aap.org
-HJ https://publications.aap.org
-HJ https://publications.aap.org/aapgrandrounds/
-HJ https://publications.aap.org/neoreviews/
-HJ https://publications.aap.org/pediatrics/pages/policy/
-HJ https://publications.aap.org/redbook/
-HJ https://publications.aap.org/aapnews/
-HJ https://publications.aap.org/hospitalpediatrics/
-HJ https://publications.aap.org/pediatricsInreview/
-HJ https://publications.aap.org/pediatrics/
-HJ https://publications.aap.org/aapbooks/
-HJ https://publications.aap.org/journals/
-HJ https://publications.aap.org/codingnews
-HJ https://publications.aap.org/pediatriccare
-HJ https://publications.aap.org/patiented
-HJ https://publications.aap.org/toolkits
-HJ https://www.aap.org
-HJ https://coding.aap.org
-HJ https://aapgrandrounds.org
-HJ https://neoreviews.org
-HJ https://aappolicy.org
-HJ https://aapredbook.org
-HJ https://aapnews.org
-HJ https://hospitalpediatrics.org
-HJ https://pedsinreview.org
-HJ https://pediatrics.org
-HJ https://aapjournals.org
-HJ https://aappublications.org
-HJ https://pediatriccareonline.org
-HJ https://aap.org
-HJ https://aapebooks.org
-HJ https://aappublications.org
-DJ publications.aap.org
-DJ coding.aap.org
-DJ aapgrandrounds.org
-DJ neoreviews.org
-DJ aappolicy.org
-DJ aapredbook.org
-DJ aapnews.org
-DJ hospitalpediatrics.org
-DJ pedsinreview.org
-DJ pediatrics.org
-DJ aapjournals.org
-DJ aappublications.org
-DJ pediatriccareonline.org
-DJ aapebooks.org
-DJ aap.org
-Neverproxy aap2.silverchair-cdn.com
-
 # Updated per RAL 2020-12-30
 Title Peeters Publishers
 URL http://www.peeters-leuven.be/
