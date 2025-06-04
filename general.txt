@@ -5157,20 +5157,27 @@ DJ npgjournals.com
 Find nexus.ensighten.com
 Replace ^pnexus.ensighten.com^
 
-# Updated per ralight 2021-10-28
-Title Naxos Music Library (updated 20211026) 
-URL https://IUB.naxosmusiclibrary.com 
-HJ IUB.naxosmusiclibrary.com 
-HJ IUB.nml3.naxosmusiclibrary.com 
-HJ https://IUB.naxosmusiclibrary.com 
+# Updated per ralight 2025-06-04
+Title Naxos Music Library (updated 20250530)
+URL https://IUB.naxosmusiclibrary.com
+HJ IUB.naxosmusiclibrary.com
+HJ IUB.nml3.naxosmusiclibrary.com
+HJ https://IUB.naxosmusiclibrary.com
 HJ https://IUB.nml3.naxosmusiclibrary.com
 HJ https://www.nml3.naxosmusiclibrary.com
 HJ www.nml3.naxosmusiclibrary.com
 DJ naxosmusiclibrary.com
-DJ www.naxosmusiclibrary.com
-NeverProxy cdn.naxosmusiclibrary.com
+## Naxos Music Library Images CDN Location
 NeverProxy cdn.naxos.com
-NeverProxy audiostream.naxosmusiclibrary.com 
+NeverProxy cdn.naxosmusiclibrary.com
+NeverProxy cdn2.naxos.com
+NeverProxy cdn2.naxosmusiclibrary.com
+## Naxos Music Library Audio CDN Location
+NeverProxy audiostream.naxosmusiclibrary.com
+NeverProxy audiostream2.naxosmusiclibrary.com
+NeverProxy videostream.naxosmusiclibrary.com
+NeverProxy videostream2.naxosmusiclibrary.com
+## Naxos Music Library Aux Audio CDN Location
 NeverProxy cp82361.edgefcs.net
 
 Title netLibrary
