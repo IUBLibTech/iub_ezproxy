@@ -56,6 +56,10 @@ I 149.159.0.0 - 149.159.255.255
 
 A 149.159.32.0/19
 
+### New VPN Ranges 06/06/2025 ###
+I 140.182.4.0/22
+I 10.119.0.0/16
+
 #
 # Vista workstation defined as 'off-campus' for testing 1 Feb 2008
 I 129.79.34.13
