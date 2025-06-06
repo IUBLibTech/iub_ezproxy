@@ -114,6 +114,13 @@ Option Cookie
 
 ###################################   TEMPORARY RESOURCES   #######################################
 
+# Trial Access June 6 through September 6, 2025
+# Added per ralight 2025-06-06
+Title Local Historical Documents Database, Phases 1-5 
+URL https://ndfwx-hw.datahistory.cn
+HJ ndfwx-hw.datahistory.cn
+DJ datahistory.cn
+
 # Temporary access 
 # added per CWL 2-2-23
 Title SAGE Campus 
