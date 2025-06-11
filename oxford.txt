@@ -1376,12 +1376,3 @@ Host https://rpc.oxfordjournals.org
 Title Legacy Oxford Linking
 URL https://www.oxfordhandbooks.com
 HJ www.oxfordhandbooks.com
-
-# Updated per ralight 2024-03-20
-Title Oxford African American Studies Center (updated 20240319)
-HTTPHeader -request -process X-Requested-With
-URL https://www.oxfordaasc.com/
-HJ https://oxfordaasc.com
-HJ oxfordaasc.com
-HJ www.oxfordaasc.com
-DJ oxfordaasc.com
