@@ -1371,14 +1371,6 @@ Title Reports of Patent, Design and Trade Mark Cases
 Host rpc.oxfordjournals.org
 Host https://rpc.oxfordjournals.org
 
-# Updated per RAL 2020-12-04
-Title Oxford Scholarly Editions Online
-URL https://www.oxfordscholarlyeditions.com
-HJ https://oxfordscholarlyeditions.com
-HJ www.oxfordscholarlyeditions.com
-HJ oxfordscholarlyeditions.com
-DJ oxfordscholarlyeditions.com
-
 # Added per ralight 2023-03-10
 # Added to reduce needhost errors on old hosts that still redirect to Oxford academic
 Title Legacy Oxford Linking
