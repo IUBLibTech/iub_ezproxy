@@ -221,60 +221,6 @@ HJ bap.priweb.org
 DJ priweb.org
 
 # Moved to always authenticate because vendor does not support IPV6
-## Added per ralight 2023-03-08
-# Required for EndNote online and InCites stanza
-Option CookiePassThrough
-PHE access.clarivate.com$ access-clarivate-com
-Title Clarivate Authentication (updated 20230301)
-URL https://access.clarivate.com
-HTTPHeader -request -process generatedOn
-HTTPHeader -request -process text
-HTTPHeader -request -process textInput
-HJ https://access.clarivate.com
-Host https://access.clarivate.com
-DJ access.clarivate.com
-DJ d3gs88v2si9epo.cloudfront.net
-DJ apps.clarivate.com
-DJ dlt9ksh5o30zl.cloudfront.net
-Find access.clarivate.com
-Replace ^saccess.clarivate.com^
-Option Cookie
-
-# Moved to always authenticate because vendor does not support IPV6
-# Updated per ralight 2023-03-08
-Option DomainCookieOnly
-Title EndNote online and InCites (updated 20230307)
-HTTPMethod DELETE
-HTTPMethod PUT
-BinaryTimeout 600
-ClientTimeout 600
-HTTPHeader -request -process X-1P-INC-SID
-MimeFilter application/json .* javascript
-URL http://www.myendnoteweb.com
-HJ https://esi.clarivate.com
-HJ https://my.endnote.com
-HJ https://myorg.clarivate.com
-HJ https://incites.clarivate.com
-HJ https://www.myendnoteweb.com
-HJ https://jcr.clarivate.com
-HJ https://jcr3.clarivate.com
-HJ error.incites.clarivate.com
-HJ esi.clarivate.com
-HJ help.incites.clarivate.com
-HJ incites.isiknowledge.com
-HJ login.incites.clarivate.com
-HJ my.endnote.com
-HJ jcr3.clarivate.com
-HJ jcr.clarivate.com
-HJ myorg.clarivate.com
-DJ clarivate.com
-DJ endnote.com
-DJ myendnoteweb.com
-Find access.clarivate.com
-Replace ^saccess.clarivate.com^
-Option Cookie
-
-# Moved to always authenticate because vendor does not support IPV6
 Title Initium
 HTTPHeader -request -process resource
 HTTPHeader -request -process session
