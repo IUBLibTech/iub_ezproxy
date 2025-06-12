@@ -4722,15 +4722,6 @@ HJ http://www.aslo.org
 HJ http://aslo.org
 DJ aslo.org
 
-# Updated per RAL 2020-11-12
-Title MarketLine Advantage
-URL http://advantage.marketline.com
-HJ advantage.marketline.com
-HJ https://advantage.marketline.com
-HJ https://new.marketline.com
-HJ new.marketline.com
-DJ marketline.com
-
 Title Marquis Biographies Online
 URL http://www.marquiswhoswho.com
 HJ biography.marquiswhoswho.com
