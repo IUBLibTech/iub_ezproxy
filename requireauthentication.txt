@@ -10,6 +10,14 @@ HJ https://dev.libraries.indiana.edu
 HJ https://d9-6c4orfa-wdb7uvioauztu.us.platform.sh
 Option NoMetaEZproxyRewriting
 
+# Moved to always authenticate because Oxford uses DOIs in MARC records and currently does not support IPv6
+Title -hide DOI System
+URL http://doi.org
+Host https://doi.org
+Host dx.doi.org
+Host https://dx.doi.org
+HJ http://dx.doi.org
+Domain doi.org
 
 # Moved to always authenticate because vendor does not support IPV6
 # Added per ralight 2022-06-13
