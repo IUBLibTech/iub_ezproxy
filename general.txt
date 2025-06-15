@@ -4779,13 +4779,14 @@ DJ prattlibrary.org
 Title Media Education Foundation Transcripts
 URL http://www.mediaed.org
 
-# Updated per ralight 2024-06-05
-Title Medici TV EDU (updated 20240602)
+# Updated per ralight 2025-06-15
+Title Medici TV EDU (updated 20250612)
 URL https://edu.medici.tv
 HJ edu.medici.tv
-DJ medici.tv
+DJ edu.medici.tv
 NeverProxy media.medici.tv
 NeverProxy lightmedias.medici.tv
+NeverProxy api.medici.tv
 
 # Updated per ralight 2021-10-08
 Title Medieval Feminist Forum
