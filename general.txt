@@ -1429,6 +1429,15 @@ DJ aes.org 
 DJ aes2.org  
 NeverProxy elibrary.aes2.org
 
+Title Applied Science Commons 
+URL https://appliedsciencecommons.net/
+HJ http://appliedsciencecommons.net/
+DJ policycommons.net
+NeverProxy https://coherent-commons.s3.amazonaws.com
+NeverProxy https://res.cloudinary.com
+NeverProxy https://posthog.coherentdigital.net
+NeverProxy https://i2.wp.com
+
 ## **************************BBBBB*****************************************************************
 
 # Updated per ralight 2022-11-29
