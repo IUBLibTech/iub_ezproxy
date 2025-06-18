@@ -4009,33 +4009,29 @@ URL https://www.irannamag.com/en/past-issues
 HJ www.irannamag.com
 DJ irannamag.com 
 
-# Updated per ralight 2025-02-05
-# Updated to add new hosts lines due to unreported platform migration. Official OCLC is forthcoming.
-Title Iter: Gateway to the Middles Ages and Renaissance (updated 20220627)
+# Updated per ralight 2025-06-18
+Title Iter: Gateway to the Middles Ages and Renaissance (updated 20250611)
 URL https://www.itergateway.org
-HJ beww.itergateway.org
-HJ books.scholarsportal.info
 HJ https://beww.itergateway.org
 HJ https://italicum.itergateway.org
 HJ https://itergateway.org
 HJ https://jps.library.utoronto.ca
 HJ https://milton.itergateway.org
 HJ https://search.itergateway.org
+HJ https://beww.iterpubs.org 
+HJ https://italicum.iterpubs.org 
+HJ https://milton.iterpubs.org
+HJ https://iterpubs.org
+HJ beww.itergateway.org
+HJ books.scholarsportal.info
 HJ italicum.itergateway.org
 HJ itergateway.org
 HJ milton.itergateway.org
 HJ search.itergateway.org
 HJ www.itergateway.org
-HJ https://iterpubs.org
-HJ https://italicum.iterpubs.org
-HJ https://milton.iterpubs.org
-HJ https://beww.iterpubs.org
-HJ italicum.iterpubs.org
-HJ milton.iterpubs.org
-HJ beww.iterpubs.org
-DJ iterpubs.org
 DJ itergateway.org
 DJ scholarsportal.info
+DJ iterpubs.org
 
 ## **************************JJJJJ*****************************************************************
 
