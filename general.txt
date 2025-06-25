@@ -1080,6 +1080,7 @@ HJ https://jingdian.ancientbooks.cn
 HJ jingdian.ancientbooks.cn
 DJ ancientbooks.cn
 HJ pubapi.ancientbooks.cn
+HJ p.docj.cn
 Option Cookie
 AnonymousURL +https://pubapi.ancientbooks.cn/v1*
 Neverproxy image.ancientbooks.cn
