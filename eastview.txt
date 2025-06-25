@@ -141,6 +141,7 @@ HJ kodeks.eastview.com
 HJ news.mosinfo.ru
 HJ online.eastview.com
 HJ www.eastview.com
+HJ https://iiif.eastview.com
 DJ eastview.com
 DJ mosinfo.ru
 
