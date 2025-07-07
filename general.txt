@@ -2349,15 +2349,6 @@ URL http://www.columbiagazetteer.org
 HJ www.columbiagazetteer.org
 DJ columbiagazetteer.org
 
-# Updated per ralight 2022-12-28
-Title ciao (IncludeFile updated 20221227)
-U https://www.ciaonet.org
-HJ ciaonet.org
-HJ https://ciaonet.org
-HJ https://www.ciaonet.org
-HJ www.ciaonet.org
-DJ ciaonet.org
-
 # Updated per RAL 2021-04-01
 Title COMMENTATIONES MATHEMATICAE UNIVERSITATIS CAROLINAE
 URL https://cmuc.karlin.mff.cuni.cz/
