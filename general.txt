@@ -4837,16 +4837,6 @@ URL https://www.mergentkbr.com/
 HJ http://www.mergentkbr.com
 DJ mergentkbr.com
 
-# Updated per RAL 2019-11-26
-T Mergent Online
-URL https://www.mergentonline.com/
-HJ http://www.mergentonline.com
-DJ mergentonline.com
-Find szURL+= Encode( szReportURL );
-Replace szURL+= Encode( szReportURL.replace(/.^h/, "" ));
-Find name='url' value='https://
-Replace name='url' value='https://^A
-
 # Updated per ralight 2024-02-14
 Title Metropolitan Opera on Demand (updated 20240209)
 URL https://metopera.org/season/on-demand/
