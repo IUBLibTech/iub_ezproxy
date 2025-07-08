@@ -1082,7 +1082,6 @@ DJ ancientbooks.cn
 HJ pubapi.ancientbooks.cn
 HJ p.docj.cn
 Option Cookie
-AnonymousURL +https://pubapi.ancientbooks.cn/v1*
 Neverproxy image.ancientbooks.cn
 
 Title Annali della Scuola Normale Superiore di Pisa, Classe di Scienze
