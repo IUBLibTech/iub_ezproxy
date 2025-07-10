@@ -119,8 +119,13 @@ DJ eastview.com
 
 # Updated per ralight 2024-11-27
 Title East View Information Services Inc (updated 20241125)
+Option ForceHTTPS
+Option Cookie
+Option RewriteReferer
 HTTPHeader -request -process Bib-Token
+HTTPHeader -request -process Authorization
 URL https://dlib.eastview.com/login
+URL https://dlib.eastview.com
 HJ bib.eastview.com
 HJ ccg.eastview.com
 HJ crg.eastview.com
