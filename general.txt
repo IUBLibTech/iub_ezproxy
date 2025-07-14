@@ -1031,58 +1031,18 @@ HJ www.aup.nl
 DJ aup.nl
 DJ aup-online.com
 
-# Updated per ralight 2025-03-10
+# Updated per ralight 2025-07-14
 # Replaces separate stanzas for Collection of Chinese Rare Medicine Books in Overseas and Zhonghua jing dian gu ji ku
-Title Ancient Books (updated 20240401)
-URL https://ancientbooks.cn
-HJ https://ancientbooks.cn
-HJ ancientbooks.cn
-HJ https://academic.ancientbooks.cn/
-HJ academic.ancientbooks.cn/
-HJ https://bianjiang.ancientbooks.cn/
-HJ bianjiang.ancientbooks.cn/
-HJ http://bib.ancientbooks.cn/
-HJ bib.ancientbooks.cn/
-HJ https://books.ancientbooks.cn/
-HJ books.ancientbooks.cn/
-HJ https://calligraphy.ancientbooks.cn/
-HJ calligraphy.ancientbooks.cn/
-HJ http://catalog.ancientbooks.cn/
-HJ catalog.ancientbooks.cn/
-HJ https://engravings.ancientbooks.cn/
-HJ engravings.ancientbooks.cn/
-HJ http://etymology.ancientbooks.cn/
-HJ etymology.ancientbooks.cn/
-HJ https://examination.ancientbooks.cn/docDengke/
-HJ examination.ancientbooks.cn/docDengke/
-HJ https://hanyiwenxue.ancientbooks.cn/
-HJ hanyiwenxue.ancientbooks.cn/
-HJ https://inscription.ancientbooks.cn/
-HJ inscription.ancientbooks.cn/
-HJ https://jiaowaishefo.ancientbooks.cn/
-HJ jiaowaishefo.ancientbooks.cn/
-HJ https://lateqr.ancientbooks.cn/
-HJ lateqr.ancientbooks.cn/
-HJ https://longquan.ancientbooks.cn/
-HJ longquan.ancientbooks.cn
-HJ http://obid.ancientbooks.cn/
-HJ obid.ancientbooks.cn/
-HJ https://publish.ancientbooks.cn/
-HJ publish.ancientbooks.cn/
-HJ https://refbook.ancientbooks.cn/
-HJ refbook.ancientbooks.cn/
-HJ http://southwest.ancientbooks.cn/
-HJ southwest.ancientbooks.cn/
-HJ http://wenku.ancientbooks.cn/
-HJ wenku.ancientbooks.cn/
-# Extra hosts added during migration to new interface for Zhonghua jing dian gu ji ku
+# Stanza previously called Ancient Books
+Title JiHeWang
+HTTPHeader -request -process siteid
+HTTPHeader -request -process x-requested-with
+URL https://www.ancientbooks.cn
+HJ https://publish.ancientbooks.cn
 HJ https://jingdian.ancientbooks.cn
-HJ jingdian.ancientbooks.cn
+HJ https://p.docj.cn
+HJ publish.ancientbooks.cn
 DJ ancientbooks.cn
-HJ pubapi.ancientbooks.cn
-HJ p.docj.cn
-Option Cookie
-Neverproxy image.ancientbooks.cn
 
 Title Annali della Scuola Normale Superiore di Pisa, Classe di Scienze
 URL http://annaliscienze.sns.it/index.php?page=OnlineIndex
