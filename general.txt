@@ -750,6 +750,17 @@ Title Aevum
 URL http://aevum.vitaepensiero.it
 DJ vitaepensiero.it
 
+# Added per ralight 2025-07-14
+# Content has migrated multiple times, the latest from Oxford to Elsevier
+# Stanza for Society site where we also have access
+Title American Society for Nutrition Journals
+URL https://journals.nutrition.org
+HJ https://jn.nutrition.org
+HJ https://ajcn.nutrition.org
+HJ https://advances.nutrition.org
+HJ https://cdn.nutrition.org
+DJ nutrition.org
+
 # Updated per ralight 2024-03-20
 Title Africa-Confidential (updated 20240312)
 URL https://www.africa-confidential.com
