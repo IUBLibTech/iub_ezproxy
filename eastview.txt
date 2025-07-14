@@ -1,6 +1,16 @@
 
 #### eastview.txt
 
+# Trial access through 2025-10-31
+# Added per ralight 2025-07-14
+Title CNKI AI
+URL https://ai.oversea.cnki.net/inds/aigc?sysid=4&lang=en
+HJ o.oversea.cnki.net
+HJ kbsi.oversea.cnki.net
+HJ ai.oversea.cnki.net
+DJ oversea.cnki.net
+DJ cnki.net
+
 # Updated per ralight 2022-03-28
 AnonymousURL +https://static-cdn.arcanum.hu* 
 Title Arcanum Digitheca
@@ -11,7 +21,7 @@ HJ adt.arcanum.com
 DJ arcanum.hu 
 AnonymousURL -*
 
-# Updated per ralight 2026-06-04
+# Updated per ralight 2025-06-04
 Option CookiePassThrough
 AnonymousURL +https://o.oversea.cnki.net/EcpApi_oversea/OLoginApi/IpLogin*
 AnonymousURL +https://o.oversea.cnki.net/ecpoversea/EcpApi_oversea/OLoginApi/*
