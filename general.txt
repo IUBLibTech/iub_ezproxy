@@ -3959,13 +3959,6 @@ DJ projecteuclid.org
 DJ emis.de
 DJ mrlonline.org
 
-
-Title IPA Source
-URL https://www.ipasource.com
-HJ http://www.ipasource.com
-HJ www.ipasource.com
-DJ ipasource.com
-
 Title Iran namag
 URL https://www.irannamag.com/en/past-issues
 HJ www.irannamag.com
