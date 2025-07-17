@@ -21,7 +21,7 @@ HJ adt.arcanum.com
 DJ arcanum.hu 
 AnonymousURL -*
 
-# Updated per ralight 2025-06-04
+# Updated per cwlamb 2025-07-17
 Option CookiePassThrough
 AnonymousURL +https://o.oversea.cnki.net/EcpApi_oversea/OLoginApi/IpLogin*
 AnonymousURL +https://o.oversea.cnki.net/ecpoversea/EcpApi_oversea/OLoginApi/*
@@ -34,66 +34,62 @@ AnonymousURL +https://oversea.cnki.net/restapi/luban/*
 AnonymousURL +https://o.oversea.cnki.net/EcpAuth/Token/create_by_idenId*
 AnonymousURL +https://o.oversea.cnki.net/EcpOversea/EcpApi_OverSea/OUserInfo/receive_user_pack_right*
 AnonymousURL +https://o.oversea.cnki.net/EcpOversea/EcpApi_OverSea/OUserInfo/get_user_common_Info*
-Title CNKI Main Page (updated 20250430)
-HTTPHeader -response -edit location RewriteURL(REReplace("!https%3a%2f%2fo\.oversea\.cnki.\net!g", RewriteURL("https://o.oversea.cnki.net"), hh:value))
+Title CNKI Main Page
+HTTPHeader -response -edit location 
+RewriteURL(REReplace("!https%3a%2f%2fo\.oversea\.cnki.\net!g", 
+RewriteURL("https://o.oversea.cnki.net"), hh:value))
 HTTPHeader -request -process Appid
 HTTPHeader -request -process Clientid
 HTTPHeader -request -process Signature
 HTTPHeader -request -process Timestamp
 HTTPHeader -request -process Nonce
-URL https://oversea.cnki.net
-HJ aismart.oversea.cnki.net
-HJ ar.oversea.cnki.net
-HJ book.oversea.cnki.net
-HJ cajn.cnki.net
+U https://oversea.cnki.net
 HJ chn.oversea.cnki.net
+HJ tra.oversea.cnki.net
+HJ oversea.cnki.net
 HJ cn.oversea.cnki.net
-HJ data.oversea.cnki.net
-HJ dysw.cnki.net
 HJ en.oversea.cnki.net
 HJ gongjushu.oversea.cnki.net
-HJ hd.oversea.cnki.net
-HJ http://tcm.oversea.cnki.net
-HJ https://aismart.oversea.cnki.net
-HJ https://ar.oversea.cnki.net
-HJ https://book.oversea.cnki.net
-HJ https://chn.oversea.cnki.net
-HJ https://cn.oversea.cnki.net
-HJ https://data.oversea.cnki.net
-HJ https://en.oversea.cnki.net
-HJ https://dysw.cnki.net
-HJ https://gongjushu.oversea.cnki.net
-HJ https://hd.oversea.cnki.net
-HJ https://kbsi.oversea.cnki.net
-HJ https://law.oversea.cnki.net
-HJ https://npcd.oversea.cnki.net
-HJ https://o.oversea.cnki.net
-HJ https://oi.cnki.net
-HJ https://oversea.cnki.net
-HJ https://ste.cnki.net
-HJ https://t.oversea.cnki.net
-HJ https://tra.oversea.cnki.net
-HJ https://web02.cnki.net
-HJ https://zhengbao.oversea.cnki.net
-HJ kbsi.oversea.cnki.net
+HJ book.oversea.cnki.net
+HJ oi.cnki.net
+HJ cajn.cnki.net
+HJ dysw.cnki.net
+HJ web02.cnki.net
+HJ bnjj.cnki.net
+HJ ste.cnki.net
+HJ local.cnki.net
+HJ zhengbao.oversea.cnki.net
+HJ ar.oversea.cnki.net
 HJ law.oversea.cnki.net
 HJ npcd.oversea.cnki.net
-HJ o.oversea.cnki.net
-HJ oi.cnki.net
-HJ oversea.cnki.net
-HJ ste.cnki.net
-HJ t.oversea.cnki.net
 HJ tcm.oversea.cnki.net
-HJ tra.oversea.cnki.net
-HJ web02.cnki.net
-HJ zhengbao.oversea.cnki.net
+HJ kbsi.oversea.cnki.net
+HJ data.oversea.cnki.net
+HJ ai.oversea.cnki.net
+HJ o.oversea.cnki.net
+HJ hd.oversea.cnki.net
+HJ bar.oversea.cnki.net
+HJ t.oversea.cnki.net
+HJ docdown.oversea.cnki.net
+HJ https://gongjushu.oversea.cnki.net/oversea/
+HJ https://book.oversea.cnki.net/en/index?sysid=225
+HJ https://zhengbao.oversea.cnki.net
+HJ https://cn.oversea.cnki.net/Kns55/brief/result.aspx?dbPrefix=CFJD
+HJ https://ar.oversea.cnki.net/
+HJ https://law.oversea.cnki.net/
+HJ https://npcd.oversea.cnki.net/en
+HJ http://tcm.oversea.cnki.net/en/
+HJ https://data.oversea.cnki.net/
+HJ https://ai.oversea.cnki.net/inds/aigc?sysid=4&lang=en
+HJ https://hd.oversea.cnki.net/oversea
 DJ cnki.net
 Find src='//o.oversea.cnki.net
 Replace src='//^So.oversea.cnki.net^
 Find IncludeCss('//o.oversea.cnki.net
 Replace IncludeCss('//^So.oversea.cnki.net^
+Find //o.oversea.cnki.net
+Replace //^So.oversea.cnki.net^
 AnonymousURL -*
-Option Cookie
 
 Title Kotobarabia Arabic E-Library
 URL http://kotobarabia.eastview.com
