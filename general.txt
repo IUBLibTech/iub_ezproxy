@@ -848,7 +848,7 @@ URL https://www.amjhealthstudies.com/index.php/ajhs/issue/archive
 HJ www.amjhealthstudies.com
 DJ amjhealthstudies.com
 
-# Updated per ralight 2023-07-14
+# Updated per ralight 2025-07-18
 # Combines OCLC stanzas for Weston Medical Publishing and American Journal of Recreation Therapy
 Title American Journal of Recreation Therapy 
 URL https://wmpllc.org/
@@ -857,6 +857,8 @@ HJ http://recreationtherapy.org
 HJ http://wmpllc.org/
 HJ https://recreationtherapy.org
 HJ https://www.recreationtherapy.org
+# Extra host added to reduce needhost errors
+HJ https://www.wmpllc.org/
 DJ wmpllc.org
 DJ recreationtherapy.org
 Find wmpllc.org
