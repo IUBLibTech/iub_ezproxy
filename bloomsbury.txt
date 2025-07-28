@@ -64,10 +64,10 @@ HJ https://www.dramaonlinelibrary.com
 HJ https://dramaonlinelibrary.com
 DJ dramaonlinelibrary.com
 
-# Updated per ralight 2022-08-12
+# Updated per ralight 2025-07-28
+# Removed Option Cookie line previously included to see if that would resolve access problem.
 # Stanza provided by Bloomsbury support, does not match OCLC stanza
 Option NoX-Forwarded-For
-Option Cookie
 Title Fairchild Books Interior Design Library (updated 20210520)
 URL https://www.fairchildbooksinteriordesign.com
 HJ www.fairchildbooksinteriordesign.com
