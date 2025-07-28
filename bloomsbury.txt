@@ -8,8 +8,9 @@ Host https://ssl.geoplugin.net
 HJ ssl.geoplugin.net
 DJ geoplugin.net
 
-# Added per ralight 2023-10-03
-# Stanza added in preparation of Bloomsbury Architecture Library moving to the Visual Arts platform in November 2023
+# Updated per ralight 2025-07-28
+# Added Option line below to try to resolve access problem. Does not match OCLC stanza.
+Option NoX-Forwarded-For
 Title Bloomsbury Visual Arts
 URL https://www.bloomsburyvisualarts.com
 HJ www.bloomsburyvisualarts.com
@@ -75,9 +76,10 @@ HJ https://www.fairchildbooksinteriordesign.com
 HJ https://fairchildbooksinteriordesign.com
 DJ fairchildbooksinteriordesign.com
 
-# Added per ralight 2022-10-05
-Option Cookie
-Title Bloomsbury Video Library (updated 20200423)
+# Updated per ralight 2025-07-28
+# Added Option line below to try to resolve access problem. Does not match OCLC stanza.
+Option NoX-Forwarded-For
+Title Bloomsbury Video Library (Added 20230106)
 URL https://www.bloomsburyvideolibrary.com/
 HJ www.bloomsburyvideolibrary.com
 HJ bloomsburyvideolibrary.com
