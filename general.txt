@@ -127,94 +127,6 @@ HJ ndfwx-hw.datahistory.cn
 DJ datahistory.cn
 
 # Temporary access 
-# added per CWL 2-2-23
-Title SAGE Campus 
-URL https://classroom.sagepub.com 
-HJ https://classroom.sagepub.com 
-DJ classroom.sagepub.com 
-Find https:\/\/classroom.sagepub.com 
-Replace https:\/\/classroom-sagepub-com.^H 
-
-# Temporary access
-# added per CWL 4-4-22
-Title Si Ku Catalogs
-URL http://hunteq.com/ancientc/ancientkm
-HJ hunteq.com
-DJ hunteq.com
-
-# added per CWL 03-13-23
-Title Art Song Transpositions
-URL https://astpublications.com
-HJ https://artsongtranspositions.com
-HJ http://artsongtranspositions.com
-HJ http://astpublications.com
-DJ astpublications.com
-DJ artsongtranspositions.com
-
-# Temporary access
-# added per CWL 05-24-23
-Title BiblioRossica
-URL https://www.bibliorossica.com
-HJ http://www.bibliorossica.com
-HJ www.bibliorossica.com
-DJ www.bibliorossica.com
-
-# Temporary access
-# added per cwlamb 2024-02-09
-Title Hit Songs Deconstructed
-URL https://db.hitsongsdeconstructed.com/ 
-HJ https://reports.hitsongsdeconstructed.com
-HJ https://masterclass.hitsongsdeconstructed.com
-HJ db.hitsongsdeconstructed.com
-HJ reports.hitsongsdeconstructed.com
-HJ masterclass.hitsongsdeconstructed.com
-DJ db.hitsongsdeconstructed.com
-DJ hitsongsdeconstructed.com
-
-Title Taiwan Academic Classics
-URL https://p.udpweb.com/
-HJ p.udpweb.com
-DJ p.udpweb.com
-
-Title Airitibooks
-URL https://www.airitibooks.com
-HJ https://www.airitibooks.com
-HJ www.airitibooks.com
-DJ airitibooks.com
-
-# Temporary access
-# Updated per ralight 2024-12-03
-HTTPMethod OPTIONS
-AnonymousURL -OPTIONS +https://api.flyoverzone.com/*
-AnonymousURL +https://api.flyoverzone.com/*
-Title Yorescape (20240627)
-HTTPHeader -request -process guid
-URL https://yorescape-client-dev.azurewebsites.net/
-HJ https://api.flyoverzone.com
-HJ api.flyoverzone.com
-DJ api.flyoverzone.com
-HJ https://yorescape.com
-DJ yorescape.com
-NeverProxy https://firebasedynamiclinks.googleapis.com/
-NeverProxy https://d753e4ee-9b83-494f-b80a-707ad892989a.client-api.unity3dusercontent.com/
-NeverProxy https://32874.playfabapi.com/
-Find api.flyoverzone.com
-Replace ^sapi.flyoverzone.com^
-AnonymousURL -*
-
-# Temporary access 
-# added per CWL 10-9-24
-Title Flyover Zone Virtual Museum
-URL https://www.flyoverzone.com/virtual-museum/
-HJ https://www.flyoverzone.com
-HJ www.flyoverzone.com
-HJ https://flyoverzone.com
-HJ http://flyoverzone.com
-DJ flyoverzone.com
-Find https:\/\/
-Replace https://
-
-# Temporary access 
 # Updated per cwlamb 2025-04-01
 Title The Database of the Communist Party of China (CPC) 
 URL https://www.oriprobe.com/cpc.shtml 
@@ -241,6 +153,17 @@ DJ khabarlahariya.org
 
 
 ## **************************AAAAA*****************************************************************
+
+
+
+# added per CWL 03-13-23
+Title Art Song Transpositions
+URL https://astpublications.com
+HJ https://artsongtranspositions.com
+HJ http://artsongtranspositions.com
+HJ http://astpublications.com
+DJ astpublications.com
+DJ artsongtranspositions.com
 
 T A&AePortal
 U https://www.aaeportal.com
@@ -768,6 +691,12 @@ HJ africa-confidential.com
 HJ https://africa-confidential.com
 HJ www.africa-confidential.com
 DJ africa-confidential.com
+
+Title Airitibooks
+URL https://www.airitibooks.com
+HJ https://www.airitibooks.com
+HJ www.airitibooks.com
+DJ airitibooks.com
 
 # Updated per ralight 2023-10-30
 T Airiti Library (updated 20220524)
@@ -1643,16 +1572,6 @@ Title Bloomberg BNA Health
 URL http://healthlawrc.bna.com
 HJ healthlawrc.bna.com
 DJ healthlawrc.bna.com
-
-# Temporary access through 9-16-22
-# added per CWL 8-16-22
-Title Bloomsbury Cultural History 
-URL https://www.bloomsburyculturalhistory.com/
-HJ bloomsburyculturalhistory.com
-HJ https://bloomsburyculturalhistory.com
-HJ https://www.bloomsburyculturalhistory.com
-HJ www.bloomsburyculturalhistory.com
-DJ bloomsburyculturalhistory.com
 
 # Updated per ralight 2023-11-01
 Option CookiePassThrough
@@ -3370,7 +3289,6 @@ HJ guidestar.org
 DJ guidestar.org
 
 
-# Moved From Temporary access 2022-05-11
 # Added per CWL 2022-3-31
 Title Gu dai li shi wen hua yan jiu ji kan hui shuo ku 
 URL https://elib.infolinker.com.tw/login_hua.htm  
