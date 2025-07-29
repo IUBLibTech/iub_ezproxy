@@ -2766,15 +2766,6 @@ HJ https://www.embopress.org
 HJ embopress.org
 DJ embopress.org
 
-# Updated per RAL
-Title Emerald Insight
-URL https://www.emerald.com/insight
-HJ http://www.emeraldinsight.com
-HJ https://www.emeraldinsight.com
-HJ www.emeraldinsight.com
-HJ www.emerald.com
-DJ www.emerald.com
-
 # Stanza needed in conjunction with Emerald Insight per RAL 2019-07-18
 Title LibLynx
 URL https://connect.liblynx.com
