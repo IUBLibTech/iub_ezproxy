@@ -1083,21 +1083,16 @@ URL http://acmejournal.org/index.php/acme/issue/archive
 HJ acmejournal.org
 DJ acmejournal.org
 
-# Updated per RAL 2019-11-19
+# Updated per ralight 2025-07-29
+# Changed to Newsroom portion to NeverProxy directive based on information from EZproxy listserv
 Title AP Newsroom
-URL https://newsroom.ap.org
-HJ newsroom.ap.org
-HJ ap.org
-DJ ap.org
-HJ http://apimages.ap.org/unsecured/logip.aspx
+URL http://apimages.ap.org/unsecured/logip.aspx
+NeverProxy newsroom.ap.org
 Domain ap.org
 DJ accuweather.com
 DJ apimages.com
-HJ apimages.ap.org
-HJ apimages.org
-HJ http://classic.apimages.com
-HJ https://classic.apimages.com
-HJ classic.apimages.com
+Host apimages.ap.org
+Host apimages.org
 
 # Updated per ralight 2024-04-17
 Title The Arabidopsis Information Resource (updated 20240416)
