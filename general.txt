@@ -1085,14 +1085,9 @@ DJ acmejournal.org
 
 # Updated per ralight 2025-07-29
 # Changed to Newsroom portion to NeverProxy directive based on information from EZproxy listserv
+# Additional changes per EBSCO support to change fully to NeverProxy and remove all other elements of stanza.
 Title AP Newsroom
-URL http://apimages.ap.org/unsecured/logip.aspx
 NeverProxy newsroom.ap.org
-Domain ap.org
-DJ accuweather.com
-DJ apimages.com
-Host apimages.ap.org
-Host apimages.org
 
 # Updated per ralight 2024-04-17
 Title The Arabidopsis Information Resource (updated 20240416)
