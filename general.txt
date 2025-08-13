@@ -4841,23 +4841,7 @@ Find script src='https://
 Replace script src='https://^A
 AnonymousURL -*
 
-# Updated per ralight 2021-09-23
-Title Modern Language Association (updated 20210920)
-URL http://www.mla.org
-HJ mla.org
-HJ mlajournals.org
-HJ www.mla.org
-HJ www.mlajournals.org
-HJ https://mlajournals.org
-HJ https://www.mla.org
-HJ https://www.mlajournals.org
-HJ https://www.ade.mla.org
-HJ https://www.adfl.mla.org
-HJ https://mlahandbookplus.org
-DJ mla.org
-DJ mlajournals.org
-Find https:\/\/
-Replace https://
+# Modern Language Association moved to common stanza per ralight 2025-08-13
 
 # Updated per ralight 2024-10-09
 AnonymousURL +https://www.mohrsiebeck.com/_astro/*
