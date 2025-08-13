@@ -156,14 +156,29 @@ DJ khabarlahariya.org
 
 
 
-# added per CWL 03-13-23
-Title Art Song Transpositions
+# Updated per ralight 2025-08-13
+# Stanza formerly called Art Song Transpositions
+Title AST Publications (updated 20250801)
 URL https://astpublications.com
 HJ https://artsongtranspositions.com
 HJ http://artsongtranspositions.com
 HJ http://astpublications.com
+HJ artsonginstitutional.com
+HJ https://www.astpublications.com
+HJ https://www.artsongtranspositions.com
+HJ https://www.artsonginstitutional.com
+HJ https://artsonginstitutional.com
+HJ www.astpublications.com
+HJ www.artsongtranspositions.com
+HJ www.artsonginstitutional.com
+HJ https://www.astfree.com
+HJ www.astfree.com
+HJ https://astfree.com
+HJ astfree.com
+DJ astfree.com
 DJ astpublications.com
 DJ artsongtranspositions.com
+DJ artsonginstitutional.com
 
 T A&AePortal
 U https://www.aaeportal.com
