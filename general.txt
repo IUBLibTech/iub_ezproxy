@@ -3524,12 +3524,13 @@ HJ http://www.infosci-journals.com
 DJ igi-global.com
 DJ infosci-journals.com
 
+# Commented out by ralight on 2025-08-18 to try to resolve ILLiad form issue
 # Updated per ralight 2025-08-12
-Title ILLIAD
-URL https://www.dds.indiana.edu/illiad/illiad.dll
-Host www.dds.indiana.edu
-Host https://iu.illiad.oclc.org
-Host iu.illiad.oclc.org
+# Title ILLIAD
+# URL https://www.dds.indiana.edu/illiad/illiad.dll
+# Host www.dds.indiana.edu
+# Host https://iu.illiad.oclc.org
+# Host iu.illiad.oclc.org
 
 # Updated per ralight 2024-01-29
 # HTTPheader line localized by recommendation from OCLC to resolve issue with other resources. Does not match OCLC DB site stanza.
