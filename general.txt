@@ -119,6 +119,22 @@ Option Cookie
 
 ###################################   TEMPORARY RESOURCES   #######################################
 
+# Trial access October 13 through November 12, 2025
+# Added per brboren by ralight 2025-08-19
+Option MetaEZproxyRewriting
+Title APA Style Manual
+HTTPHeader -process -request X-CSRF-Token
+URL https://stylemanual.apa.org
+HJ stylemanual.apa.org
+HJ apa.org
+HJ http://stylemanual.apa.org
+HJ https://apa.org
+HJ https://sso.apa.org
+HJ sso.apa.org
+DJ apa.org
+NeverProxy pmistatic.apa.org
+Option NoMetaEZproxyRewriting
+
 # Trial Access June 6 through September 6, 2025
 # Added per ralight 2025-06-06
 Title Local Historical Documents Database, Phases 1-5 
