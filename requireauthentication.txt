@@ -19,6 +19,15 @@ Host https://dx.doi.org
 HJ http://dx.doi.org
 Domain doi.org
 
+# Moved to always authenticate because this is an Oxford resource and Oxford does not currently support IPv6
+# Updated per ralight 2023-05-17
+Title American National Biography Online (OCLC IncludeFile updated 20230515)
+URL https://www.anb.org
+HJ anb.org
+HJ https://anb.org
+HJ www.anb.org
+DJ anb.org
+
 # Moved to always authenticate because vendor does not support IPV6
 # Added per ralight 2022-06-13
 # New platform replacing Kikuzo II Visual for Libraries
