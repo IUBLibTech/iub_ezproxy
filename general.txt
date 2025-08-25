@@ -655,14 +655,6 @@ DJ ama.org
 Find journals.ama.org
 Replace ^pjournals.ama.org^
 
-# Updated per ralight 2023-05-17
-Title American National Biography Online (OCLC IncludeFile updated 20230515)
-URL https://www.anb.org
-HJ anb.org
-HJ https://anb.org
-HJ www.anb.org
-DJ anb.org
-
 # Updated per ralight 2021-12-22
 Title American Physiological Society (updated 20211214)
 URL https://journals.physiology.org
