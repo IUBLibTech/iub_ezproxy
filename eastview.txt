@@ -27,9 +27,7 @@ AnonymousURL +https://o.oversea.cnki.net/EcpAuth/Token/create_by_idenId*
 AnonymousURL +https://o.oversea.cnki.net/EcpOversea/EcpApi_OverSea/OUserInfo/receive_user_pack_right*
 AnonymousURL +https://o.oversea.cnki.net/EcpOversea/EcpApi_OverSea/OUserInfo/get_user_common_Info*
 Title CNKI Main Page
-HTTPHeader -response -edit location 
-RewriteURL(REReplace("!https%3a%2f%2fo\.oversea\.cnki.\net!g", 
-RewriteURL("https://o.oversea.cnki.net"), hh:value))
+HTTPHeader -response -edit location RewriteURL(REReplace("!https%3a%2f%2fo\.oversea\.cnki.\net!g", RewriteURL("https://o.oversea.cnki.net"), hh:value))
 HTTPHeader -request -process Appid
 HTTPHeader -request -process Clientid
 HTTPHeader -request -process Signature
