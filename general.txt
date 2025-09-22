@@ -775,10 +775,14 @@ NeverProxy cfsh.ambrosevideo.com
 NeverProxy cfsr.ambrosevideo.com
 AnonymousURL -*
 
-# Updated per RAL 2021-01-28
+# Updated per RAL 2025-09-22
 Title American Archivist
-URL https://americanarchivist.org
+URL https://american-archivist.kglmeridian.com/view/journals/aarc/aarc-overview.xml
+HJ https://american-archivist.kglmeridian.com
+HJ american-archivist.kglmeridian.com
+HJ https://americanarchivist.org
 HJ americanarchivist.org
+DJ kglmeridian.com
 DJ americanarchivist.org
 
 # Updated per RAL 2020-09-04
