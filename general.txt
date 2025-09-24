@@ -1115,10 +1115,6 @@ HJ schweizerbart.com
 DJ schweizerbart.de
 DJ schweizerbart.com 
 
-Title Anthropology of the Contemporary Middle East and Central Eurasia
-URL http://acmejournal.org/index.php/acme/issue/archive
-HJ acmejournal.org
-DJ acmejournal.org
 
 # Updated per ralight 2025-07-29
 # Changed to Newsroom portion to NeverProxy directive based on information from EZproxy listserv
