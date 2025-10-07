@@ -42,6 +42,15 @@ HJ api.dango.asahi.com
 DJ api.dango.asahi.com
 AnonymousURL -*
 
+# Moved to always authenticate because this is an Oxford resource and Oxford does not currently support IPv6
+# Updated to https per RAL 2019-06-17
+Title Electronic Enlightenment
+URL https://www.e-enlightenment.com
+HJ http://www.e-enlightenment.com
+HJ www.e-enlightenment.com
+HJ e-enlightenment.com
+DJ e-enlightenment.com
+
 # Moved to always authenticate because vendor does not support IPV6
 # Updated per ralight 2023-07-06
 T The Japan Times Digital Archives (updated 20230626)
