@@ -2734,13 +2734,7 @@ HJ hraf01.its.yale.edu
 HJ https://ehrafworldcultures.yale.edu
 DJ yale.edu
 
-# Updated to https per RAL 2019-06-17
-Title Electronic Enlightenment
-URL https://www.e-enlightenment.com
-HJ http://www.e-enlightenment.com
-HJ www.e-enlightenment.com
-HJ e-enlightenment.com
-DJ e-enlightenment.com
+# Electronic Enlightenment moved to requireauthentication
 
 Title Electronic Text Centre - University of New Brunswick
 URL http://journals.hil.unb.ca
