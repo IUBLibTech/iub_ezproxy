@@ -2399,7 +2399,8 @@ HJ http://daniels-orchestral.com
 HJ www.daniels-orchestral.com
 DJ daniels-orchestral.com
 
-# added per CWL 06-29-22
+# Updated per ralight 2025-10-15
+# Updated to properly close out 2 directives that were causing issues for DETAIL per OCLC support
 Option X-Forwarded-For
 AddUserHeader EZP-User
 Title Dar AlMandumah
@@ -2413,6 +2414,8 @@ HJ stats.mandumah.com
 DJ search.mandumah.com
 DJ content.mandumah.com
 DJ stats.mandumah.com
+Option NoX-Forwarded-For
+AddUserHeader
 
 # Added per ralight 2025-05-12
 Title Database for the History of Contemporary Chinese Political Movements 
