@@ -2407,11 +2407,9 @@ HJ http://daniels-orchestral.com
 HJ www.daniels-orchestral.com
 DJ daniels-orchestral.com
 
-# Updated per ralight 2025-10-15
-# Updated to properly close out 2 directives that were causing issues for DETAIL per OCLC support
-Option X-Forwarded-For
+# Updated per ralight 2025-10-23
 AddUserHeader EZP-User
-Title Dar AlMandumah
+Title Dar AlMandumah (updated 20251021)
 URL https://search.mandumah.com
 HJ https://search.mandumah.com
 HJ https://content.mandumah.com
@@ -2419,10 +2417,7 @@ HJ https://stats.mandumah.com
 HJ search.mandumah.com
 HJ content.mandumah.com
 HJ stats.mandumah.com
-DJ search.mandumah.com
-DJ content.mandumah.com
-DJ stats.mandumah.com
-Option NoX-Forwarded-For
+DJ mandumah.com
 AddUserHeader
 
 # Added per ralight 2025-05-12
