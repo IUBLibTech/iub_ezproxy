@@ -172,6 +172,14 @@ URL https://khabarlahariya.org/
 HJ https://khabarlahariya.org/
 DJ khabarlahariya.org
 
+# Trial Access Fall 2025
+# Added by ralight per brboren 2025-10-23
+Title Contemporary Art Library
+URL https://edu.contemporaryartlibrary.org
+HJ edu.contemporaryartlibrary.org
+DJ contemporaryartlibrary.org
+
+
 ####################################################################################################
 
 
@@ -5817,6 +5825,12 @@ URL https://rbm.acrl.org/index.php/rbm
 HJ http://rbm.acrl.org
 HJ rbm.acrl.org
 DJ acrl.org
+
+# Added per ralight 2025-10-23
+Title Reallexikon für Antike und Christentum
+URL https://rac-online.org
+HJ https://rac-online.org
+DJ rac-online.org
 
 # added per CWL 7-18-22
 Option DomainCookieOnly
