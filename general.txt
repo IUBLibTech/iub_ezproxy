@@ -2146,33 +2146,6 @@ HJ https://choicereviews.org
 DJ choicereviews.org
 DJ choice360.org
 
-# Updated per RAL 2020-02-20
-AnonymousURL +https://sh.chronicle.com/*
-AnonymousURL +https://data.chronicle.com/*
-AnonymousURL +https://data.shorthand.com/*
-Title The Chronicle of Higher Education
-URL https://www.chronicle.com
-HJ chronicle.com
-HJ data.chronicle.com
-HJ data.shorthand.com
-HJ https://data.shorthand.com
-HJ projects.chronicle.com
-HJ www.chronicle.com
-HJ login.chronicle.com
-HJ https://login.chronicle.com
-HJ https://chronicle.com
-HJ https://data.chronicle.com
-HJ https://projects.chronicle.com
-HJ https://sh.chronicle.com
-HJ www.chronicle.com
-# Community host not in OCLC stanza added per RAL 2020-12-09
-HJ https://community.chronicle.com
-DJ data.shorthand.com
-DJ www.chronicle.com
-Find data-url="//data.shorthand.com
-Replace data-url="https://data.shorthand.com
-NeverProxy hive.chronicle.com
-AnonymousURL -*
 
 # Updated per ralight 2022-02-24
 Title CIOS (updated 20220216)
