@@ -5103,6 +5103,12 @@ H http://ezmyaccount.nytimes.com
 H ezmyaccount.nytimes.com
 D ezmyaccount.nytimes.com
 
+# Added by ralight on behalf of libser 2025-11-06
+Title New York Review of Architecture
+URL https://nyra.nyc/issues
+HJ https://nyra.nyc
+DJ nyra.nyc
+
 # Updated per RAL 2018-09-26
 Title New York Review of Books
 URL https://www.nybooks.com
