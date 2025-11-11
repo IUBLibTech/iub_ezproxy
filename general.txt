@@ -119,6 +119,14 @@ Option Cookie
 
 ###################################   TEMPORARY RESOURCES   #######################################
 
+# Temporary access (timing unclear)
+# Added per cwlamb 2025-11-11
+Title MagazinePlus
+URL https://web.nichigai.jp/magazine?user_id=INB
+HJ web.nichigai.jp
+HJ nichigai.jp
+DJ nichigai.jp
+
 # Trial access October 13 through November 12, 2025
 # Added per brboren by ralight 2025-08-19
 Option MetaEZproxyRewriting
