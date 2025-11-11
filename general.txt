@@ -119,7 +119,7 @@ Option Cookie
 
 ###################################   TEMPORARY RESOURCES   #######################################
 
-# Temporary access (timing unclear)
+# Temporary access through December 11, 2025.
 # Added per cwlamb 2025-11-11
 Title MagazinePlus
 URL https://web.nichigai.jp/magazine?user_id=INB
