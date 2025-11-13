@@ -339,20 +339,24 @@ DJ iospress.com
 DJ iospress.nl
 Option Cookie
 
-# Updated per ralight 2021-07-02
-Title Equinox Publishing Ltd. (updated 20210629)
+# Updated per ralight 2025-11-13
+Title Equinox Publishing Ltd. (updated 20251112)
 URL https://www.equinoxpub.com/home/
 HJ equinoxpub.com
 HJ https://equinoxpub.com
 HJ https://journal.equinoxpub.com
 HJ https://journals.equinoxpub.com
 HJ https://www.equinoxpub.com
+HJ https://equinoxonlinelibrary.com
 HJ journal.equinoxpub.com
 HJ journals.equinoxpub.com
 HJ www.equinoxjournals.com
 HJ www.equinoxpub.com
+HJ equinoxonlinelibrary.com
 DJ equinoxjournals.com
 DJ equinoxpub.com
+Find pdfUrl = "https:\/\/journal.equinoxpub.com
+Replace pdfUrl = "https:\/\/^Sjournal.equinoxpub.com^
 
 # Moved to always authenticate because vendor does not support IPV6
 # Added per RAL 2020-03-04
