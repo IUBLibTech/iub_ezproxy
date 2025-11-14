@@ -1,7 +1,39 @@
 
 #### eastview.txt
 
-
+# Updated per ralight 2024-11-27
+# List before any other stanzas in this includes file per ralight 2025-11-14
+Title East View Information Services Inc (updated 20241125)
+Option ForceHTTPS
+Option Cookie
+Option RewriteReferer
+HTTPHeader -request -process Bib-Token
+HTTPHeader -request -process Authorization
+URL https://dlib.eastview.com/login
+URL https://dlib.eastview.com
+HJ bib.eastview.com
+HJ ccg.eastview.com
+HJ crg.eastview.com
+HJ dlib.eastview.com
+HJ eastview.com
+HJ gca.eastview.com
+HJ gpa.eastview.com
+HJ https://bib.eastview.com
+HJ https://ccg.eastview.com
+HJ https://crg.eastview.com
+HJ https://dlib.eastview.com
+HJ https://eastview.com
+HJ https://gca.eastview.com
+HJ https://gpa.eastview.com
+HJ https://kodeks.eastview.com
+HJ https://www.eastview.com
+HJ kodeks.eastview.com
+HJ news.mosinfo.ru
+HJ online.eastview.com
+HJ www.eastview.com
+HJ https://iiif.eastview.com
+DJ eastview.com
+DJ mosinfo.ru
 
 # Updated per ralight 2022-03-28
 AnonymousURL +https://static-cdn.arcanum.hu* 
@@ -80,6 +112,7 @@ Replace IncludeCss('//^So.oversea.cnki.net^
 Find //o.oversea.cnki.net
 Replace //^So.oversea.cnki.net^
 AnonymousURL -*
+Option Cookie
 
 Title Kotobarabia Arabic E-Library
 URL http://kotobarabia.eastview.com
@@ -112,39 +145,6 @@ URL https://wnc.eastview.com/
 HJ http://wnc.eastview.com
 HJ wnc.eastview.com
 DJ eastview.com
-
-# Updated per ralight 2024-11-27
-Title East View Information Services Inc (updated 20241125)
-Option ForceHTTPS
-Option Cookie
-Option RewriteReferer
-HTTPHeader -request -process Bib-Token
-HTTPHeader -request -process Authorization
-URL https://dlib.eastview.com/login
-URL https://dlib.eastview.com
-HJ bib.eastview.com
-HJ ccg.eastview.com
-HJ crg.eastview.com
-HJ dlib.eastview.com
-HJ eastview.com
-HJ gca.eastview.com
-HJ gpa.eastview.com
-HJ https://bib.eastview.com
-HJ https://ccg.eastview.com
-HJ https://crg.eastview.com
-HJ https://dlib.eastview.com
-HJ https://eastview.com
-HJ https://gca.eastview.com
-HJ https://gpa.eastview.com
-HJ https://kodeks.eastview.com
-HJ https://www.eastview.com
-HJ kodeks.eastview.com
-HJ news.mosinfo.ru
-HJ online.eastview.com
-HJ www.eastview.com
-HJ https://iiif.eastview.com
-DJ eastview.com
-DJ mosinfo.ru
 
 Title National Palace Museum Journals Archive
 URL https://p.udpweb.com/ 
