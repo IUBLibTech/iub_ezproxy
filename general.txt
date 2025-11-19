@@ -4800,6 +4800,10 @@ URL http://www.minsocam.org
 HJ www.minsocam.org
 DJ minsocam.org
 
+# NeverProxy stanza maintained for SSO resource to improve IUCAT experience
+Title Mintel
+NeverProxy shibboleth.mintel.com
+
 # Added per ralight 2022-10-12
 Title MIPP Oriental Studies Package
 URL http://elibrary.ru
