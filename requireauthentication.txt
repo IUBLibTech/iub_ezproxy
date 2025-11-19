@@ -265,51 +265,6 @@ NeverProxy www.google.com
 NeverProxy maps.gstatic.com
 NeverProxy developers.google.com
 
-# Does not allow walk-in user access
-# Updated per ralight 2024-08-24
-Option MetaEZproxyRewriting
-HTTPMethod OPTIONS
-AnonymousURL +https://api.mintel.com/*
-AnonymousURL -OPTIONS +https://www.gnpd.com/sinatra/api/*
-AnonymousURL +https://oauth.mintel.com/token/
-AnonymousURL -OPTIONS +https://eks-prod-appshell.otlp-frontend.mintel.cloud/collect
-AnonymousURL +https://eks-prod-appshell.otlp-frontend.mintel.cloud/collect
-AnonymousURL +https://notifications.mintel.com/notification/*
-AnonymousURL +https://portal.mintel.com/*
-Title Mintel (updated 20240802)
-MimeFilter text/event-stream .* javascript
-HTTPHeader -request -process X-CSRFToken
-URL https://clients.mintel.com/
-HJ clients.mintel.com
-HJ portal.mintel.com
-HJ www.gnpd.com
-HJ reports.mintel.com
-HJ trends.mintel.com
-HJ academic.mintel.com
-HJ data.mintel.com
-HJ marketsizes.mintel.com
-HJ gmn.mintel.com
-HJ https://gmn.mintel.com
-HJ https://clients.mintel.com
-HJ https://portal.mintel.com
-HJ https://www.gnpd.com
-HJ https://reports.mintel.com
-HJ https://trends.mintel.com
-HJ https://academic.mintel.com
-HJ https://data.mintel.com
-HJ https://marketsizes.mintel.com
-HJ help.mintel.com
-HJ https://help.mintel.com
-HJ http://help.mintel.com
-DJ mintel.com
-Find src="/jwplayer/wmvplayer/
-Replace src="http://^A/jwplayer/wmvplayer/
-Find \u0022//portal.mintel.com/\u0022
-Replace \u0022//^sportal.mintel.com^/\u0022
-AnonymousURL -*
-Option NoMetaEZproxyRewriting
-NeverProxy shibboleth.mintel.com
-
 # Added per ralight 2024-07-25
 # Moved to always authenticate because vendor does not support IPV6
 # Split off from the Herald Times Online stanza
