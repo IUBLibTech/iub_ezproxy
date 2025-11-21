@@ -4480,23 +4480,6 @@ HJ www.liverpooluniversitypress.co.uk
 DJ liverpooluniversitypress.co.uk
 Option Cookie
 
-# Updated per ralight 2021-05-20
-# http HJ added to account for MARC records
-Title LLMC Digital (updated 20210517)
-URL https://www.llmc.com
-HJ http://www.llmc.com
-HJ www.llmcdigital.com
-HJ llmcdigital.com
-HJ llmc.com
-DJ llmcdigital.com
-DJ llmc.com
-HJ www.llmcdigital.org
-HJ llmcdigital.org
-# Host added to deal with URL change until OCLC provides updated stanza - ralight 2025-05-22
-HJ discover.llmc.com
-HJ https://discover.llmc.com
-DJ llmcdigital.org
-
 # Added per smith267 2022-04-14
 Title Lockwood Press Journals
 URL  https://lockwoodonlinejournals.com/
