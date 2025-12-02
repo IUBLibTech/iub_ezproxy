@@ -1833,18 +1833,14 @@ HJ www.globalbooksinprint.com
 HJ globalbooksinprint.com
 DJ globalbooksinprint.com
 
-# Updated per ralight 2024-08-07
-Option DomainCookieOnly
-Title Brepols Online (20240806)
-URL https://www.brepolsonline.net
-HJ brepols.scienceconnect.io
-HJ brepolsonline.net
-HJ https://brepols.scienceconnect.io
-HJ https://brepolsonline.net
-HJ https://www.brepolsonline.net
+# Updated per ralight 2025-12-02
+# Stanza provided by Brepols following platform migration, not yet updated in OCLC stanza list
+Title BrepolsOnline
+URL https://www.brepolsonline.net/
 HJ www.brepolsonline.net
 DJ brepolsonline.net
-Option Cookie
+NeverProxy instance.metastore.ingenta.com
+NeverProxy pub2web.metastore.ingenta.com 
 
 Title Bridgeman Education
 URL http://www.bridgemaneducation.com/
