@@ -3309,6 +3309,13 @@ HJ https://tl.harrassowitz-library.com/
 HJ http://tl.harrassowitz-library.com/
 DJ harrassowitz-verlag.de
 
+# Added per ralight 2025-12-10
+# Platform migration, official stanza not yet released.
+Title Harvard Educational Review
+URL https://www.harvardeducationalreview.org/
+HJ www.harvardeducationalreview.org
+DJ harvardeducationalreview.org
+
 # Updated per ralight 2024-07-25
 # Split Herald Times E-Edition to separate, requires authentication stanza
 Title Herald Times Online
