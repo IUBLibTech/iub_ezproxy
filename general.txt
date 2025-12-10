@@ -3619,52 +3619,6 @@ DJ e-unwto.org
 HJ e-unwto.scienceconnect.io
 DJ e-unwto.scienceconnect.io
 
-# Updated per ralight 2022-02-04
-AnonymousURL +https://ibaseptn.infobase.com/graphql
-Title Infobase (updated 20220128)
-URL https://login.infobase.com
-HJ login.infobase.com
-HJ https://online.infobaselearning.com
-HJ online.infobaselearning.com
-HJ https://www.infobase.com
-HJ www.infobase.com
-HJ https://ebooks.infobase.com
-HJ ebooks.infobase.com
-HJ ebooks.infobaselearning.com
-HJ online.infobase.com
-HJ https://www.infobasepublishing.com
-HJ www.infobasepublishing.com
-HJ infobasepublishing.com
-HJ https://video.infobase.com
-HJ video.infobase.com
-HJ https://learn360.infobase.com
-HJ https://www.learn360.infobase.com
-HJ https://online.infobase.com
-HJ https://icof.infobaselearning.com
-HJ learn360.infobase.com
-HJ www.learn360.infobase.com
-HJ bio.infobaselearning.com
-HJ wak.infobaselearning.com
-HJ icah.infobaselearning.com
-HJ icof.infobaselearning.com
-HJ tsof.infobaselearning.com
-HJ fcg.infobase.com
-HJ wake.infobase.com
-HJ wnd.infobase.com
-HJ online.factsonfile.com
-HJ www.factsonfile.com
-HJ factsonfile.com
-HJ wao.factsonfile.com
-HJ www.fofweb.com
-HJ fofweb.com
-HJ fofweb.infobase.com
-DJ infobaselearning.com
-DJ infobasepublishing.com
-DJ infobase.com
-NeverProxy ptn.infobase.com
-NeverProxy tsof.infobase.com
-AnonymousURL -*
-
 # Updated per ralight 2021-07-22
 Title INFORMS PubsOnline (updated 20210719)
 URL https://pubsonline.informs.org/
@@ -5484,16 +5438,6 @@ Title Physica Medica
 URL https://www.physicamedica.com/
 HJ www.physicamedica.com
 DJ physicamedica.com
-
-# Updated per RAL 2020-12-11
-Title Polling the Nations
-URL https://online.infobaselearning.com/Direct.aspx?pid=PTN&aid=99355
-HJ https://ptn.infobase.com/
-HJ http://poll.orspub.com
-HJ poll.orspub.com
-DJ infobase.com
-DJ infobaselearning.com
-DJ orspub.com
 
 # Updated per ralight 2021-06-17
 Title Portico (updated 20210615)
