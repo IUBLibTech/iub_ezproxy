@@ -3719,6 +3719,16 @@ HJ www.publishingtechnology.com
 HJ publishingtechnology.com
 DJ publishingtechnology.com
 
+# Added per ralight 2025-12-10
+# New platform that will replace CH Beck and Nomos platforms
+Title Inlibra (updated 20251203)
+URL https://www.inlibra.com
+HJ https://inlibra.com
+HJ https://www.inlibra.com
+HJ inlibra.com
+HJ www.inlibra.com
+DJ inlibra.com
+
 # Updated per ralight 2021-12-06
 Title INSPIRE 
 URL https://inspire.in.gov/
