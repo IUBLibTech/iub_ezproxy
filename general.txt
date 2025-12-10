@@ -5713,12 +5713,15 @@ DJ rac-online.org
 # added per CWL 7-18-22
 Option DomainCookieOnly
 Title Recent Researches in Music Online
-URL https://rrimo.com/
 URL https://meridian.allenpress.com/rrimo
-DJ rrimo.com
-DJ meridian.allenpress.com
 HJ 52.142.19.226
 HJ https://meridian.allenpress.com
+HJ https://rrimo.com/
+# KGL Host & domain added for upcoming platform change
+HJ rrimo.kglmeridian.com
+DJ kglmeridian.com
+DJ rrimo.com
+DJ meridian.allenpress.com
 Option Cookie
 
 Title Reciprocal Net
