@@ -4,13 +4,8 @@
 # Updated per ralight 2024-11-27
 # List before any other stanzas in this includes file per ralight 2025-11-14
 Title East View Information Services Inc (updated 20241125)
-Option ForceHTTPS
-Option Cookie
-Option RewriteReferer
 HTTPHeader -request -process Bib-Token
-HTTPHeader -request -process Authorization
 URL https://dlib.eastview.com/login
-URL https://dlib.eastview.com
 HJ bib.eastview.com
 HJ ccg.eastview.com
 HJ crg.eastview.com
@@ -31,7 +26,11 @@ HJ kodeks.eastview.com
 HJ news.mosinfo.ru
 HJ online.eastview.com
 HJ www.eastview.com
-HJ https://iiif.eastview.com
+# Hosts added for Eastview products not included in OCLC stanza, per suggestion from OCLC support
+# World News Connection
+HJ https://wnc.eastview.com/
+HJ http://wnc.eastview.com
+HJ wnc.eastview.com
 DJ eastview.com
 DJ mosinfo.ru
 
@@ -114,44 +113,9 @@ Replace //^So.oversea.cnki.net^
 AnonymousURL -*
 Option Cookie
 
-Title Kotobarabia Arabic E-Library
-URL http://kotobarabia.eastview.com
-HJ https://kotobarabia.eastview.com
-HJ kotobarabia.eastview.com
-DJ eastview.com
-
-# Updated per ralight 2023-09-22
-Title East View UDB Statistics
-URL https://udbstat.eastview.com/
-HJ http://udbstat.eastview.com
-HJ udbstat.eastview.com
-DJ eastview.com
-
-# Updated per ralight 2023-09-28
-Title Han yu da ci dian and Kangxi zi dian
-URL https://hd.oversea.cnki.net
-HJ https://hd.cnki.net
-HJ hd.oversea.cnki.net
-HJ oversea.cnki.net
-HJ hd.cnki.net
-HJ global.cnki.net
-HJ gb.global.cnki.net
-DJ oversea.cnki.net
-DJ cnki.net
-
-# Updated per ralight 2022-12-28
-Title World News Connection
-URL https://wnc.eastview.com/
-HJ http://wnc.eastview.com
-HJ wnc.eastview.com
-DJ eastview.com
 
 Title National Palace Museum Journals Archive
 URL https://p.udpweb.com/ 
 HJ p.udpweb.com
 DJ p.udpweb.com
 
-T Global Census Archive
-U https://gca.eastview.com/ 
-HJ gca.eastview.com
-DJ eastview.com
