@@ -741,23 +741,22 @@ HJ https://africa-confidential.com
 HJ www.africa-confidential.com
 DJ africa-confidential.com
 
-Title Airitibooks
-URL https://www.airitibooks.com
-HJ https://www.airitibooks.com
-HJ www.airitibooks.com
-DJ airitibooks.com
 
-# Updated per ralight 2023-10-30
-T Airiti Library (updated 20220524)
-U https://www.airitilibrary.com
+# Updated per ralight 2025-12-10
+Title Airiti Library (updated 20251205)
+URL https://www.airitilibrary.com
 HJ https://www.airitilibrary.com
+HJ https://www.airitibooks.com
+HJ https://www.airitiaci.com
+HJ https://www.ainoscosearch.com
+HJ www.airitibooks.com
 HJ www.airitilibrary.com
-# Temporary host lines added due to platform migration
-HJ https://beta.airitilibrary.com
-HJ beta.airitilibrary.com
-# http host lined added temporarily for RM purposes
-HJ http://www.airitilibrary.com
+HJ www.airitiaci.com
+HJ www.ainoscosearch.com
+DJ airitibooks.com
 DJ airitilibrary.com
+DJ airitiaci.com
+DJ ainoscosearch.com
 
 # Updated per ralight 2021-05-13
 # Modified from OCLC stanza to include https
