@@ -1,11 +1,13 @@
 
 #### eastview.txt
 
-# Updated per ralight 2024-11-27
+# Updated per ralight 2025-12-12
+# Revised per advise from Steve Morse at OCLC
 # List before any other stanzas in this includes file per ralight 2025-11-14
+AnonymousURL -OPTIONS +https://iiif.eastview.com/iiif/*
+AnonymousURL +https://iiif.eastview.com/iiif/*
 Title East View Information Services Inc (updated 20241125)
 HTTPHeader -request -process Bib-Token
-URL https://dlib.eastview.com/login
 HJ bib.eastview.com
 HJ ccg.eastview.com
 HJ crg.eastview.com
@@ -31,8 +33,10 @@ HJ www.eastview.com
 HJ https://wnc.eastview.com/
 HJ http://wnc.eastview.com
 HJ wnc.eastview.com
+HJ https://iiif.eastview.com
 DJ eastview.com
 DJ mosinfo.ru
+AnonymousURL -*
 
 # Updated per ralight 2022-03-28
 AnonymousURL +https://static-cdn.arcanum.hu* 
