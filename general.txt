@@ -6514,7 +6514,7 @@ Title University of Fashion
 URL https://auth.universityoffashion.com/
 NeverProxy www.universityoffashion.com
 
-# Updated per ralight 2024-12-11
+# Updated per ralight 2025-12-14
 Title University of Toronto Press Journals (updated 20241209)
 URL http://www.utpress.utoronto.ca
 HJ champlainsociety.utjournals.press
@@ -6558,7 +6558,8 @@ HJ www.utpjournals.com
 HJ www.utpjournals.press
 HJ www.utppublishing.com
 HJ www.utpress.utoronto.ca
-# Extra host added to reduce needhost errors per ralight 2023-12-08
+# Extra hosts added to reduce needhost errors per ralight 2024-12-14
+HJ http://cjc.utppublishing.com
 HJ http://cjc.utpjournals.press
 HJ www.utpshift.com
 DJ uoftbookstore.com
