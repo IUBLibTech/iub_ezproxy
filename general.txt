@@ -2113,40 +2113,6 @@ HJ https://content-select.com
 HJ https://www.content-select.com
 HJ http://www.content-select.com
 
-# Updated per RAL 2020-09-17
-Title Credo Reference
-URL https://search.credoreference.com
-DJ credoreference.com
-HJ api.credoreference.com
-HJ beagle.credoreference.com
-HJ credoreference.com
-HJ homework.credoreference.com
-HJ literati.credoreference.com
-HJ login.credoreference.com
-HJ school.credoreference.com
-HJ search.credoreference.com
-HJ search.help.credoreference.com
-HJ support.credoreference.com
-HJ vle.credoreference.com
-HJ www.credoreference.com
-HJ https://www.credoreference.com
-HJ https://credoreference.com
-HJ https://homework.credoreference.com
-HJ https://literati.credoreference.com
-HJ https://school.credoreference.com
-HJ https://search.credoreference.com
-HJ https://support.credoreference.com
-HJ https://vle.credoreference.com
-HJ https://www.credoreference.com
-NeverProxy media.credoreference.com
-NeverProxy cdn.credoreference.com
-NeverProxy assets.credoreference.com
-
-#### moved to always authenticate 4/6/2020 pmaholm ####
-#Title Cross-National Time Series Data Archive
-#URL http://www.databanksinternational.com
-#HJ www.databanksinternational.com
-#DJ databanksinternational.com 
 
 T Crossref (OCLC IncludeFile updated 20231122)
 URL http://www.crossref.org
