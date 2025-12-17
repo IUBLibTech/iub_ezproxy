@@ -7002,13 +7002,6 @@ HJ www.worldscinet.com
 DJ worldscientific.com
 DJ worldscinet.com
 
-Title World Shakespeare Bibliography
-URL https://www.worldshakesbib.org
-HJ http://www.worldshakesbib.org
-HJ www.worldshakesbib.org
-DJ worldshakesbib.org
-
-# Updated per ralight 2023-11-14
 # Worldcat.org stanza should be listed above WorldCat Discovery stanza
 Cookie ezproxy_s=1; domain=.worldcat.org
 T OCLC WorldCat.org (Updated 20231114)
