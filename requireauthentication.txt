@@ -547,3 +547,16 @@ Title AUSTRALIAN BOOK REVIEW
 URL http://www.australianbookreview.com.au
 HJ https://www.australianbookreview.com.au
 DJ australianbookreview.com.au
+
+# Moved to always authenticate because this is an Oxford resource and Oxford does not currently support IPv6
+# Updated per ralight 2025-12-17
+Title World Shakespeare Bibliography (updated 20251211)
+HTTPHeader -request -inject x-proxy-server (server:url:http =~ "@^http://([^:]+)@", re:1)
+URL https://www.worldshakesbib.org
+HJ https://worldshakesbib.org
+HJ www.worldshakesbib.org
+HJ worldshakesbib.org
+DJ worldshakesbib.org
+NeverProxy oup-idp.sams-sigma.com
+NeverProxy oup2-idp.sams-sigma.com
+NeverProxy oup3-idp.sams-sigma.com
