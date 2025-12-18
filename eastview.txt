@@ -33,7 +33,8 @@ HJ www.eastview.com
 HJ https://wnc.eastview.com/
 HJ http://wnc.eastview.com
 HJ wnc.eastview.com
-HJ https://iiif.eastview.com
+# Commented out based on Eastview information - ralight 2025-12-18
+# HJ https://iiif.eastview.com
 DJ eastview.com
 DJ mosinfo.ru
 AnonymousURL -*
