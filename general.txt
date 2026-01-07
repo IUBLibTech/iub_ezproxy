@@ -1860,10 +1860,14 @@ HJ http://demographics.geolytics.com
 HJ demographics.geolytics.com
 DJ geolytics.com
 
-Title Central and East European Library
+# Updated per ralight 2026-01-07
+# Stanza formerly called Central and Eastern European Library
+Title CEEOL (updated 20251229)
 URL https://www.ceeol.com
-HJ http://www.ceeol.com
+HJ https://www.ceeol.com
 HJ www.ceeol.com
+HJ https://ceeol.com
+HJ ceeol.com
 DJ ceeol.com
 
 # Updated per ralight 2022-07-06
