@@ -1421,26 +1421,34 @@ Title BDSL Online
 URL http://www.bdsl-online.de
 DJ bdsl-online.de
 
-# Updated per RAL 2020-09-10
-Title Begell House, Inc
-URL https://www.dl.begellhouse.com/
-HJ https://dl.begellhouse.com/
+# Updated per ralight 2026-01-06
+Title Begell House, Inc (updated 20260102)
+URL https://www.dl.begellhouse.com
+HJ https://dl.begellhouse.com
+HJ https://hedh.begellhouse.com
+HJ https://hedhme.com
+HJ https://ishmtdigitallibrary.com
+HJ https://onlineinnovationsjournal.com
+HJ https://uncertainty-quantification.com
+HJ https://wdst.begellhouse.com
+HJ https://www.begellhouse.com
+HJ https://www.thermopedia.com
+HJ begellhouse.com
+HJ dl.astfe.org
 HJ dl.begellhouse.com
-HJ uncertainty-quantification.com
-HJ www.begellhouse.com
-HJ www.dl.begellhouse.com
-HJ www.edata-center.com
-HJ http://edata-center.com/
-HJ hedh.begellhouse.com
-HJ wdst.begellhouse.com
-HJ www.thermopedia.com
+HJ hedhme.com
+HJ ihtcdigitallibrary.com
+HJ ishmtdigitallibrary.com
+HJ onlineinnovationsjournal.com
+HJ thermopedia.com
 DJ begellhouse.com
+DJ dl.astfe.org
 DJ dl.begellhouse.com
-DJ edata-center.com
-DJ thermopedia.com
 DJ hedhme.com
 DJ ihtcdigitallibrary.com
-DJ dl.astfe.org
+DJ ishmtdigitallibrary.com
+DJ onlineinnovationsjournal.com
+DJ thermopedia.com
 
 # Updated per RAL 2020-09-10
 Title Berghahn Books
