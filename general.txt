@@ -4186,13 +4186,6 @@ HJ buske.de
 DJ buske-elibrary.de
 HJ buske.de
 
-# Updated to https per RAL 2018-10-31
-Title Der literarische Expressionismus Online
-URL https://db.saur.de/LEX/autologin?user=indianaedu
-HJ http://db.saur.de/LEX/autologin?user=indianaedu
-HJ db.saur.de
-DJ saur.de
-
 # added per CWL 9-21-22
 Title Literary Encyclopedia
 URL https://www.litencyc.com/
