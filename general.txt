@@ -5469,19 +5469,12 @@ URL https://rac-online.org
 HJ https://rac-online.org
 DJ rac-online.org
 
-# added per CWL 7-18-22
-Option DomainCookieOnly
-Title Recent Researches in Music Online
-URL https://meridian.allenpress.com/rrimo
-HJ 52.142.19.226
-HJ https://meridian.allenpress.com
-HJ https://rrimo.com/
-# KGL Host & domain added for upcoming platform change
-HJ rrimo.kglmeridian.com
+# Updated per ralight 2026-01-13
+T Recent Researches in Music Online
+U https://rrimo.kglmeridian.com
+HJ https://rrimo.kglmeridian.com/
+HJ rrimo.kglmeridian.com/
 DJ kglmeridian.com
-DJ rrimo.com
-DJ meridian.allenpress.com
-Option Cookie
 
 Title Reciprocal Net
 URL http://www.reciprocalnet.org/
