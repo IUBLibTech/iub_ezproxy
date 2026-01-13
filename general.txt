@@ -119,73 +119,6 @@ Option Cookie
 
 ###################################   TEMPORARY RESOURCES   #######################################
 
-# Temporary access through December 11, 2025.
-# Added per cwlamb 2025-11-11
-Title MagazinePlus
-URL https://web.nichigai.jp/magazine?user_id=INB
-HJ web.nichigai.jp
-HJ nichigai.jp
-DJ nichigai.jp
-
-# Trial access October 13 through November 12, 2025
-# Added per brboren by ralight 2025-08-19
-Option MetaEZproxyRewriting
-Title APA Style Manual
-HTTPHeader -process -request X-CSRF-Token
-URL https://stylemanual.apa.org
-HJ stylemanual.apa.org
-HJ apa.org
-HJ http://stylemanual.apa.org
-HJ https://apa.org
-HJ https://sso.apa.org
-HJ sso.apa.org
-DJ apa.org
-NeverProxy pmistatic.apa.org
-Option NoMetaEZproxyRewriting
-
-# Trial Access June 6 through September 6, 2025
-# Added per ralight 2025-06-06
-Title Local Historical Documents Database, Phases 1-5 
-URL https://ndfwx-hw.datahistory.cn
-HJ ndfwx-hw.datahistory.cn
-DJ datahistory.cn
-
-# Trial Access Fall 2025
-# Added by ralight per brboren 2025-09-23
-Title Overton.io
-U http://app.overton.io
-HJ https://app.overton.io
-HJ https://www.overton.io
-HJ http://www.overton.io
-DJ app.overton.io
-NeverProxy https://cache.openpolicy.io
-
-# Temporary access 
-# Updated per cwlamb 2025-04-01
-Title The Database of the Communist Party of China (CPC) 
-URL https://www.oriprobe.com/cpc.shtml 
-HJ http://data.peopletech.cn
-HJ https://data.peopletech.cn
-HJ http://data.people.com.cn 
-HJ https://data.people.com.cn
-DJ data.people.com.cn
-DJ people.com.cn
-DJ data.peopletech.cn
-DJ peopletech.cn
-
-# Temporary access 
-# added per CWL 4-24-25
-Title Khabar Lahariya Chambal Media
-URL https://khabarlahariya.org/
-HJ https://khabarlahariya.org/
-DJ khabarlahariya.org
-
-# Trial Access Fall 2025
-# Added by ralight per brboren 2025-10-23
-Title Contemporary Art Library
-URL https://edu.contemporaryartlibrary.org
-HJ edu.contemporaryartlibrary.org
-DJ contemporaryartlibrary.org
 
 
 ####################################################################################################
@@ -359,19 +292,6 @@ HJ academicrightspress.com
 HJ musicid.academicrightspress.com
 DJ academicrightspress.com
 
-# Updated per ralight 2023-09-28
-# Modified to reflect interim URLs until migration to new platform occurs in 2024
-# Does not match OCLC stanza
-Title Accessible Archives
-URL https://www.accessible.com/
-HJ https://www.accessible.com
-HJ www.accessible.com
-HJ http://www.accessible-archives.com
-HJ https://www.accessible-archives.com
-HJ www.accessible-archives.com
-DJ accessible-archives.com
-DJ accessible.com
-
 Title Access Newspaper Archive
 URL https://access.newspaperarchive.com
 HJ http://access.newspaperarchive.com
@@ -402,70 +322,6 @@ DJ handle.net
 DJ humanitiesebook.org
 DJ umich.edu
 
-# Updated per ralight 2021-10-20
-Option X-Forwarded-For
-Title ACM Digital Library (updated 20211019)
-URL http://dl.acm.org
-HJ https://dl.acm.org
-HJ https://dlnext.acm.org
-HJ https://www.acm.org
-HJ dlnext.acm.org
-HJ acm.org
-HJ acmtecs.acm.org
-HJ books.acm.org
-HJ cacm.acm.org
-HJ campus.acm.org
-HJ delivery.acm.org
-HJ doi.acm.org
-HJ interactions.acm.org
-HJ jacm.acm.org
-HJ jdiq.acm.org
-HJ jetc.acm.org
-HJ jocch.acm.org
-HJ networker.acm.org
-HJ portal.acm.org
-HJ surveys.acm.org
-HJ taas.acm.org
-HJ taco.acm.org
-HJ talg.acm.org
-HJ talip.acm.org
-HJ teac.acm.org
-HJ technews.acm.org
-HJ tiis.acm.org
-HJ tissec.acm.org
-HJ tist.acm.org
-HJ tmis.acm.org
-HJ tochi.acm.org
-HJ toce.acm.org
-HJ tocl.acm.org
-HJ tocs.acm.org
-HJ toct.acm.org
-HJ todaes.acm.org
-HJ tods.acm.org
-HJ tog.acm.org
-HJ tois.acm.org
-HJ toit.acm.org
-HJ tomacs.acm.org
-HJ tomm.acm.org
-HJ toms.acm.org
-HJ topc.acm.org
-HJ toplas.acm.org
-HJ tos.acm.org
-HJ tosem.acm.org
-HJ tosn.acm.org
-HJ tsas.acm.org
-HJ tslp.acm.org
-HJ tweb.acm.org
-HJ www.acm.org
-HJ www.jea.acm.org
-HJ xrds.acm.org
-# Extra cacm host added per ralight 2021-10-20
-HJ https://cacm.acm.org
-DJ acm.org
-Option NoX-Forwarded-For
-NeverProxy idp.acm.org
-NeverProxy acm-prod-streaming.literatumonline.com
-NeverProxy acm-prod-cdn.literatumonline.com
 
 # Updated per RAL 2020-12-30
 Title Acoustical Society of America
@@ -481,16 +337,21 @@ HJ www.asadl.org
 DJ acousticalsociety.org
 DJ asadl.org
 
+# Updated per ralight 2026-01-13
 Title Acta Astronomica
-URL http://acta.astrouw.edu.pl
+URL https://acta.astrouw.edu.pl/
+HJ http://acta.astrouw.edu.pl
 HJ acta.astrouw.edu.pl
 DJ astrouw.edu.pl
 
-# Added per RMS 2018-08-31
+# Updated per ralight 2026-01-13
 Title Ad Parnassum
-URL http://www.adparnassum.org/
+URL https://www.utorpheus.com/index.php?route=adparnassum/home
+HJ http://www.adparnassum.org/
+HJ https://www.utorpheus.com
+HJ www.utorpheus.com
 HJ www.adparnassum.org
-HJ adparnassum.org
+DJ utorpheus.com
 DJ adparnassum.org
 
 # Updated per ralight 2022-11-15
@@ -518,16 +379,6 @@ HJ mag.adage.com
 DJ home.adage.com
 DJ mag.adage.com
 DJ adage.com
-
-# added per CWL 9-21-23
-Title Africa Commons 
-URL https://africacommons.net
-HJ http://africacommons.net
-DJ africacommons.net
-NeverProxy https://coherent-commons.s3.amazonaws.com
-NeverProxy https://res.cloudinary.com
-NeverProxy https://posthog.coherentdigital.net
-NeverProxy https://i2.wp.com
 
 # Added per RAL 2019-01-07
 Title Africa Confidential
@@ -867,10 +718,11 @@ HJ www.ametsoc.org
 DJ ams-journals.ametsoc.org
 DJ ametsoc.org
 
-Title American Phytopathological Society Journals
-URL http://apsjournals.apsnet.org
-HJ www.apsnet.org
+# Updated per ralight 2026-01-13
+Title American Phytopathological Society (updated 20191025)
+URL https://apsjournals.apsnet.org/
 HJ apsjournals.apsnet.org
+HJ www.apsnet.org
 HJ www.plantmanagementnetwork.org
 DJ apsnet.org
 DJ plantmanagementnetwork.org
@@ -950,8 +802,10 @@ DJ asmscience.org
 NeverProxy asm.metastore.ingenta.com
 Option Cookie
 
+# Updated per ralight 2026-01-13
 Title American Society of Plant Biologists
-URL http://www.aspb.org/publications
+URL https://aspb.org/publications/
+HJ http://www.aspb.org
 HJ www.plantcell.org
 HJ www.plantphysiol.org
 DJ plantcell.org
@@ -1039,9 +893,12 @@ HJ https://p.docj.cn
 HJ publish.ancientbooks.cn
 DJ ancientbooks.cn
 
+# Updated per ralight 2026-01-13
 Title Annali della Scuola Normale Superiore di Pisa, Classe di Scienze
-URL http://annaliscienze.sns.it/index.php?page=OnlineIndex
+URL https://journals.sns.it/index.php/annaliscienze/
+HJ http://annaliscienze.sns.it
 HJ annaliscienze.sns.it
+HJ journals.sns.it
 DJ sns.it
 
 # Updated per RAL 2021-02-04
@@ -1204,8 +1061,10 @@ HJ http://astpublications.com
 DJ astpublications.com
 DJ artsongtranspositions.com
 
+# Updated per ralight 2026-01-13
 Title Arte lombarda
-URL http://artelombarda.vitaepensiero.it/
+URL https://artelombarda.vitaepensiero.it/
+HJ http://artelombarda.vitaepensiero.it
 DJ vitaepensiero.it
 
 # updated per cwl 2020-04-22
@@ -1222,42 +1081,6 @@ HJ http://artflsrv03.uchicago.edu
 HJ https://artflsrv03.uchicago.edu
 DJ uchicago.edu
 DJ artfl-project.uchicago.edu
-
-# Updated per RAL 2020-12-30
-Title ARTstor Digital Library (ADL)
-HTTPHeader -request -process X-*
-HTTPHeader -request -process Accept-Encoding
-HTTPHeader -request -process Access-Control-Allow-Origin
-HTTPMethod PUT
-HTTPMethod PATCH
-HTTPMethod OPTIONS
-HTTPMethod DELETE
-AnonymousUrl +.jar
-AnonymousUrl +.class
-AnonymousUrl +.gif
-AnonymousUrl +.jpg
-URL https://library.artstor.org
-HJ library.artstor.org
-HJ https://tsprod.artstor.org
-HJ https://mdxdv.artstor.org
-HJ https://www.artstor.org
-HJ www.artstor.org
-DJ artstor.org
-DJ mdxdv.artstor.org
-Find //tsprod
-Replace https://tsprod
-Find https://www.artstor.org
-Replace https://^swww.artstor.org^
-Find http://library.artstor.org
-Replace http://^plibrary.artstor.org^
-NeverProxy tsprod.artstor.org
-NeverProxy kaltura.artstor.org
-NeverProxy kts.artstor.org
-NeverProxy viewer.artstor.org
-NeverProxy viewer2.artstor.org
-NeverProxy library.stanford.edu
-NeverProxy stor.artstor.org
-AnonymousUrl -*
 
 # Updated per RAL 2021-01-19
 Title Art History Research net
@@ -1317,7 +1140,8 @@ HJ http://www.austlit.edu.au
 HJ www.austlit.edu.au
 DJ austlit.edu.au
 
-Title Australian Literary Studies Coverage: 1963-present
+# Last reviewed by ralight 2026-01-13
+Title Australian Literary Studies
 URL https://www.australianliterarystudies.com.au/archive
 HJ www.australianliterarystudies.com.au
 DJ australianliterarystudies.com.au
@@ -1370,14 +1194,6 @@ DJ aes.org 
 DJ aes2.org  
 NeverProxy elibrary.aes2.org
 
-Title Applied Science Commons 
-URL https://appliedsciencecommons.net/
-HJ http://appliedsciencecommons.net/
-DJ policycommons.net
-NeverProxy https://coherent-commons.s3.amazonaws.com
-NeverProxy https://res.cloudinary.com
-NeverProxy https://posthog.coherentdigital.net
-NeverProxy https://i2.wp.com
 
 ## **************************BBBBB*****************************************************************
 
@@ -2010,6 +1826,34 @@ DJ classiques-garnier.com
 # New [per prowens] 17 July 2012 cs
 Title CLOCKSS
 URL http://www.clockss.org/clockss
+
+# Added per ralight 2026-01-13
+Title Coherent Digital Resources (updated 20250331)
+URL https://africacommons.net
+HJ https://africacommons.net
+HJ africacommons.net
+HJ https://appliedsciencecommons.net
+HJ appliedsciencecommons.net
+HJ https://canadacommons.ca
+HJ canadacommons.ca
+HJ https://history-commons.net
+HJ history-commons.net
+HJ https://latamcommons.net
+HJ latamcommons.net
+HJ https://oceaniacommons.net
+HJ oceaniacommons.net
+HJ https://policycommons.net
+HJ policycommons.net
+HJ https://southasiacommons.net
+HJ southasiacommons.net
+DJ africacommons.net
+DJ appliedsciencecommons.net
+DJ canadacommons.ca
+DJ history-commons.net
+DJ latamcommons.net
+DJ oceaniacommons.net
+DJ policycommons.net
+DJ southasiacommons.net
 
 # Updated per ralight 2023-05-23
 T Cold Spring Harbor Laboratory Press (OCLC IncludeFile updated 20230519)
@@ -3190,15 +3034,6 @@ URL http://www.hisculture.co.kr
 HJ www.hisculture.co.kr
 DJ hisculture.co.kr
 DJ co.kr
-
-# Added per ralight 2024-08-12
-T History Commons (20220718)
-URL https://history-commons.net
-DJ history-commons.net
-NeverProxy https://coherent-commons.s3.amazonaws.com
-NeverProxy https://res.cloudinary.com
-NeverProxy https://posthog.coherentdigital.net
-NeverProxy https://i2.wp.com
 
 ## **************************IIIII*****************************************************************
 
@@ -5416,14 +5251,6 @@ URL https://trace.tennessee.edu/pursuit/all_issues.html
 HJ http://trace.tennessee.edu
 DJ tennessee.edu
 
-Title Policy Commons 
-URL https://policycommons.net/
-HJ http://policycommons.net/
-DJ policycommons.net
-NeverProxy https://coherent-commons.s3.amazonaws.com
-NeverProxy https://res.cloudinary.com
-NeverProxy https://posthog.coherentdigital.net
-NeverProxy https://i2.wp.com
 
 ## **************************QQQQQ*****************************************************************
 
@@ -6122,15 +5949,6 @@ Title ScienceOpen
 URL https://www.scienceopen.com/
 HJ www.scienceopen.com
 DJ scienceopen.com
-
-# added per CWL 5-7-24
-Title South Asia Commons
-URL https://southasiacommons.net
-DJ southasiacommons.net
-NeverProxy https://coherent-commons.s3.amazonaws.com
-NeverProxy https://res.cloudinary.com
-NeverProxy https://posthog.coherentdigital.net
-NeverProxy https://i2.wp.com
 
 HTTPMethod GET
 HTTPMethod POST
