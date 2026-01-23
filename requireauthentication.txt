@@ -170,6 +170,14 @@ HJ www.databanksinternational.com
 DJ databanksinternational.com
 
 # Moved to always authenticate because vendor does not support IPV6
+# Added per ralight 2024-09-24
+Title Jacobin
+URL https://jacobinmag.com
+HJ https://jacobin.com
+DJ jacobinmag.com
+DJ jacobin.com
+
+# Moved to always authenticate because vendor does not support IPV6
 # Updated per ralight 2024-08-24
 Option CookiePassThrough
 Title National Journal (updated 20240802)
