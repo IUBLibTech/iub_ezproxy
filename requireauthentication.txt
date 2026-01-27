@@ -1,4 +1,5 @@
 #### Stanzas in this file will always require CAS authentication to access ####
+### INCLUDEFILE ./includes/requireauthentication.txt
 
 # TEST for IUB Libraries websites only accessable to IUB Users
 Option MetaEZproxyRewriting
@@ -568,3 +569,5 @@ DJ worldshakesbib.org
 NeverProxy oup-idp.sams-sigma.com
 NeverProxy oup2-idp.sams-sigma.com
 NeverProxy oup3-idp.sams-sigma.com
+
+INCLUDEFILE ../common_stanzas/mathscinet.txt
