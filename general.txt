@@ -4146,20 +4146,7 @@ Title Mathematical Sciences Publishers (updated 20190209)
 URL https://msp.org
 DJ msp.org
 
-# Updated per ralight 2022-07-07
-Title MathSciNet (updated 20220628)
-URL https://mathscinet.ams.org
-HJ http://www.ams.org/mathscinet
-HJ https://www.ams.org/mathscinet
-HJ https://www.ams.org/journals
-HJ http://www.ams.org/journals
-HJ https://www.ams.org/publications/ebooks/ebooks
-HJ http://www.ams.org/publications/ebooks/ebooks
-HJ mathscinet.ams.org
-HJ ams.org
-HJ https://ams.org
-DJ mathscinet.ams.org
-DJ ams.org
+# MathSciNet moved to common_stanzas
 
 # Added per ralight 2023-02-03
 # ERA note: Title tracked in Single Journals in 360 KB
