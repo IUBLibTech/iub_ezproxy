@@ -59,6 +59,13 @@ HJ e-enlightenment.com
 DJ e-enlightenment.com
 
 # Moved to always authenticate because vendor does not support IPV6
+# Platform migration, official stanza not yet released.
+Title Harvard Educational Review
+URL https://www.harvardeducationalreview.org/
+HJ www.harvardeducationalreview.org
+DJ harvardeducationalreview.org
+
+# Moved to always authenticate because vendor does not support IPV6
 # Updated per ralight 2023-07-06
 T The Japan Times Digital Archives (updated 20230626)
 U https://jt-archives.jp
