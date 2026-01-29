@@ -4518,14 +4518,19 @@ DJ newday.com
 Find account.newday.com
 Replace ^Saccount.newday.com^
 
-# Updated to https per RAL 2018-05-23
-Title New Left Review
-URL https://newleftreview.org
-HJ http://newleftreview.org
+# Updated per ralight 2026-01-29
+Title New Left Review (updated 20260121)
+URL http://newleftreview.org
 HJ www.newleftreview.org
-HJ http://www.newleftreview.org
 HJ newleftreview.org
+HJ https://newleftreview.org
+HJ https://www.newleftreview.org
 DJ newleftreview.org
+HJ newleftreview.es
+HJ https://newleftreview.es
+HJ www.newleftreview.es
+HJ https://www.newleftreview.es
+DJ newleftreview.es
 
 # Updated per ralight 2022-03-10
 Title New Mexico Historical Review
