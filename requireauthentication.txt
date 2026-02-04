@@ -26,14 +26,6 @@ HJ api.dango.asahi.com
 DJ api.dango.asahi.com
 AnonymousURL -*
 
-# Moved to always authenticate because this is an Oxford resource and Oxford does not currently support IPv6
-# Updated to https per RAL 2019-06-17
-Title Electronic Enlightenment
-URL https://www.e-enlightenment.com
-HJ http://www.e-enlightenment.com
-HJ www.e-enlightenment.com
-HJ e-enlightenment.com
-DJ e-enlightenment.com
 
 # Moved to always authenticate because vendor does not support IPV6
 # Updated per ralight 2023-07-06
@@ -304,70 +296,6 @@ Replace pdfUrl = "https:\/\/^Sjournal.equinoxpub.com^
 
 INCLUDEFILE ../common_stanzas/aacrjournals.txt
 
-# Moved to always authenticate because vendor does not support IPV6
-# Updated per ralight 2025-12-17
-Title Oxford Scholarly Editions Online (updated 20251211)
-HTTPHeader -request -inject x-proxy-server (server:url:http =~ "@^http://([^:]+)@", re:1)
-URL https://www.oxfordscholarlyeditions.com
-HJ https://www.oxfordscholarlyeditions.com
-HJ https://oxfordscholarlyeditions.com
-HJ www.oxfordscholarlyeditions.com
-HJ oxfordscholarlyeditions.com
-DJ oxfordscholarlyeditions.com
-NeverProxy oup-idp.sams-sigma.com
-NeverProxy oup2-idp.sams-sigma.com
-NeverProxy oup3-idp.sams-sigma.com
-
-
-# Moved to always authenticate because vendor does not support IPV6
-# Updated per RAL 2025-12-17
-Title Oxford Bibliographies (updated 20251211)
-HTTPHeader -request -inject x-proxy-server (server:url:http =~ "@^http://([^:]+)@", re:1)
-URL https://www.oxfordbibliographies.com
-HJ https://www.oxfordbibliographies.com
-HJ https://oxfordbibliographies.com
-HJ www.oxfordbibliographies.com
-HJ oxfordbibliographies.com
-HJ oxfordbibliographiesonline.com
-HJ www.oxfordbibliographiesonline.com
-DJ oxfordbibliographies.com
-NeverProxy oup-idp.sams-sigma.com
-NeverProxy oup2-idp.sams-sigma.com
-NeverProxy oup3-idp.sams-sigma.com
-
-# Moved to always authenticate because vendor does not support IPV6
-# Updated per ralight 2025-12-17
-Option CookiePassThrough
-HTTPMethod OPTIONS
-HTTPMethod PATCH
-HTTPMethod DELETE
-TITLE Oxford Dictionaries Premium (updated 20251211)
-HTTPHeader -request -inject x-proxy-server (server:url:http =~ "@^http://([^:]+)@", re:1)
-URL https://premium.oxforddictionaries.com
-HJ https://premium.oxforddictionaries.com
-Domain premium.oxforddictionaries.com
-HJ premium.oxforddictionaries.com
-DJ ouptag.scholarlyiq.com
-DJ www.google-analytics.com
-Option Cookie
-NeverProxy cdn.privado.ai
-NeverProxy oup-idp.sams-sigma.com
-NeverProxy oup2-idp.sams-sigma.com
-NeverProxy oup3-idp.sams-sigma.com
-
-# Moved to always authenticate because vendor does not support IPV6
-# Updated per ralight 2025-12-17
-Title Oxford Dictionary of National Biography (updated 20251211)
-HTTPHeader -request -inject x-proxy-server (server:url:http =~ "@^http://([^:]+)@", re:1)
-URL https://www.oxforddnb.com
-HJ https://www.oxforddnb.com
-HJ https://oxforddnb.com
-HJ www.oxforddnb.com
-HJ oxforddnb.com
-DJ oxforddnb.com
-NeverProxy oup-idp.sams-sigma.com
-NeverProxy oup2-idp.sams-sigma.com
-NeverProxy oup3-idp.sams-sigma.com
 
 
 # Moved to always authenticate because vendor does not support IPV6
@@ -376,18 +304,7 @@ URL http://www.australianbookreview.com.au
 HJ https://www.australianbookreview.com.au
 DJ australianbookreview.com.au
 
-# Moved to always authenticate because this is an Oxford resource and Oxford does not currently support IPv6
-# Updated per ralight 2025-12-17
-Title World Shakespeare Bibliography (updated 20251211)
-HTTPHeader -request -inject x-proxy-server (server:url:http =~ "@^http://([^:]+)@", re:1)
-URL https://www.worldshakesbib.org
-HJ https://worldshakesbib.org
-HJ www.worldshakesbib.org
-HJ worldshakesbib.org
-DJ worldshakesbib.org
-NeverProxy oup-idp.sams-sigma.com
-NeverProxy oup2-idp.sams-sigma.com
-NeverProxy oup3-idp.sams-sigma.com
+
 
 INCLUDEFILE ../common_stanzas/mathscinet.txt
 INCLUDEFILE ../common_stanzas/harvard-educational-review.txt
