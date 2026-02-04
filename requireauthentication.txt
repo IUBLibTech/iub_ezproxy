@@ -137,10 +137,6 @@ HJ http://www.edweek.org/
 DJ edweek.org
 DJ pelcro.com
 
-#Title Ethnologue
-#URL https://www.ethnologue.com
-#HJ ethnologue.com
-#DJ ethnologue.com
 
 Title Cross-National Time Series Data Archive
 URL http://www.databanksinternational.com
@@ -308,19 +304,6 @@ Replace pdfUrl = "https:\/\/^Sjournal.equinoxpub.com^
 
 INCLUDEFILE ../common_stanzas/aacrjournals.txt
 
-
-# Moved to always authenticate because vendor does not support IPV6
-Title Oxford Language Dictionaries Online
-URL http://www.oxfordlanguagedictionaries.com
-HJ www.oxfordlanguagedictionaries.com
-HJ oxfordlanguagedictionaries.com
-DJ oxfordlanguagedictionaries.com
-HJ www.oxforddictionaries.com
-HJ blog.oxforddictionaries.com
-HJ community.oxforddictionaries.com
-DJ oxforddictionaries.com 
-
-
 # Moved to always authenticate because vendor does not support IPV6
 # Updated per ralight 2025-12-17
 Title Oxford Scholarly Editions Online (updated 20251211)
@@ -386,21 +369,6 @@ NeverProxy oup-idp.sams-sigma.com
 NeverProxy oup2-idp.sams-sigma.com
 NeverProxy oup3-idp.sams-sigma.com
 
-# Updated per ralight 2025-12-17
-Title Oxford Research Encyclopedia - Including Encyclopedia of Social Work - (updated 20251211)
-HTTPHeader -request -inject x-proxy-server (server:url:http =~ "@^http://([^:]+)@", re:1)
-URL https://oxfordre.com
-HJ https://oxfordre.com
-HJ https://www.oxfordre.com
-HJ oxfordre.com
-HJ www.oxfordre.com
-HJ https://politics.oxfordre.com
-HJ politics.oxfordre.com
-DJ oxfordre.com
-DJ prototypes.filtro.us
-NeverProxy oup-idp.sams-sigma.com
-NeverProxy oup2-idp.sams-sigma.com
-NeverProxy oup3-idp.sams-sigma.com
 
 # Moved to always authenticate because vendor does not support IPV6
 Title AUSTRALIAN BOOK REVIEW
