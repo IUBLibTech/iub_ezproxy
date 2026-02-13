@@ -3452,11 +3452,10 @@ HJ https://www.mgebooks.cn
 HJ www.mgebooks.cn
 DJ mgebooks.cn
 
-# Updated per ralight 2021-12-02
-# Formerly titled JHU Guide to Literary Theory and Criticism
-Title Johns Hopkins Guide to Literary Theory and Criticism
-URL https://litguide.press.jhu.edu/
-HJ http://litguide.press.jhu.edu
+# Updated per ralight 2026-02-06
+Title JHU Guide to Literary Theory and Criticism (updated 20260211)
+URL https://litguide.press.jhu.edu
+HJ https://litguide.press.jhu.edu
 HJ litguide.press.jhu.edu
 HJ www.litguide.press.jhu.edu
 HJ www.press.jhu.edu
