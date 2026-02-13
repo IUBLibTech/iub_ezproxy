@@ -119,7 +119,19 @@ Option Cookie
 
 ###################################   TEMPORARY RESOURCES   #######################################
 
-
+# Added per cwlamb 2026-02-13
+# Trial access through 2026-03-15
+Title Oxford University Voltaire
+URL https://www.ov-vf.com
+HJ www.ov-vf.com
+HJ ov-vf.com
+HJ api.ov-vf.com
+HJ assets.ov-vf.com
+HJ www.ov-vf.com
+HJ ov-vf.com
+HJ api.ov-vf.com
+HJ assets.ov-vf.com
+DJ www.ov-vf.com
 
 ####################################################################################################
 
