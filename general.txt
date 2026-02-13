@@ -3502,6 +3502,12 @@ HJ www.jahonline.org
 HJ jahonline.org
 DJ jahonline.org
 
+Added per ralight 2026-02-13
+Title Journal of Agriculture, Food Systems, and Community Development (JAFSCD)
+URL https://www.foodsystemsjournal.org/index.php/fsj
+HJ www.foodsystemsjournal.org
+DJ foodsystemsjournal.org
+
 # Added per rms 2021-04-16
 Title Journal of Ancient Egyptian Interconnections
 URL https://egyptianexpedition.org/volumes/
