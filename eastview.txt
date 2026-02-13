@@ -1,13 +1,12 @@
 
 #### eastview.txt
 
-# Updated per ralight 2025-12-12
+# Updated per ralight 2026-02-13
 # Revised per advise from Steve Morse at OCLC
 # List before any other stanzas in this includes file per ralight 2025-11-14
-AnonymousURL -OPTIONS +https://iiif.eastview.com/iiif/*
-AnonymousURL +https://iiif.eastview.com/iiif/*
-Title East View Information Services Inc (updated 20241125)
+Title East View Information Services Inc (updated 20260210)
 HTTPHeader -request -process Bib-Token
+URL https://dlib.eastview.com/login
 HJ bib.eastview.com
 HJ ccg.eastview.com
 HJ crg.eastview.com
@@ -22,22 +21,21 @@ HJ https://dlib.eastview.com
 HJ https://eastview.com
 HJ https://gca.eastview.com
 HJ https://gpa.eastview.com
+HJ https://inb.eastview.com
 HJ https://kodeks.eastview.com
 HJ https://www.eastview.com
+HJ inb.eastview.com
 HJ kodeks.eastview.com
 HJ news.mosinfo.ru
 HJ online.eastview.com
 HJ www.eastview.com
+DJ eastview.com
+DJ mosinfo.ru
 # Hosts added for Eastview products not included in OCLC stanza, per suggestion from OCLC support
 # World News Connection
 HJ https://wnc.eastview.com/
 HJ http://wnc.eastview.com
 HJ wnc.eastview.com
-# Commented out based on Eastview information - ralight 2025-12-18
-# HJ https://iiif.eastview.com
-DJ eastview.com
-DJ mosinfo.ru
-AnonymousURL -*
 
 # Updated per ralight 2022-03-28
 AnonymousURL +https://static-cdn.arcanum.hu* 
