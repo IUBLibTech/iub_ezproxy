@@ -1413,23 +1413,7 @@ HJ ams.bristoluniversitypressdigital.com
 DJ bristoluniversitypressdigital.com
 
 
-# Added per ralight 2022-07-06
-# Keep stanza with Britannica Academic stanza
-# Also called Merriam-Webster Unabridged
-T M-W Unabridged
-U https://dictionary.eb.com
-D eb.com
-D merriam-webster.com
-H www.dictionary.eb.com
-H unabridged.merriam-webster.com
-# Updated per ralight 2021-05-04
-Title Britannica - Consumer (updated 20210428)
-URL https://britannica.com
-HJ britannica.com
-HJ eb.com
-HJ www.eb.com
-HJ www.britannica.com
-DJ britannica.com
+# Britannica - Consumer moved to common stanza
 
 # Added per CWL 09-19-2023
 Title BuildingGreen 
