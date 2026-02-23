@@ -119,6 +119,14 @@ Option Cookie
 
 ###################################   TEMPORARY RESOURCES   #######################################
 
+# Added per cwlamb 2026-02-23
+# Trial access through 2026-04-23
+Title Chinese Soviet Republic: Prototype for a Revolution
+URL https://ae.eastview.com/aes112
+HJ ae.eastview.com/aes112
+HJ ae.eastview.com
+DJ eastview.com
+
 # Added per cwlamb 2026-02-13
 # Trial access through 2026-03-15
 Title Oxford University Voltaire
