@@ -4963,15 +4963,7 @@ DJ psychiatryonline.com
 DJ psychiatryonline.org
 DJ appi.org
 
-# Updated per RAL 2020-12-30
-Title Psychotherapy.net
-URL https://www.psychotherapy.net/
-HJ https://www.psychotherapy.net
-HJ www.psychotherapy.net
-H https://p3.3playmedia.com
-DJ psychotherapy.net
-NeverProxy player.vimeo.com
-NeverProxy cdnapisec.kaltura.com
+# Psychotherapy.net moved to common stanza
 
 # Update per ralight 2022-03-24
 Title Publicationes Mathematicae
