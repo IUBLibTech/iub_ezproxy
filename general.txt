@@ -2459,13 +2459,7 @@ URL https://fims.historicalinfo.com
 HJ fims.historicalinfo.com
 DJ fims.historicalinfo.com
 
-# Updated per RAL 2020-12-04
-Title OCLC FirstSearch
-URL https://firstsearch.oclc.org/FSIP
-HJ http://firstsearch.oclc.org
-HJ newfirstsearch.oclc.org
-HJ https://newfirstsearch.oclc.org
-DJ oclc.org
+# OCLC FirstSearch moved to common_stanza
 
 # Updated per ralight 2021-08-03
 Title Fonti musicali Italiane
