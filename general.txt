@@ -3022,13 +3022,12 @@ HJ http://www.infosci-journals.com
 DJ igi-global.com
 DJ infosci-journals.com
 
-# Commented out by ralight on 2025-08-18 to try to resolve ILLiad form issue
-# Updated per ralight 2025-08-12
-# Title ILLIAD
-# URL https://www.dds.indiana.edu/illiad/illiad.dll
-# Host www.dds.indiana.edu
-# Host https://iu.illiad.oclc.org
-# Host iu.illiad.oclc.org
+# Changed to neverproxy stanza by ralight on 2026-03-07 to try to resolve ILLiad form issue when using EBSCO off campus
+Title ILLIAD
+NeverProxy https://www.dds.indiana.edu
+NeverProxy www.dds.indiana.edu
+NeverProxy https://iu.illiad.oclc.org
+NeverProxy iu.illiad.oclc.org
 
 # Updated per ralight 2024-01-29
 # HTTPheader line localized by recommendation from OCLC to resolve issue with other resources. Does not match OCLC DB site stanza.
