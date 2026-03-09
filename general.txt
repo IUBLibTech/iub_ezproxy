@@ -4510,15 +4510,6 @@ DJ nomos-elibrary.de
 DJ nomos-zeitschriften.de
 DJ nomos.de/archiv
 
-# Updated per RAL 2020-11-19
-Title Now Publishers
-URL https://www.nowpublishers.com
-H https://nowpublishers.com
-H https://www.nowpublishers.com
-H nowpublishers.com
-H www.nowpublishers.com
-D nowpublishers.com
-
 Title Nurimedia Knowledge Reference Service
 URL https://www.krpia.co.kr
 HJ http://www.krpia.co.kr
