@@ -6508,10 +6508,12 @@ HJ www.worldcat.org
 HJ search.worldcat.org
 DJ worldcat.org
 
-# Updated per ralight 2022-11-23
-Title WorldCat Discovery (updated 20210806)
+# Updated per ralight 2026-03-11
+Title WorldCat Discovery
 HTTPHeader -request -process x-oclc-api-key
 HTTPHeader -request -process x-oclc-api-keyn
+HTTPHeader -request -process Oclc-Apin
+HTTPHeader -request -process Oclc-Apik
 URL https://iublibraries.on.worldcat.org
 HJ 5279.on.worldcat.org
 DJ worldcat.org
@@ -6521,6 +6523,7 @@ Find returnLocation = scheme + location.hostname + (location.port != "" ? ":" + 
 Replace returnLocation = "https://^Aiublibraries.on.worldcat.org"
 Find sendLocation = scheme + location.hostname + (location.port != "" ? ":" + location.port : "")
 Replace sendLocation = "https://^siublibraries.on.worldcat.org^"
+
 
 # Updated per ralight 2024-02-14
 Option CookiePassThrough
