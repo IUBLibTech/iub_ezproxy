@@ -331,11 +331,12 @@ DJ home.adage.com
 DJ mag.adage.com
 DJ adage.com
 
-# Added per RAL 2019-01-07
-Title Africa Confidential
-URL https://www.africa-confidential.com/
-HJ www.africa-confidential.com
+# Updated per RAL 2026-03-19
+Title Africa-Confidential (updated 20240312)
+URL https://www.africa-confidential.com
 HJ africa-confidential.com
+HJ https://africa-confidential.com
+HJ www.africa-confidential.com
 DJ africa-confidential.com
 
 # Added per ralight 2023-01-23
