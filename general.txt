@@ -2538,13 +2538,6 @@ HJ www.impan.pl
 DJ impan.gov.pl
 DJ impan.pl
 
-# Added per ralight 2024-09-23
-# Added for Sport Marketing Quarterly
-Title FIT Publishing
-URL https://journals.fitpublishing.com/smq-login/
-HJ journals.fitpublishing.com
-DJ fitpublishing.com
-
 # Added per ralight 2025-02-03
 # Requested by libser
 Title Fibonacci Quarterly
