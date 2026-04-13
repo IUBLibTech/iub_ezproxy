@@ -4233,13 +4233,7 @@ HJ www.molbiolcell.org
 DJ lifescied.org
 DJ molbiolcell.org
 
-# added per CWL 7-22-21
-Title Mometrix eLibrary 
-URL https://portal.mometrixelibrary.com
-HJ https://portal.mometrixelibrary.com
-HJ https://users.mometrixelibrary.com
-DJ mometrixelibrary.com
-NeverProxy cdnjs.cloudflare.com
+# Mometrix eLibrary moved to common stanza
 
 Title Monthly Review
 URL http://monthlyreview.org/browse-the-archives
