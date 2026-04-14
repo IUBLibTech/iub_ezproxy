@@ -306,5 +306,5 @@ DJ australianbookreview.com.au
 
 
 
-INCLUDEFILE ../common_stanzas/mathscinet.txt
+
 INCLUDEFILE ../common_stanzas/harvard-educational-review.txt
