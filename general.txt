@@ -128,15 +128,6 @@ HJ ae.eastview.com
 DJ eastview.com
 
 
-# Added per ralight 2026-02-25
-# Trial access through 2025-03-31
-Title Scite (updated 20211112)
-URL https://scite.ai
-HJ http://www.scite.ai
-DJ scite.ai
-NeverProxy api.scite.ai
-NeverProxy cdn.scite.ai
-
 ####################################################################################################
 
 
