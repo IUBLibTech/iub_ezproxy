@@ -398,37 +398,7 @@ URL http://bench.forster-long.com/search
 HJ bench.forster-long.com
 DJ bench.forster-long.com
 
-# Updated per RAL 2020-03-31
-Option DomainCookieOnly
-Title American Chemical Society
-URL http://pubs.acs.org
-HJ acs.org
-HJ cenglobal.acs.org
-HJ https://cenglobal.acs.org
-HJ https://pubs.acs.org
-HJ pubs.acs.org
-HJ www.acs.org
-HJ www.chemistry.org
-HJ www.pubs.acs.org
-HJ https://cdn-pubs.acs.org
-# cendigitalmagazine.acs.org not in OCLC stanza, added per RAL 2020-05-19
-HJ https://cendigitalmagazine.acs.org
-# accounts.cas.org not in OCLC stanza, added per RAL 2020-04-10
-HJ https://accounts.cas.org
-# access host not included in OCLC stanza , added per RAL 2020-06-10
-HJ https://access.acspubs.org
-# Extra hosts added for ACS Paragon Plus per ralight 2023-07-06
-HJ http://acsparagonplus.acs.org
-HJ https://acsparagonplus.acs.org
-HJ acsparagonplus.acs.org
-DJ acs.org
-Find hostdev="pubsdev.acs.org"
-Replace hostdev="^ppubsdev.acs.org^"
-Find hosttest="pubstest.acs.org"
-Replace hosttest="^ppubstest.acs.org^"
-Find hostprod="pubs.acs.org"
-Replace hostprod="^ppubs.acs.org^"
-Option Cookie
+# American Chemical Society moved to common stanza
 
 Title American Institute of Mathematical Sciences
 URL http://aimsciences.org/journals/index.jsp
