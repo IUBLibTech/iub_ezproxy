@@ -214,13 +214,8 @@ HJ academicrightspress.com
 HJ musicid.academicrightspress.com
 DJ academicrightspress.com
 
-Title Access Newspaper Archive
-URL https://access.newspaperarchive.com
-HJ http://access.newspaperarchive.com
-HJ access.newspaperarchive.com
-HJ newspaperarchive.com
-HJ https://newspaperarchive.com
-DJ access.newspaperarchive.com
+# NewspaperArchive moved to common stanza
+
 
 Title ACLS Humanities E-Book
 URL http://www.humanitiesebook.org/
