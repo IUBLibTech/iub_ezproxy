@@ -3755,12 +3755,11 @@ HJ learntechlib.org
 HJ https://learntechlib.org
 DJ learntechlib.org
 
-# added per CWL 12-30-21
+# Updated per ralight 2026-04-20
 Title Letopisi Digital Archive
 URL http://letopisi.dlibrary.org/
+HJ https://letopisi.dlibrary.org
 HJ letopisi.dlibrary.org
-DJ letopisi.dlibrary.org
-HJ dlibrary.org
 DJ dlibrary.org
 
 # Updated per ralight 2025-04-02
