@@ -6034,20 +6034,8 @@ HJ www.oxfordscholarship.com
 DJ oxfordscholarship.com
 DJ universitypressscholarship.com
 
-# Updated per RAL 2021-01-26
-Title UpToDate
-URL https://www.uptodate.com/contents/search
-HJ http://www.uptodate.com
-HJ https://uptodate.com
-HJ http://uptodate.com
-HJ https://www.uptodateonline.com
-HJ uptodate.com
-HJ uptodateonline.com
-HJ utdol.com
-HJ www.uptodate.com
-HJ www.uptodateonline.com
-HJ www.utdol.com
-DJ uptodate.com
+
+# UpToDate moved to require authentication
 
 # Updated per ralight 2022-06-09
 # Stanza previously called Urban History Review
