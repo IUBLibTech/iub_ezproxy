@@ -137,6 +137,18 @@ Replace //^So.oversea.cnki.net^
 AnonymousURL -*
 Option Cookie
 
+# Added per ralight 2026-04-23
+# Infoteka will be the new home of Russian and Eastern European content from East View
+Title Infoteka (updated 20260417)
+HTTPHeader -request -process Bib-Token
+URL https://online.infoteka.com/login-by-ip
+HJ https://online.infoteka.com
+HJ online.infoteka.com
+HJ https://infoteka.com
+HJ infoteka.com
+HJ https://kodeks.infoteka.com
+HJ https://bib.infoteka.com
+DJ infoteka.com
 
 Title National Palace Museum Journals Archive
 URL https://p.udpweb.com/ 
