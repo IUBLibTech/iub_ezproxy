@@ -3688,12 +3688,6 @@ HJ http://scholar.dkyobobook.co.kr
 HJ scholar.dkyobobook.co.kr
 DJ kyobobook.co.kr
 
-# Added per CWL 2023-09-15
-Title Kyobo E-books
-URL https://iulib.dkyobobook.co.kr/
-HJ iulib.dkyobobook.co.kr
-HJ dkyobobook.co.kr
-DJ dkyobobook.co.kr
 
 # added per CWL 03-05-24
 Title KSDC DB
