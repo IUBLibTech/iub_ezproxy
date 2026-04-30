@@ -1223,14 +1223,7 @@ HJ www.biologicalpsychiatryjournal.com
 HJ biologicalpsychiatryjournal.com
 DJ biologicalpsychiatryjournal.com
 
-# Updated per RAL 2020-10-01
-Title BioOne Complete
-URL https://www.bioone.org/
-HJ http://www.bioone.org
-HJ https://bioone.org
-HJ http://bioone.org
-HJ www.bioone.org
-DJ bioone.org
+# BioOne Complete moved to common stanza
 
 # Updated per ralight 2022-07-07
 Title Bioscientifica (updated 20220624)
@@ -2448,16 +2441,7 @@ URL http://french17.unl.edu
 HJ french17.unl.edu
 DJ unl.edu
 
-# Updated per ralight 2022-07-07
-Title Fulcrum (updated 20180731)
-URL https://www.fulcrum.org
-HJ hdl.handle.net
-HJ https://hdl.handle.net
-HJ www.fulcrum.org
-HJ https://www.fulcrum.org
-HJ fulcrum.org
-HJ https://fulcrum.org
-DJ fulcrum.org 
+# Fulcrum moved to common stanza
 
 # Updated per ralight 2022-05-05
 # Stanza previously called Fundamenta Mathematicae
@@ -2668,43 +2652,7 @@ HJ https://egs.americangeosciences.org
 HJ americangeosciences.org
 DJ americangeosciences.org
 
-# Updated per ralight 2022-10-14
-Title Google Scholar (Updated 20221007)
-URL http://scholar.google.com
-Host https://scholar.google.com
-Host scholar.google.com.au
-Host https://scholar.google.com.au
-Host scholar.google.ca
-Host https://scholar.google.ca
-Host scholar.google.de
-Host https://scholar.google.de
-Host scholar.google.fi
-Host https://scholar.google.fi
-Host scholar.google.com.hk
-Host https://scholar.google.com.hk
-Host scholar.google.nl
-Host https://scholar.google.nl
-Host scholar.google.co.nz
-Host https://scholar.google.co.nz
-Host scholar.google.co.uk
-Host https://scholar.google.co.uk
-Host scholar.google.se
-Host https://scholar.google.se
-Host scholar.google.co.za
-Host https://scholar.google.co.za
-Host www.scholar.google.com
-Host https://scholar.google.ae
-Host scholar.google.ae
-Host https://scholar.google.be
-Host scholar.google.be
-Host https://scholar.google.it
-Host scholar.google.it
-# Extra host lines added by ralight to reduce needhost errors 2024-01-28
-Host https://scholar.google.com.tw
-Host scholar.google.com.tw
-# Extra host lines added by ralight to reduce needhost errors 2024-02-13
-Host https://scholar.google.es
-Host scholar.google.es
+# Google Scholar moved to common stanza
 
 # Updated per ralight 2023-08-14
 Title Grand Secretariat Archives
@@ -3089,10 +3037,7 @@ HJ inlibra.com
 HJ www.inlibra.com
 DJ inlibra.com
 
-# Updated per ralight 2021-12-06
-Title INSPIRE 
-URL https://inspire.in.gov/
-HJ inspire.in.gov
+# INSPIRE moved to common stanza
 
 # Updated per ralight 2021-07-30
 Title Institute of Physics (updated 20210720)
@@ -4792,16 +4737,7 @@ HJ https://www.projecteuclid.org
 DJ projecteuclid.org
 HJ http://projecteuclid.org
 
-# Updated per RAL 2020-12-30
-Option DomainCookieOnly
-Title Project Muse
-URL http://muse.jhu.edu/
-HJ https://muse.jhu.edu
-HJ http://www.muse.jhu.edu
-HJ muse.uq.edu.au
-HJ https://muse.uq.edu.au
-DJ muse.jhu.edu
-Option Cookie
+# Project Muse moved to common stanza
 
 # Added per CWL 2020-02-13
 Title Project Syndicate
@@ -5575,13 +5511,7 @@ URL https://www.dhcdb.com.tw/SP/
 HJ www.dhcdb.com
 DJ dhcdb.com
 
-# Added per RAL 2020-12-11
-# Gratis access via INSPIRE 2020 agreement
-Title TeachingBooks
-URL https://www.teachingbooks.net/
-HJ www.teachingbooks.net
-HJ teachingbooks.net
-DJ teachingbooks.net
+# TeachingBooks moved to common stanza
 
 # Add per CWL 2022-06-30
 Title Teaching Professor
@@ -6089,28 +6019,7 @@ URL https://www.valueinhealthjournal.com/
 HJ www.valueinhealthjournal.com
 DJ valueinhealthjournal.com
 
-T Value Line
-MimeFilter application/json .* javascript
-U https://research.valueline.com/secure/research
-HJ research.valueline.com
-HJ www.valueline.com
-HJ www3.valueline.com
-HJ jump.valueline.com
-HJ skip.valueline.com
-HJ https://jump.valueline.com
-DJ valueline.com
-#DJ www.google.com
-DJ googleapis.com
-Find name="RelayState" value="https://
-Replace name="RelayState" value="https://^A
-Find name='RelayState' value='https://
-Replace name='RelayState' value='https://^A
-Find 'http:\x2F\x2F
-Replace 'http://
-Find "//www.google.com/
-Replace "https://www.google.com/
-Find googleSearchDomain = "www.google.com";
-Replace googleSearchDomain = "^pwww.google.com^";
+# Value Line moved to common stanza
 
 # Updated per ralight 2024-10-16
 Title Vandenhoeck & Ruprecht (updated 20241011)
