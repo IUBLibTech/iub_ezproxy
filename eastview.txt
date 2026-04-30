@@ -1,12 +1,13 @@
 
 #### eastview.txt
 
-# Updated per ralight 2026-02-13
+# Updated per ralight 2026-04-30
 # Revised per advise from Steve Morse at OCLC
 # List before any other stanzas in this includes file per ralight 2025-11-14
-Title East View Information Services Inc (updated 20260210)
+Title East View Information Services Inc (updated 20260424)
 HTTPHeader -request -process Bib-Token
 URL https://dlib.eastview.com/login
+HJ ae.eastview.com
 HJ bib.eastview.com
 HJ ccg.eastview.com
 HJ crg.eastview.com
@@ -14,6 +15,7 @@ HJ dlib.eastview.com
 HJ eastview.com
 HJ gca.eastview.com
 HJ gpa.eastview.com
+HJ https://ae.eastview.com
 HJ https://bib.eastview.com
 HJ https://ccg.eastview.com
 HJ https://crg.eastview.com
