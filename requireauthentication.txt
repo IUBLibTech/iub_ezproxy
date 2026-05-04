@@ -304,7 +304,7 @@ URL http://www.australianbookreview.com.au
 HJ https://www.australianbookreview.com.au
 DJ australianbookreview.com.au
 
-
+INCLUDEFILE ../common_stanzas/candid.txt
 
 
 INCLUDEFILE ../common_stanzas/harvard-educational-review.txt
