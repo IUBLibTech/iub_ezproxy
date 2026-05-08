@@ -168,16 +168,7 @@ U https://www.aaeportal.com
 HJ https://www.aaeportal.com
 DJ aaeportal.com
 
-# Updated to https per ralight 2022-07-29
-Title AAPG Datapages
-URL https://archives.datapages.com/
-HJ http://archives.datapages.com/
-HJ search.datapages.com
-HJ www.aapg.org
-HJ www.searchanddiscovery.com
-DJ datapages.com
-DJ aapg.org
-DJ searchanddiscovery.com
+# AAPG Datapages moved to common stanza
 
 # ABC-CLIO Databases and Ebooks moved to common_stanza
 
@@ -1296,17 +1287,6 @@ HJ api.app.bizminer.com
 HJ library.bizminer.com
 DJ bizminer.com
 AnonymousURL -*
-
-# New [per jpillan] 10 October 2013 cs
-Title Blacklight Dev
-URL http://blacklight-dev.uits.iu.edu
-
-# New [per jwd] 3 December 2013 cs
-Title Blacklight test
-URL http://classic.iucat.iu.edu
-URL http://classic.iucat-test.uits.iu.edu:12200
-HostJavascript classic.iucat.iu.edu
-HostJavascript classic.iucat-test.uits.iu.edu:12200
 
 # Updated to https per RAL 2020-01-09
 Title Blake an Illustrated Quarterly
@@ -3521,36 +3501,32 @@ URL http://database.asahi.com/
 HJ database.asahi.com
 DJ asahi.com
 
-# Updated per ralight 2026-04-12
-AnonymousURL +https://breader-api-v2.azurewebsites.net/*
-AnonymousURL +https://breader-api-v4-s1-c6caehf4h7cscnfp.japanwest-01.azurewebsites.net/*
+# Updated per ralight 2026-05-08
 AnonymousURL +https://breader-api-v4-cxf0cpg2gfd4g5cj.japanwest-01.azurewebsites.net/*
+AnonymousURL +https://api-v4.breader.cloud/*
 AnonymousURL +https://breadercontents.blob.core.windows.net/*
 AnonymousURL +https://bportal.blob.core.windows.net/*
 Option DomainCookieOnly
-Title KinoDen eBook (updated 20260401)
+Title KinoDen eBook (updated 20260507)
 HTTPHeader -response -edit Access-Control-Allow-Origin "*"
 HTTPHeader -response -edit Access-Control-Allow-Origin RewriteURL(kinoden.kinokuniya.co.jp)
 URL https://kinoden.kinokuniya.co.jp/
 HJ http://kinoden.kinokuniya.co.jp
 HJ http://bportal.blob.core.windows.net
-HJ http://breader-api-v2.azurewebsites.net
-HJ http://breader-api-v4-s1-c6caehf4h7cscnfp.japanwest-01.azurewebsites.net
 HJ http://breader-api-v4-cxf0cpg2gfd4g5cj.japanwest-01.azurewebsites.net
+HJ http://api-v4.breader.cloud
 HJ http://breadercontents.blob.core.windows.net
 HJ http://breader.cloud/book/
 HJ https://breader.cloud/book/
-HJ https://breader-api-v2.azurewebsites.net
-HJ https://breader-api-v4-s1-c6caehf4h7cscnfp.japanwest-01.azurewebsites.net
 HJ https://breader-api-v4-cxf0cpg2gfd4g5cj.japanwest-01.azurewebsites.net
+HJ https://api-v4.breader.cloud
 HJ https://breadercontents.blob.core.windows.net
 HJ https://bportal.blob.core.windows.net
 DJ kinokuniya.co.jp
 DJ msecnd.net
 DJ bportal.blob.core.windows.net
-DJ breader-api-v2.azurewebsites.net
-DJ breader-api-v4-s1-c6caehf4h7cscnfp.japanwest-01.azurewebsites.net
 DJ breader-api-v4-cxf0cpg2gfd4g5cj.japanwest-01.azurewebsites.net
+DJ api-v4.breader.cloud
 DJ breadercontents.blob.core.windows.net
 DJ ep-audiobook-breader-mediakind.japanwest.streaming.mediakind.com
 DJ breader.cloud
@@ -6153,19 +6129,8 @@ HJ https://oldcitypublishing.com
 HJ www.oldcitypublishing.com
 DJ oldcitypublishing.com
 
-# Added per RAL 2018-05-22
-AnonymousURL +https://api.wileydigitalarchives.com/*
-Title Wiley Digital Archives
-URL https://app.wileydigitalarchives.com/
-HJ https://app.wileydigitalarchives.com
-HJ https://api.wileydigitalarchives.com
-NeverProxy content.wileydigitalarchives.com
-NeverProxy ajax.googleapis.com
-NeverProxy fonts.googleapis.com
-NeverProxy fonts.gstatic.com
-NeverProxy js.zapjs.com
-NeverProxy maxcdn.bootstrapcdn.com
-AnonymousURL -*
+#  Wiley Digital Archives moved to common stanza
+
 
 # Updated per ralight 2023-05-10
 Neverproxy fonts.googleapis.com
