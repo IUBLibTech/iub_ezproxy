@@ -1626,6 +1626,7 @@ HJ https://choicereviews.org
 DJ choicereviews.org
 DJ choice360.org
 
+# CIC E-publishing Venture moved to common stanza: cic-epublishing-venture.txt
 
 # Updated per ralight 2022-02-24
 Title CIOS (updated 20220216)
@@ -3201,6 +3202,13 @@ URL https://japanknowledge.com/lib/search/nikkoku/
 HJ http://japanknowledge.com
 HJ japanknowledge.com
 DJ japanknowledge.com
+
+# Added per brboren via ralight 2026-05-13
+# Comes with Zasshi kiji sakuin shusei (Japanese Periodicals Index Database)
+Title Jinbutsu Plus
+URL https://jinbutsu-plus.com/
+HJ https://jinbutsu-plus.com
+DJ jinbutsu-plus.com
 
 # Updated per ralight 2023-05-17
 ProxyHostnameEdit www.mgebooks.cn$ www-mgebooks-cn
@@ -5128,14 +5136,7 @@ HJ libraries.ase.org.uk
 HJ www.ase.org.uk
 DJ ase.org.uk
 
-# Added per ralight 2021-11-30
-Title Scientific American (updated 20190531)
-URL https://www.scientificamerican.com/
-HJ http://www.scientificamerican.com/
-HJ https://www.sciam.com
-HJ http://www.sciam.com
-DJ sciam.com
-DJ scientificamerican.com
+# Scientific American moved to common stanza: scientific-american.txt
 
 # AIPP Publishing Platform (formerly Scitation) moved to common stanza
 
@@ -5360,17 +5361,7 @@ HJ plato.stanford.edu
 
 # Statista stanza replaced by new directive in config.txt
 
-# Updated per ralight 2024-11-05
-# Neverproxy lines added per Swank support. Does not match OCLC stanza
-Title Swank Digital Campus
-URL https://digitalcampus.swankmp.net/indianau314393/ 
-H digitalcampus.swankmp.net
-H https://permalinks.swankmp.net
-D swankmp.net
-NeverProxy wvlsmod.swankmp.net
-NeverProxy dc.swankmp.net
-NeverProxy fairplay.swankmp.net
-NeverProxy cdn.swankidc.com
+# Swank Digital Campus moved to common stanza: swank-digital-campus.txt
 
 # Updated per ralight 2022-04-07
 Title Swimming World Magazine
@@ -6166,16 +6157,7 @@ HJ www.worldscinet.com
 DJ worldscientific.com
 DJ worldscinet.com
 
-# Worldcat.org stanza should be listed above WorldCat Discovery stanza
-Cookie ezproxy_s=1; domain=.worldcat.org
-T OCLC WorldCat.org (Updated 20231114)
-U https://search.worldcat.org
-HJ https://search.worldcat.org
-HJ https://www.worldcat.org
-HJ https://worldcat.org
-HJ www.worldcat.org
-HJ search.worldcat.org
-DJ worldcat.org
+# OCLC WorldCat.org moved to common stanza: worldcat-org.txt
 
 # Updated per ralight 2026-03-11
 Title WorldCat Discovery
