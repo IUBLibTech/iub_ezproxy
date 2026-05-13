@@ -1145,7 +1145,7 @@ DJ ishmtdigitallibrary.com
 DJ onlineinnovationsjournal.com
 DJ thermopedia.com
 
-# Updated per RAL 2020-09-10
+# Updated per ralight 2026-05-13
 Title Berghahn Books
 HTTPHeader -request -process X-Requested-With
 URL http://www.berghahnbooks.com
@@ -1158,6 +1158,9 @@ HJ https://www.berghahnbooks.com
 HJ journals.berghahnbooks.com
 HJ www.berghahnbooks.com
 HJ www.berghahnjournals.com
+# Extra hosts added for the Migration Studies and Development Studies collection which is not yet OA.
+HJ https://oa.berghahnbooksonline.com
+HJ oa.berghahnbooksonline.com
 DJ berghahnbooks.com
 DJ berghahnjournals.com
 
