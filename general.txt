@@ -5494,18 +5494,12 @@ HJ teachingprofessor.com
 DJ magnapubs.com
 DJ teachingprofessor.com
 
-# Updated per ralight 2023-03-08
+# Updated per ralight 2026-05-18
+# Neverproxy stanza used to improve IUCAT experience for non-proxy/IP resource
 AnonymousURL -RE +https://.+streamlock\.net.*/tvna-direct/.*
-T Vanderbilt Television News Archive (updated 20230303)
-HTTPHeader -response -process access-control-allow-origin
-U https://tvnews.vanderbilt.edu/
-HJ https://tvnews.vanderbilt.edu
-HJ https://57cfde5d5a7ad.streamlock.net
-HJ tvnews.vanderbilt.edu
-HJ 57cfde5d5a7ad.streamlock.net
-DJ vanderbilt.edu
-DJ streamlock.net
-AnonymousURL -*
+T Television News Archive at Vanderbilt University
+NeverProxy tvnews.vanderbilt.edu
+NeverProxy https://tvnews.vanderbilt.edu
 
 Title Textile Hive
 URL https://app.textilehive.com
