@@ -5705,6 +5705,13 @@ Title University of Fashion
 URL https://auth.universityoffashion.com/
 NeverProxy www.universityoffashion.com
 
+# Added per ralight 2026-05-18
+# Includes our Folklorica subscription
+Title University of Kansas Libraries (OJS/PKP platform)
+URL https://journals.ku.edu/
+HJ journals.ku.edu
+DJ ku.edu
+
 # Updated per ralight 2025-12-14
 Title University of Toronto Press Journals (updated 20241209)
 URL http://www.utpress.utoronto.ca
