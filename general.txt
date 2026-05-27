@@ -2612,9 +2612,11 @@ HJ web.math.hr
 DJ unizg.hr
 DJ math.hr
 
-# Updated per ralight 2022-0201
+# Updated per ralight 2026-05-27
 Title Glossary of Geology - American Geosciences Institute Glossary of Geology
-URL https://glossary.americangeosciences.org/
+URL https://webapp.glossaryofgeology.org
+HJ https://webapp.glossaryofgeology.org
+HJ https://glossary.americangeosciences.org/
 HJ https://www.americangeosciences.org
 HJ https://www.coldregions.org
 HJ https://cangeoref.americangeosciences.org
@@ -2624,8 +2626,9 @@ HJ https://guidebooks.americangeosciences.org
 HJ https://statesurveys.americangeosciences.org
 HJ https://minabs.americangeosciences.org
 HJ https://egs.americangeosciences.org
-HJ americangeosciences.org
+HJ webapp.glossaryofgeology.org
 DJ americangeosciences.org
+DJ glossaryofgeology.org
 
 # Google Scholar moved to common stanza
 
