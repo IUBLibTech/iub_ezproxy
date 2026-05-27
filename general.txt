@@ -1663,16 +1663,6 @@ HJ http://classweb.org/
 HJ classweb.org/
 DJ classweb.org/
 
-Title Classiques Garnier Books
-URL https://classiques-garnier.com
-HJ http://classiques-garnier.com
-HJ http://www.classiques-garnier.com
-HJ https://classiques-garnier.com
-HJ www.classiques-garnier.com
-HJ https://www.classiques-garnier.com
-HJ classiques-garnier.com
-DJ classiques-garnier.com
-
 # New [per prowens] 17 July 2012 cs
 Title CLOCKSS
 URL http://www.clockss.org/clockss
