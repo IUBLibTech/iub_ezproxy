@@ -53,6 +53,18 @@ HJ epaper.japantimes.co.jp
 DJ japantimes.co.jp
 DJ piano.io
 
+# Moved to always authenticate because vendor does not support IPV6
+Title Classiques Garnier Books
+URL https://classiques-garnier.com
+HJ http://classiques-garnier.com
+HJ http://www.classiques-garnier.com
+HJ https://classiques-garnier.com
+HJ www.classiques-garnier.com
+HJ https://www.classiques-garnier.com
+HJ classiques-garnier.com
+DJ classiques-garnier.com
+
+
 # Updated per ralight 2024-10-02
 # Does not allow walk-in user access
 AnonymousURL +https://pro.fontawesome.com/*
