@@ -78,6 +78,15 @@ I 129.79.35.32
 I 129.79.35.23
 #
 
+### Always Authenticate IU Foundation Wired 6-3-2026 ###
+I 129.79.75.0/24
+I 129.79.76.0/24
+I 10.79.75.0/24
+I 10.79.76.0/24
+
+
+
+
 # Stanza moved to top of includes file per OCLC instruction to try to resolve ongoing access problem
 # Updated per ralight 2024-01-03
 Option CookiePassThrough
