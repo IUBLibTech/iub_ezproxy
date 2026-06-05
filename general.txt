@@ -216,30 +216,6 @@ DJ academicrightspress.com
 
 # NewspaperArchive moved to common stanza
 
-
-Title ACLS Humanities E-Book
-URL http://www.humanitiesebook.org/
-HJ humanitiesebook.org
-HJ https://humanitiesebook.org/
-HJ http://www.humanitiesebook.org/
-HJ https://www.humanitiesebook.org/
-HJ https://ets.umdl.umich.edu
-HJ https://hdl.handle.net
-HJ https://hdl.lib.umich.edu
-HJ https://name.umdl.umich.edu
-HJ https://quod.lib.umich.edu
-HJ https://www.hti.umich.edu
-HJ ets.umdl.umich.edu
-HJ hdl.handle.net
-HJ hdl.lib.umich.edu
-HJ name.umdl.umich.edu
-HJ quod.lib.umich.edu
-HJ www.hti.umich.edu
-DJ handle.net
-DJ humanitiesebook.org
-DJ umich.edu
-
-
 # Updated per RAL 2020-12-30
 Title Acoustical Society of America
 URL http://www.acousticalsociety.org/
@@ -498,15 +474,7 @@ DJ airitilibrary.com
 DJ airitiaci.com
 DJ ainoscosearch.com
 
-# Updated per ralight 2021-05-13
-# Modified from OCLC stanza to include https
-Title ALA Journals (updated 20210511)
-URL https://journals.ala.org/
-HJ http://journals.ala.org/
-HJ journals.ala.org
-# Extra host added for LLAMA
-HJ https://www.llama.ala.org
-DJ ala.org
+# ALA Journals moved to common stanza: ala-journals.txt
 
 # Updated to https per RAL 2019-04-08
 Title AMA Manual of Style
@@ -796,71 +764,7 @@ HJ http://annals.math.princeton.edu
 HJ annals.math.princeton.edu
 DJ princeton.edu
 
-# Updated per ralight 2021-12-22
-Title Annual Reviews (updated 20211214)
-URL https://www.annualreviews.org/
-HJ anchem.annualreviews.org
-HJ animal.annualreviews.org
-HJ annualreviews.org
-HJ anthro.annualreviews.org
-HJ arcompsci.annualreviews.org
-HJ arjournals.annualreviews.org
-HJ arplant.annualreviews.org
-HJ astro.annualreviews.org
-HJ biochem.annualreviews.org
-HJ biodatasci.annualreviews.org
-HJ bioeng.annualreviews.org
-HJ biophys.annualreviews.org
-HJ cancerbio.annualreviews.org
-HJ cellbio.annualreviews.org
-HJ chembioeng.annualreviews.org
-HJ clinpsy.annualreviews.org
-HJ conmatphys.annualreviews.org
-HJ control.annualreviews.org
-HJ criminol.annualreviews.org
-HJ devpsych.annualreviews.org
-HJ earth.annualreviews.org
-HJ ecolsys.annualreviews.org
-HJ economics.annualreviews.org
-HJ energy.annualreviews.org
-HJ ento.annualreviews.org
-HJ financial.annualreviews.org
-HJ fluid.annualreviews.org
-HJ food.annualreviews.org
-HJ genet.annualreviews.org
-HJ genom.annualreviews.org
-HJ http://www.annualreviews.org
-HJ https://annualreviews.org
-HJ https://arplant.annualreviews.org
-HJ immunol.annualreviews.org
-HJ knowablemagazine.org
-HJ lawsocsci.annualreviews.org
-HJ linguistics.annualreviews.org
-HJ marine.annualreviews.org
-HJ matsci.annualreviews.org
-HJ med.annualreviews.org
-HJ micro.annualreviews.org
-HJ neuro.annualreviews.org
-HJ nucl.annualreviews.org
-HJ nutr.annualreviews.org
-HJ orgpsych.annualreviews.org
-HJ pathmechdis.annualreviews.org
-HJ pharmtox.annualreviews.org
-HJ physchem.annualreviews.org
-HJ physiol.annualreviews.org
-HJ phyto.annualreviews.org
-HJ plant.annualreviews.org
-HJ polisci.annualreviews.org
-HJ psych.annualreviews.org
-HJ publhealth.annualreviews.org
-HJ resource.annualreviews.org
-HJ soc.annualreviews.org
-HJ statistics.annualreviews.org
-HJ virology.annualreviews.org
-HJ vision.annualreviews.org
-HJ www.annualreviews.org
-DJ annualreviews.org
-DJ knowablemagazine.org
+# Annual Reviews moved to common stanza: annual-reviews.txt
 
 # Updated per ralight 2022-07-21
 Title Schweizerbart/Borntraeger Journals, Stuttgart (updated 20220718)
@@ -1736,14 +1640,7 @@ DJ cshlpress.org
 DJ genesdev.org
 DJ rnajournal.org
 
-Title College and Research Libraries
-URL http://crl.acrl.org
-HJ crln.acrl.org
-HJ crl.acrl.org
-HJ http://www.crl.edu
-HJ https://www.crl.edu
-HJ https://dds.crl.edu
-DJ acrl.org
+# College & Research Libraries moved to commons stanza: college-research-libraries.txt
 
 Title College Source
 URL https://cso.collegesource.com/
@@ -2232,15 +2129,7 @@ URL https://connect.liblynx.com
 HJ connect.liblynx.com
 DJ connect.liblynx.com
 
-# Added per ralight 2023-05-17
-Title ERIC (OCLC IncludeFile updated 20230512)
-URL https://eric.ed.gov
-HJ eric.ed.gov
-HJ https://eric.ed.gov
-HJ www.eric.ed.gov
-HJ https://files.eric.ed.gov
-HJ files.eric.ed.gov
-DJ eric.ed.gov
+# ERIC moved to common stanza: eric-gov.txt
 
 Title Ethnology
 URL http://ethnology.pitt.edu/ojs/index.php/Ethnology/issue/archive
@@ -2266,14 +2155,7 @@ HJ http://www.worldoflearning.com
 HJ www.worldoflearning.com
 DJ worldoflearning.com
 
-# Updated per ralight 2024-01-26
-# Stanza updated to modify HTTPHeader line per OCLC support to resolve problems with Lippincott Procedures and RatingsDirect
-Title Europa World Plus
-HTTPHeader -request -process Access-Token
-URL https://www.europaworld.com/
-HJ http://www.europaworld.com
-HJ www.europaworld.com
-DJ europaworld.com
+# Europa World Plus moved to common stanza: europa-world-plus.txt
 
 # Updated per ralight 2025-05-21
 Title EMS Press (updated 20250427)
