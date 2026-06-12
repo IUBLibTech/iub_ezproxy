@@ -5659,9 +5659,9 @@ H https://prde.upress.virginia.edu
 H http://prde.upress.virginia.edu
 DJ upress.virginia.edu
 
-# Updated per ralight 2024-01-18
-Title University of Wisconsin Press (updated 20240112)
-URL http://www.uwpress.org/
+# Updated per ralight 2026-06-12
+Title University of Wisconsin Press (updated 20260605)
+URL https://www.uwpress.org/
 HJ aa.uwpress.org
 HJ aoj.uwpress.org
 HJ cl.uwpress.org
@@ -5694,10 +5694,8 @@ HJ sca.uwpress.org
 HJ sub.uwpress.org
 HJ uwpress.org
 HJ uwpress.wisc.edu
+HJ www.uwpress.org
 HJ www.uwpress.wisc.edu
-# Extra host added to prevent needhost errors by ralight 2024-01-18
-HJ https://www.uwpress.org/
-DJ uwpress.org
 
 # Updated per ralight 2021-11-30
 Title University Press Scholarship Online (updated 20211124)
