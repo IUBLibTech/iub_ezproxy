@@ -531,11 +531,6 @@ HJ www.aeaweb.org
 HJ http://www.aeaweb.org/
 DJ aeaweb.org
 
-# Updated per ralight 2023-08-18
-Title American Journal of Health Studies 
-URL https://www.amjhealthstudies.com/index.php/ajhs/issue/archive
-HJ www.amjhealthstudies.com
-DJ amjhealthstudies.com
 
 # Updated per ralight 2025-07-18
 # Combines OCLC stanzas for Weston Medical Publishing and American Journal of Recreation Therapy
