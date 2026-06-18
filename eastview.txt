@@ -1,13 +1,17 @@
 
 #### eastview.txt
 
-# Updated per ralight 2026-04-30
+# Updated per ralight 2026-06-16
 # Revised per advise from Steve Morse at OCLC
 # List before any other stanzas in this includes file per ralight 2025-11-14
-Title East View Information Services Inc (updated 20260424)
+AnonymousURL +https://api.maptiler.com*
+AnonymousURL +https://gpa.eastview.com/*js*
+Title East View Information Services Inc (updated 20260616)
+HTTPHeader -response -edit Content-Security-Policy RewriteURL(https://gpa.eastview.com)
 HTTPHeader -request -process Bib-Token
 URL https://dlib.eastview.com/login
 HJ ae.eastview.com
+HJ api.maptiler.com
 HJ bib.eastview.com
 HJ ccg.eastview.com
 HJ crg.eastview.com
@@ -16,6 +20,7 @@ HJ eastview.com
 HJ gca.eastview.com
 HJ gpa.eastview.com
 HJ https://ae.eastview.com
+HJ https://api.maptiler.com
 HJ https://bib.eastview.com
 HJ https://ccg.eastview.com
 HJ https://crg.eastview.com
@@ -33,6 +38,7 @@ HJ online.eastview.com
 HJ www.eastview.com
 DJ eastview.com
 DJ mosinfo.ru
+AnonymousURL -*
 # Hosts added for Eastview products not included in OCLC stanza, per suggestion from OCLC support
 # World News Connection
 HJ https://wnc.eastview.com/
