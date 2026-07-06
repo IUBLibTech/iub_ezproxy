@@ -4382,12 +4382,16 @@ Title Pages Online
 URL https://pages.dlib.indiana.edu/
 HJ pages.dlib.indiana.edu
 
-# Updated per RAL 2020-06-26
+# Updated per ralight 2026-07-06
 # Stanza previously called The Parliament Rolls of Medieval England
-Title Scholarly Digital Editions
-URL http://www.sd-editions.com
+Title Scholarly Digital Editions (updated 20260630)
+URL https://www.sd-editions.com/
+HJ https://sd-editions.com
+HJ https://www.sd-editions.com
 HJ sd-editions.com
 HJ www.sd-editions.com
+# Extra host until URLs are updated to https--remove next time this stanza is updated
+HJ http://www.sd-editions.com
 DJ sd-editions.com
 
 Title Particle and Fibre Toxicology
