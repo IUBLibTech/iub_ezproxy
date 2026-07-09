@@ -1,12 +1,16 @@
 
 #### eastview.txt
 
-# Updated per ralight 2026-06-16
+# Updated per ralight 2026-07-09
 # Revised per advise from Steve Morse at OCLC
+# Revised per East View recommendation to add Option Cookie lines & ByteServe lines
 # List before any other stanzas in this includes file per ralight 2025-11-14
+Option CookiePassThrough
 AnonymousURL +https://api.maptiler.com*
 AnonymousURL +https://gpa.eastview.com/*js*
 Title East View Information Services Inc (updated 20260616)
+ByteServe https://dlib\\.eastview\\.com/api/book/.*
+ByteServe https://dlib\\.eastview\\.com/ui-components/static/.*
 HTTPHeader -response -edit Content-Security-Policy RewriteURL(https://gpa.eastview.com)
 HTTPHeader -request -process Bib-Token
 URL https://dlib.eastview.com/login
@@ -44,6 +48,7 @@ AnonymousURL -*
 HJ https://wnc.eastview.com/
 HJ http://wnc.eastview.com
 HJ wnc.eastview.com
+Option Cookie
 
 # Updated per ralight 2022-03-28
 AnonymousURL +https://static-cdn.arcanum.hu* 
