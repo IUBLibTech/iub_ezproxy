@@ -1126,46 +1126,28 @@ DJ biologicalpsychiatryjournal.com
 
 # BioOne Complete moved to common stanza
 
-# Updated per ralight 2022-07-07
-Title Bioscientifica (updated 20220624)
+# Updated per ralight 2026-07-10
+Title Bioscientifica (updated 20260707)
 HTTPHeader -request -process X-Requested-With
 URL https://www.bioscientifica.com
 HJ https://ec.bioscientifica.com
 HJ https://edm.bioscientifica.com
-HJ https://eje.bioscientifica.com
-HJ https://erc.bioscientifica.com
-HJ https://erp.bioscientifica.com
-HJ https://jme.bioscientifica.com
-HJ https://joe.bioscientifica.com
-HJ https://rep.bioscientifica.com
-HJ https://vb.bioscientifica.com
-HJ http://www.vascularbiology.com
 HJ https://eo.bioscientifica.com
 HJ https://eor.bioscientifica.com
+HJ https://erc.bioscientifica.com
 HJ https://etj.bioscientifica.com
+HJ https://jme.bioscientifica.com
+HJ https://joe.bioscientifica.com
 HJ https://raf.bioscientifica.com
-HJ www.vascularbiology.com
+HJ https://vb.bioscientifica.com
+HJ https://journals.bioscientifica.com
 HJ http://www.bone-abstracts.org
 HJ www.bone-abstracts.org
 HJ https://www.endocrine-abstracts.org
 HJ www.endocrine-abstracts.org
-HJ http://www.reproduction-abstracts.org
+HJ https://www.reproduction-abstracts.org
 HJ www.reproduction-abstracts.org
 DJ bioscientifica.com
-DJ ec.bioscientifica.com
-DJ edm.bioscientifica.com
-DJ eje.bioscientifica.com
-DJ erc.bioscientifica.com
-DJ erp.bioscientifica.com
-DJ eo.bioscientifica.com
-DJ eor.bioscientifica.com
-DJ etj.bioscientifica.com
-DJ raf.bioscientifica.com
-DJ jme.bioscientifica.com
-DJ joe.bioscientifica.com
-DJ rep.bioscientifica.com
-DJ vb.bioscientifica.com
-DJ vascularbiology.com
 DJ bone-abstracts.org
 DJ endocrine-abstracts.org
 DJ reproduction-abstracts.org
@@ -2662,11 +2644,7 @@ HJ marc.thehistorymakers.org
 HJ https://marc.thehistorymakers.org
 DJ thehistorymakers.org
 
-Title Homeland Security Digital Library (HSDL)
-URL https://www.hsdl.org
-HJ http://www.hsdl.org
-HJ www.hsdl.org
-DJ hsdl.org
+# Homeland Security Digital Library (HSDL) moved to common stanza: homeland-security-digital-library.txt
 
 Title Houston Journal of Mathematics
 URL http://www.math.uh.edu/~hjm/Electronic-Editions.html
@@ -3627,12 +3605,8 @@ URL  https://lockwoodonlinejournals.com/
 HJ lockwoodonlinejournals.com
 DJ lockwoodonlinejournals.com
 
-# Added per RMS 2019-07-26
-Title Loex Quarterly
-URL https://commons.emich.edu/loexquarterly/
-HJ http://commons.emich.edu/loexquarterly
-HJ commons.emich.edu
-DJ emich.edu
+# Loex Quarterly moved to common stanza: loex-quarterly.txt
+
 
 # Updated per ralight 2025-04-03
 Title Luci e ombre
@@ -4153,20 +4127,8 @@ URL https://nyra.nyc/issues
 HJ https://nyra.nyc
 DJ nyra.nyc
 
-# Updated per RAL 2018-09-26
-Title New York Review of Books
-URL https://www.nybooks.com
-HJ http://www.nybooks.com
-HJ www.nybooks.com
-HJ shop.nybooks.com
-HJ nybooks.com
-DJ nybooks.com
-HJ https://subscribe.nybooks.info
-DJ nybooks.info
-HJ www.nyrb.com
-HJ nyrb.com
-DJ nyrb.com
-Neverproxy cdn.nybooks.com
+# New York Review of Books moved to common stanza: new-york-review-books.txt
+
 
 Option CookiePassThrough
 Title New Yorker Digital Archive
@@ -4482,16 +4444,7 @@ URL https://www.physicamedica.com/
 HJ www.physicamedica.com
 DJ physicamedica.com
 
-# Updated per ralight 2021-06-17
-Title Portico (updated 20210615)
-URL http://www.portico.org
-HJ access.portico.org
-HJ https://access.portico.org
-HJ https://www.portico.org
-HJ https://portico.org
-HJ portico.org
-HJ www.portico.org
-DJ portico.org
+# Portico moved to common stanza: portico.txt
 
 # Updated per RAL 2020-12-30
 Title Portland Press Limited
@@ -4677,12 +4630,7 @@ URL https://rpolitik.com/bulletin?
 HJ rpolitik.com
 DJ rpolitik.com
 
-# Added per RAL 2020-09-21
-Title r2library.com
-URL http://www.r2library.com
-HOST www.r2library.com
-HJ https://www.r2library.com
-DJ r2library.com
+# R2 Digital Library moved to common stanza: r2-digital-library.txt
 
 Title Rare Book Hub 
 # updated per CWL 1-29-24
