@@ -37,13 +37,3 @@ HJ www.dib.cambridge.org
 DJ cambridge.org
 Find globalNav('//www.cambridge.org/tools/packages/cambridge_themes/
 Replace globalNav('/tools/packages/cambridge_themes/
-
-# Updated per RAL 2020-11-23
-Option DomainCookieOnly
-Title Historical Statistics of the United States
-URL https://hsus.cambridge.org/HSUSWeb
-HJ http://hsus.cambridge.org/HSUSWeb
-HJ hsus.cambridge.org
-HJ cambridge.org
-DJ cambridge.org
-Option Cookie
