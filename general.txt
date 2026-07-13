@@ -1751,8 +1751,16 @@ HJ stats.mandumah.com
 DJ mandumah.com
 AddUserHeader
 
+# Added per ralight 2026-07-13
+Title Databases for the History of Contemporary Chinese Political Movements 
+URL https://chinamovement.org 
+HJ chinamovement.org 
+HJ www.chinamovement.org 
+DJ chinamovement.org  
+
+# This stanza can be removed following transition to new platform (preceding stanza) per ralight 2026-07-13
 # Added per ralight 2025-05-12
-Title Database for the History of Contemporary Chinese Political Movements 
+Title Database for the History of Contemporary Chinese Political Movements [old]
 URL http://ccrd.usc.cuhk.edu.hk/
 HJ https://ccrd.usc.cuhk.edu.hk/
 HJ ccrd.usc.cuhk.edu.hk
