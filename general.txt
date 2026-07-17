@@ -941,12 +941,7 @@ HJ http://hw.oeaw.ac.at
 HJ hw.oeaw.ac.at
 DJ austriaca.at
 
-Title Ancestry Library
-MimeFilter application/json .* javascript
-URL https://ancestrylibrary.proquest.com
-HJ https://ancestrylibrary.proquest.com
-HJ http://ancestrylibrary.proquest.com
-NeverProxy www.ancestrylibrary.com
+# Ancestry Library moved to commonstanza: ancestry-library.txt
 
 # added per CWL 2-19-25
 AnonymousURL +https://prodbiserver3-auditedmedia-com.*
@@ -4121,13 +4116,7 @@ HJ newscientist.com
 HJ https://institutions.newscientist.com
 DJ newscientist.com
 
-# Updated per ralight 2022-08-08
-# Do not use OCLC stanza called "New York Times"
-Title Access NYT (OCLC IncludeFile updated 20220805)
-URL https://ezmyaccount.nytimes.com/grouppass/redir
-H http://ezmyaccount.nytimes.com
-H ezmyaccount.nytimes.com
-D ezmyaccount.nytimes.com
+# Access NYT moved to common stanza: access-nyt.txt
 
 # Added by ralight on behalf of libser 2025-11-06
 Title New York Review of Architecture
@@ -4915,26 +4904,7 @@ DJ sagamorepub.com
 Find var pdfUrl = "https:\/\/js.sagamorepub.com
 Replace var pdfUrl = "https:\/\/^Sjs.sagamorepub.com^
 
-# Updated per ralight 2021-06-03
-Title Salem Press (updated 20210602)
-URL https://online.salempress.com
-HJ online.salempress.com
-HJ www.salempress.com
-HJ www.history.salempress.com
-HJ history.salempress.com
-HJ https://history.salempress.com
-HJ history.salempress.com
-HJ www.literature.salempress.com
-HJ literature.salempress.com
-HJ www.science.salempress.com
-HJ science.salempress.com
-HJ www.health.salempress.com
-HJ health.salempress.com
-HJ salempress.com
-DJ salempress.com
-HJ www.referenceshelf-online.com
-HJ referenceshelf-online.com
-DJ referenceshelf-online.com
+# Salem Press moved to common stanza: salem-press.txt
 
 # Added per ralight 2021-10-14
 Title Scholarly Publishing Collective (updated 20211013)
@@ -5003,14 +4973,7 @@ URL https://shakespearenewsletter.com/newsletters
 HJ shakespearenewsletter.com
 DJ shakespearenewsletter.com
 
-# Added & modified per ralight 2022-08-26
-# Stanza added to improve IUCAT experience
-Title Skillport8i
-NeverProxy library.books24x7.com
-NeverProxy http://library.books24x7.com
-NeverProxy iu.skillport.com
-NeverProxy https://iu.skillport.com
-NeverProxy https://skillport.iu.edu
+# Skillport8i moved to common stanza: skillport8i.txt
 
 # Updated per RAL 2021-01-14
 Title Sports Business Database
@@ -5237,58 +5200,8 @@ HJ http://tk.dhcdb.com.tw
 HJ tk.dhcdb.com.tw
 DJ tk.dhcdb.com.tw
 
-# Updated per ralight 2021-11-03
-ProxyHostnameEdit www.tandfonline.com$ www-tandfonline-com
-Title Taylor & Francis (updated 20190318)
-HTTPHeader -request -process Access-Token
-URL https://www.tandfonline.com
-HJ http://www.tandfonline.com
-HJ journalsonline.tandf.co.uk
-HJ afs.tandfonline.com
-HJ amstat.tandfonline.com
-HJ tandfonline.com
-HJ www.journalsonline.tandf.co.uk
-DJ tandfonline.com
-HJ tandfprod.literatumonline.com
-HJ https://tandfonline.com
-DJ literatumonline.com
-
-# Updated per ralight 2021-07-08
-AnonymousURL +https://api.taylorandfrancis.com/*
-AnonymousURL +https://api.taylorfrancis.com/*
-AnonymousURL +https://events.taylorandfrancis.com/*
-AnonymousURL +https://secure.taylorandfrancis.com/*
-AnonymousURL +https://secure.taylorfrancis.com/*
-Title Taylor Francis eBooks (updated 20210702)
-HTTPHeader -request -process authtoken
-HTTPHeader -request -process Origin
-URL https://www.taylorfrancis.com
-HJ www.taylorfrancis.com
-HJ https://taylorfrancis.com
-HJ taylorfrancis.com
-HJ https://api.taylorandfrancis.com
-HJ api.taylorandfrancis.com
-HJ https://api.taylorfrancis.com
-HJ api.taylorfrancis.com
-HJ https://events.taylorandfrancis.com
-HJ events.taylorandfrancis.com
-HJ https://accounts.taylorfrancis.com
-HJ accounts.taylorfrancis.com
-HJ https://secure.taylorfrancis.com
-HJ secure.taylorfrancis.com
-HJ https://secure.taylorandfrancis.com
-HJ secure.taylorandfrancis.com
-DJ taylorandfrancis.com
-DJ taylorfrancis.com
-NeverProxy s3-euw1-ap-pe-ws4-capi2-distribution-p.s3-eu-west-1.amazonaws.com
-Find http-equiv="Content-Security-Policy"
-Replace http-equiv="X-Content-Security-Policy"
-Find "url":"https:\/\/taylorfrancis.com\/
-Replace "url":"https:\/\/^staylorfrancis.com^\/
-NeverProxy api.google.com
-NeverProxy fonts.google.com
-NeverProxy googletagmanager.com
-AnonymousURL -*
+# Taylor & Francis moved to common stanza: taylor-francis-online.txt
+# Taylor Francis eBooks moved to common stanza: taylor-francis-ebooks.txt
 
 # Updated per cwlamb 2022-07-28
 Title Taiwan Nichi Nichi Shinpo Database of Chinese Modern Newspapers
@@ -5442,27 +5355,8 @@ URL https://documents.paratext.com
 HJ http://documents.paratext.com
 DJ paratext.com
 
-# Updated per RAL 2020-07-14
-# Removed Client Center hosts due to Lean Library conflict
-Title Ulrichsweb
-URL https://ulrichsweb.serialssolutions.com
-HJ http://www.ulrichsweb.com/UlrichsWeb
-HJ ulrichsweb.serialssolutions.com
-HJ https://ulrichsweb.serialssolutions.com
-HJ www.ulrichsweb.serialssolutions.com
-DJ serialssolutions.com
-HJ ulrichsweb.serialssolutions.com
-HJ www.ulrichsweb.serialssolutions.com
-HJ www.serialssolutions.com
-HJ serialssolutions.com
-DJ serialssolutions.com
-HJ www.ulrichsweb.com
-HJ ulrichsweb.com
-DJ ulrichsweb.com
-NeverProxy http://lm3uq2cn8k.search.serialssolutions.com
-NeverProxy lm3uq2cn8k.search.serialssolutions.com
-NeverProxy kg6ek7cq2b.search.serialssolutions.com
-NeverProxy https://kg6ek7cq2b.search.serialssolutions.com
+# Ulrichsweb moved to common stanza: ulrichsweb.txt
+
 
 # Updated per ralight 2023-03-22
 # Formerly called UN Commodity Trade Statistics Database
@@ -5487,27 +5381,7 @@ HJ https://online.ucpress.edu
 HJ online.ucpress.edu
 DJ ucpress.edu
 
-# Updated per ralight 2022-08-15
-Option DomainCookieOnly
-T University of Chicago Press Journals (OCLC IncludeFile updated 20220810)
-U http://www.journals.uchicago.edu
-HJ artfl-project.uchicago.edu
-HJ cjtcs.cs.uchicago.edu
-HJ el.press.uchicago.edu
-HJ https://artfl-project.uchicago.edu
-HJ https://el.press.uchicago.edu
-HJ https://journals.uchicago.edu
-HJ https://www.journals.uchicago.edu
-HJ humanities.uchicago.edu
-HJ journals.uchicago.edu
-HJ letterpress.uchicago.edu
-HJ lib.uchicago.edu
-HJ press.uchicago.edu
-HJ www.journals.uchicago.edu
-HJ www.lib.uchicago.edu
-HJ www.press.uchicago.edu
-DJ uchicago.edu
-Option Cookie
+# University of Chicago Press Journals moved to common stanza: university-chicago-press-journals.txt
 
 # added per CWL 8-19-22
 Title University of Fashion 
