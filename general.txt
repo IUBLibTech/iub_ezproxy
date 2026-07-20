@@ -136,6 +136,12 @@ HJ ae.eastview.com/aes112
 HJ ae.eastview.com
 DJ eastview.com
 
+# Added per ralight 2026-07-20
+# Trial access through 2026-08-16
+Title J-DAC
+URL https://j-dac.jp/
+HJ https://j-dac.jp
+DJ j-dac.jp
 
 ####################################################################################################
 
