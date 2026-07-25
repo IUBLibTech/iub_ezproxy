@@ -28,15 +28,15 @@ AnonymousURL -*
 
 
 # Moved to always authenticate because vendor does not support IPV6
-# Updated per ralight 2023-07-06
-T The Japan Times Digital Archives (updated 20230626)
-U https://jt-archives.jp
+# Updated per ralight 2026-07-24
+Title The Japan Times Archives (updated 20260722)
+URL https://digital-archives.japantimes.co.jp
+HJ https://digital-archives.japantimes.co.jp
+HJ digital-archives.japantimes.co.jp
 HJ https://jt-archives.jp
-HJ http://jt-archives.jp
-# Extra hosts included to avoid needhost errors
-HJ http://ipm-archives.japantimes.co.jp
-HJ ipm-archives.japantimes.co.jp
+HJ jt-archives.jp
 DJ jt-archives.jp
+DJ digital-archives.japantimes.co.jp
 
 # Moved to always authenticate because vendor does not support IPV6
 # Updated per ralight 2023-07-06
