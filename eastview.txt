@@ -60,7 +60,7 @@ HJ adt.arcanum.com
 DJ arcanum.hu 
 AnonymousURL -*
 
-# Updated per ralight 2026-06-12
+# Updated per ralight 2026-07-31
 Option CookiePassThrough
 AnonymousURL +https://o.oversea.cnki.net/EcpApi_oversea/OLoginApi/IpLogin*
 AnonymousURL +https://o.oversea.cnki.net/ecpoversea/EcpApi_oversea/OLoginApi/*
@@ -79,7 +79,7 @@ AnonymousURL +https://t.oversea.cnki.net/applog/*
 AnonymousURL +https://piccache.oversea.cnki.net/kdn/*
 AnonymousURL +https://aicheck.oversea.cnki.net
 AnonymousURL +https://check.oversea.cnki.net
-Title The CNKI Main Page (updated 20260610)
+Title The CNKI Main Page (updated 20260731)
 HTTPHeader -response -edit location RewriteURL(REReplace("!https%3a%2f%2fo\.oversea\.cnki.\net!g", RewriteURL("https://o.oversea.cnki.net"), hh:value))
 HTTPHeader -request -process Appid
 HTTPHeader -request -process Clientid
@@ -155,6 +155,7 @@ HJ https://aipat.oversea.cnki.net/
 HJ https://check.oversea.cnki.net
 HJ https://ac.oversea.cnki.net
 DJ cnki.net
+Option AllowSendGZip
 Find src='//o.oversea.cnki.net
 Replace src='//^So.oversea.cnki.net^
 Find IncludeCss('//o.oversea.cnki.net
@@ -165,7 +166,7 @@ AnonymousURL -*
 Option Cookie
 
 # Added per ralight 2026-04-23
-# Infoteka will be the new home of Russian and Eastern European content from East View
+# Infoteka is the new platform for Russian and Eastern European content from East View
 Title Infoteka (updated 20260417)
 HTTPHeader -request -process Bib-Token
 URL https://online.infoteka.com/login-by-ip
