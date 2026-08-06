@@ -1806,22 +1806,7 @@ HJ www.daredictionary.com
 HJ daredictionary.com
 DJ daredictionary.com
 
-# Updated per ralight 2024-12-09
-# Combined stanza for both Web Corpus and A-I DOE databases provided by Xin Xiang
-# Stanza modified to add Option NoX-Forwarded-For directive to resolve off campus access issues per Xin Xiang
-Option NoX-Forwarded-For
-T DOE Web Corpus
-HTTPHeader -request -process X-Requested-With
-U https://tapor.library.utoronto.ca/doecorpus/
-HJ https://tapor.library.utoronto.ca/doe/
-HJ https://dictionary.doe.utoronto.ca
-HJ dictionary.doe.utoronto.ca
-HJ https://corpus.doe.utoronto.ca
-HJ corpus.doe.utoronto.ca
-HJ tapor.library.utoronto.ca
-HJ library.utoronto.ca
-DJ utoronto.ca
-
+# DOE Web Corpus moved to common stanza: doe-web-corpus.txt
 
 # added per CWL 4-13-21
 Title Diaolong China and Japan Rare Books Database Collection 
@@ -1846,37 +1831,7 @@ HJ www.buddhism-dict.net
 HJ buddhism-dict.net
 DJ buddhism-dict.net
 
-# Updated per ralight 2022-09-06
-# Stanza modified to add Option NoX-Forwarded-For directive to resolve off campus access issues. Does not match OCLC stanza
-Option NoX-Forwarded-For
-AnonymousURL +https://media.digitaltheatreplus.com/drm*
-AnonymousURL +https://counter.digitaltheatreplus.com/*
-AnonymousURL +https://api.digitaltheatreplus.com/*
-Title Digital Theatre Plus (updated 20211214)
-HTTPHeader -request -process Bearer
-HTTPHeader -request -process x-dt-auth-token
-URL https://edu.digitaltheatreplus.com
-Host https://media.digitaltheatreplus.com
-Host search.digitaltheatreplus.com
-Host analytics.digitaltheatreplus.com
-Host https://counter.digitaltheatreplus.com
-Host api.digitaltheatreplus.com
-Host images.ctfassets.net
-Host assets.ctfassets.net
-Host d10eeigq6mvk6z.cloudfront.net
-Host lic.drmtoday.com
-Host cdn.contentful.com
-HJ analytics.digitaltheatreplus.com
-HJ api.digitaltheatreplus.com
-HJ counter.digitaltheatreplus.com
-HJ digitaltheatreplus.com
-HJ edu.digitaltheatreplus.com
-HJ https://digitaltheatreplus.com
-HJ https://www.digitaltheatreplus.com
-HJ media.digitaltheatreplus.com
-HJ www.digitaltheatreplus.com
-DJ digitaltheatreplus.com
-AnonymousURL -*
+# Digital Theatre Plus moved to common stanza: digital-theatre-plus.txt
 
 # Added per RAL 2020-08-27
 Title Digitalia Hispanica
@@ -2350,126 +2305,8 @@ HJ http://www.genetics.org
 HJ www.genetics.org
 DJ genetics.org
 
-# Updated per ralight 2024-09-26
-Title GeoScienceWorld (updated 20190808)
-URL http://www.geoscienceworld.org/
-HJ www.geoscienceworld.org
-HJ aapgbull.geoscienceworld.org
-HJ ammin.geoscienceworld.org
-HJ bsgf.geoscienceworld.org
-HJ bcpg.geoscienceworld.org
-HJ bssa.geoscienceworld.org
-HJ canmin.geoscienceworld.org
-HJ cjes.geoscienceworld.org
-HJ claymin.geoscienceworld.org
-HJ ccm.geoscienceworld.org
-HJ ebooks.geoscienceworld.org
-HJ econgeol.geoscienceworld.org
-HJ eeg.geoscienceworld.org
-HJ eg.geoscienceworld.org
-HJ elements.geoscienceworld.org
-HJ emg.geoscienceworld.org
-HJ eurjmin.geoscienceworld.org
-HJ gsa.geoscienceworld.org
-HJ perspectives.geoscienceworld.org
-HJ geea.geoscienceworld.org
-HJ geolmag.geoscienceworld.org
-HJ geology.geoscienceworld.org
-HJ geophysics.geoscienceworld.org
-HJ geoscienceworld.org
-HJ geosphere.geoscienceworld.org
-HJ bulletin.geoscienceworld.org
-HJ interpretation.geoscienceworld.org
-HJ italianjgeo.geoscienceworld.org
-HJ jeeg.geoscienceworld.org
-HJ jfr.geoscienceworld.org
-HJ jpaleontol.geoscienceworld.org
-HJ jsedres.geoscienceworld.org
-HJ jgs.geoscienceworld.org
-HJ lithosphere.geoscienceworld.org
-HJ micropal.geoscienceworld.org
-HJ minmag.geoscienceworld.org
-HJ palaios.geoscienceworld.org
-HJ paleobiol.geoscienceworld.org
-HJ palynology.geoscienceworld.org
-HJ pg.geoscienceworld.org
-HJ qjegh.geoscienceworld.org
-HJ rimg.geoscienceworld.org
-HJ rmg.geoscienceworld.org
-HJ srl.geoscienceworld.org
-HJ sajg.geoscienceworld.org
-HJ tle.geoscienceworld.org
-HJ vzj.geoscienceworld.org
-HJ pygs.geoscienceworld.org
-HJ sjg.geoscienceworld.org
-HJ jm.geoscienceworld.org
-HJ pubs.geoscienceworld.org
-HJ geoscienceworld.org
-HJ https://www.geoscienceworld.org
-HJ https://aapgbull.geoscienceworld.org
-HJ https://ammin.geoscienceworld.org
-HJ https://bsgf.geoscienceworld.org
-HJ https://bcpg.geoscienceworld.org
-HJ https://bssa.geoscienceworld.org
-HJ https://canmin.geoscienceworld.org
-HJ https://cjes.geoscienceworld.org
-HJ https://claymin.geoscienceworld.org
-HJ https://ccm.geoscienceworld.org
-HJ https://ebooks.geoscienceworld.org
-HJ https://econgeol.geoscienceworld.org
-HJ https://eeg.geoscienceworld.org
-HJ https://eg.geoscienceworld.org
-HJ https://elements.geoscienceworld.org
-HJ https://emg.geoscienceworld.org
-HJ https://eurjmin.geoscienceworld.org
-HJ https://gsa.geoscienceworld.org
-HJ https://perspectives.geoscienceworld.org
-HJ https://geea.geoscienceworld.org
-HJ https://geolmag.geoscienceworld.org
-HJ https://geology.geoscienceworld.org
-HJ https://geophysics.geoscienceworld.org
-HJ https://geoscienceworld.org
-HJ https://geosphere.geoscienceworld.org
-HJ https://bulletin.geoscienceworld.org
-HJ https://interpretation.geoscienceworld.org
-HJ https://italianjgeo.geoscienceworld.org
-HJ https://jeeg.geoscienceworld.org
-HJ https://jfr.geoscienceworld.org
-HJ https://jpaleontol.geoscienceworld.org
-HJ https://jsedres.geoscienceworld.org
-HJ https://jgs.geoscienceworld.org
-HJ https://lithosphere.geoscienceworld.org
-HJ https://micropal.geoscienceworld.org
-HJ https://minmag.geoscienceworld.org
-HJ https://palaios.geoscienceworld.org
-HJ https://paleobiol.geoscienceworld.org
-HJ https://palynology.geoscienceworld.org
-HJ https://pg.geoscienceworld.org
-HJ https://qjegh.geoscienceworld.org
-HJ https://rimg.geoscienceworld.org
-HJ https://rmg.geoscienceworld.org
-HJ https://srl.geoscienceworld.org
-HJ https://sajg.geoscienceworld.org
-HJ https://tle.geoscienceworld.org
-HJ https://vzj.geoscienceworld.org
-HJ https://pygs.geoscienceworld.org
-HJ https://sjg.geoscienceworld.org
-HJ https://jm.geoscienceworld.org
-HJ https://geoscienceworld.org
-HJ https://pubs.geoscienceworld.org
-HJ nagt-jge.org
-HJ https://nagt-jge.org
-DJ nagt-jge.org
-DJ geoscienceworld.org
-# Added per RAL 5 Mar 2018
-Title Glasnik matematicki
-URL https://web.math.pmf.unizg.hr/glasnik
-HJ http://web.math.pmf.unizg.hr
-HJ web.math.pmf.unizg.hr
-HJ math.pmf.unizg.hr
-HJ web.math.hr
-DJ unizg.hr
-DJ math.hr
+# GeoScienceWorld moved to common stanza: geoscienceworld.txt
+
 
 # Added per RAL 5 Mar 2018
 Title Glasnik matematicki
@@ -2480,6 +2317,7 @@ HJ math.pmf.unizg.hr
 HJ web.math.hr
 DJ unizg.hr
 DJ math.hr
+
 
 # Updated per ralight 2026-05-27
 Title Glossary of Geology - American Geosciences Institute Glossary of Geology
