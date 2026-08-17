@@ -3364,15 +3364,6 @@ DJ demarque.com
 
 # Learning Express Library 3.0 - PrepStep for Colleges moved to common stanza
 
-# Updated per ralight 2022-03-03
-Title Learning and Technology Library (updated 20210826)
-URL http://www.learntechlib.org
-HJ www.learntechlib.org
-HJ https://www.learntechlib.org
-HJ learntechlib.org
-HJ https://learntechlib.org
-DJ learntechlib.org
-
 # Updated per ralight 2026-04-20
 Title Letopisi Digital Archive
 URL http://letopisi.dlibrary.org/
