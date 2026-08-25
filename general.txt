@@ -136,6 +136,15 @@ URL https://j-dac.jp/
 HJ https://j-dac.jp
 DJ j-dac.jp
 
+# Added per cwlamb 2026-08-24
+# Trial access through 2026-09-24
+Title Film Secession
+URL https://www.filmsecession.com
+HJ www.filmsecession.com
+HJ https://filmsecession.com
+HJ filmsecession.com
+DJ filmsecession.com
+
 ####################################################################################################
 
 
