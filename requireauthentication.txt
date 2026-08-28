@@ -131,16 +131,7 @@ NeverProxy static.politico.com
 NeverProxy morph.politico.com
 AnonymousURL -*
 
-# Updated per ralight 2023-07-07
-# IPv6 not yet supported
-Title Education Week (OCLC IncludeFile updated 20230615)
-URL https://www.edweek.org/
-HJ www.edweek.org
-# Extra host included during resource change process. Can be removed in the future.
-HJ http://www.edweek.org/
-DJ edweek.org
-DJ pelcro.com
-
+INCLUDEFILE ../common_stanzas/education-week.txt
 
 Title Cross-National Time Series Data Archive
 URL http://www.databanksinternational.com
