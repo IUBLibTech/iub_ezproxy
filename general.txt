@@ -405,22 +405,7 @@ DJ ama.org
 Find journals.ama.org
 Replace ^pjournals.ama.org^
 
-# Updated per ralight 2021-12-22
-Title American Physiological Society (updated 20211214)
-URL https://journals.physiology.org
-HJ d2avczb82rh8fa.cloudfront.net
-HJ https://d2avczb82rh8fa.cloudfront.net
-HJ https://journals.physiology.org
-HJ https://physiology.org
-HJ https://www.physiology.org
-HJ journals.physiology.org
-HJ physiology.org
-HJ www.physiology.org
-DJ physiology.org
-Find physiology.org\/sites
-Replace ^Pphysiology.org^\/sites
-Find physiology.org\/content\/
-Replace ^Pphysiology.org^\/content\/
+# American Physiological Society moved to common stanza: american-physiological-society.txt
 
 # Updated per ralight 2023-04-26
 T American Society for Biochemistry and Molecular Biology (Updated 20230418)
@@ -5197,16 +5182,7 @@ HJ unstats.un.org
 HJ comtrade.un.org
 NeverProxy viz.unite.un.org
 
-# Updated per ralight 2021-06-17
-Title University of California Press (updated 20210615)
-URL https://online.ucpress.edu
-HJ https://www.ucpress.edu
-HJ https://ucpress.edu
-HJ www.ucpress.edu
-HJ http://online.ucpress.edu
-HJ https://online.ucpress.edu
-HJ online.ucpress.edu
-DJ ucpress.edu
+# University of California Press moved to common stanza: university-california-press.txt
 
 # University of Chicago Press Journals moved to common stanza: university-chicago-press-journals.txt
 
