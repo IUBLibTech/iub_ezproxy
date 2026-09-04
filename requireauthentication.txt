@@ -199,28 +199,6 @@ HJ bl-libg-doghill.ads.iu.edu
 HJ https://bl-libg-doghill.ads.iu.edu
 
 # Moved to always authenticate because vendor does not support IPV6
-# Updated per ralight 2022-09-27
-#This stanza below should not be in the production Database Stanzas website - but is needed for legacy link management.
-T -hide Frost old
-U http://www.frost.com
-HJ www.frost.com
-Find e.href = "http:"+e.href.substr(6)
-Replace e.href = "http://^pwww.frost.com^/"; + e.pathname + e.search
-
-# Moved to always authenticate because vendor does not support IPV6
-# Updated per ralight 2023-08-30
-Title Frost & Sullivan Member Portal (updated 20230828)
-MimeFilter text/html .* javascript
-URL https://member.frost.com
-HJ https://member.frost.com
-HJ https://research.frost.com
-DJ frost.com
-NeverProxy wwwcdn.frost.com
-NeverProxy memberportalapi.frost.com
-Find e.href = "https:"+e.href.substr(6)
-Replace e.href = "https://^smember.frost.com^/"; + e.pathname + https://e.search
-
-# Moved to always authenticate because vendor does not support IPV6
 # Updated per ralight 2023-11-15
 Title Bulletins of American paleontology
 URL https://www.priweb.org/index.php/pubs-bap
