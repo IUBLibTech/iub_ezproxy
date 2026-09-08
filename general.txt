@@ -1759,12 +1759,30 @@ URL https://www.munzinger.de/search/query?query.id=query-duden
 HJ www.munzinger.de
 DJ munzinger.de
 
+# Updated per ralight 2026-09-08
 Title DBpia
 URL https://dbpia.co.kr
 HJ http://dbpia.co.kr
 HJ dbpia.co.kr
 HJ https://www.dbpia.co.kr
 HJ www.dbpia.co.kr
+HJ cdn.dbpia.co.kr
+HJ image.dbpia.co.kr
+HJ high.dbpia.co.kr
+HJ download.dbpia.co.kr
+HJ downloadcf.dbpia.co.kr
+HJ fulltext.dbpia.co.kr
+HJ ai.dbpia.co.kr
+HJ ai-chat.dbpia.co.kr
+HJ api-v2.dbpia.co.kr
+HJ api-v3.dbpia.co.kr
+HJ agent.dbpia.co.kr
+HJ drs-api.dbpia.co.kr
+HJ ai-reader-api.dbpia.co.kr
+HJ report-agent.dbpia.co.kr
+HJ citeasy.dbpia.co.kr
+HJ citeasy-api.dbpia.co.kr
+HJ pay-api.dbpia.co.kr
 DJ dbpia.co.kr
 
 # Updated per ralight 2024-12-18
@@ -4008,10 +4026,15 @@ DJ nomos-elibrary.de
 DJ nomos-zeitschriften.de
 DJ nomos.de/archiv
 
+# Updated per ralight 2026-09-08
 Title Nurimedia Knowledge Reference Service
 URL https://www.krpia.co.kr
 HJ http://www.krpia.co.kr
 HJ www.krpia.co.kr
+HJ ai.krpia.co.kr
+HJ ai-api.krpia.co.kr
+HJ viewer.dbpia.co.kr
+HJ viwer.krpia.co.kr
 DJ krpia.co.kr
 
 # Added per RAL 2019-10-10
