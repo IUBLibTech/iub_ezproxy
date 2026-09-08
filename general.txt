@@ -2351,9 +2351,10 @@ DJ glossaryofgeology.org
 
 # Google Scholar moved to common stanza
 
-# Updated per ralight 2023-08-14
+# Updated per ralight 2026-09-08
 Title Grand Secretariat Archives
-URL https://www.ihp.sinica.edu.tw/db/gsa
+URL https://newarchive.ihp.sinica.edu.tw/mcttp/
+HJ https://www.ihp.sinica.edu.tw
 HJ https://newarchive.ihp.sinica.edu.tw
 HJ newarchive.ihp.sinica.edu.tw
 HJ http://www.ihp.sinica.edu.tw
