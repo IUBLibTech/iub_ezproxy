@@ -129,13 +129,6 @@ Option Cookie
 
 ###################################   TEMPORARY RESOURCES   #######################################
 
-# Added per ralight 2026-07-20
-# Trial access through 2026-08-16
-Title J-DAC
-URL https://j-dac.jp/
-HJ https://j-dac.jp
-DJ j-dac.jp
-
 # Added per cwlamb 2026-08-24
 # Trial access through 2026-09-24
 Title Film Secession
@@ -144,6 +137,12 @@ HJ www.filmsecession.com
 HJ https://filmsecession.com
 HJ filmsecession.com
 DJ filmsecession.com
+
+# Added per cwlamb 2026-09-09
+# Trial access though approximately 2026-12-09
+Title IndiastatJournals
+URL https://indiastatjournals.in/
+DJ indiastatjournals.in
 
 ####################################################################################################
 
