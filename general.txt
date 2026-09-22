@@ -1069,6 +1069,14 @@ HJ https://www.biblioscout.net
 HJ www.biblioscout.net
 DJ biblioscout.net
 
+# Added per cwlamb 2026-09-22
+Title Billboard Pro
+URL https://www.billboard.com/
+HJ www.billboard.com
+HJ http://www.billboard.com
+HJ billboard.com
+DJ billboard.com
+
 # Updated per ralight 2022-08-15
 AnonymousURL +https://api.digitalconcerthall.com/*
 AnonymousURL +https://sentry.digitalconcerthall.com/*
