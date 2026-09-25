@@ -732,7 +732,7 @@ HJ www.aup.nl
 DJ aup.nl
 DJ aup-online.com
 
-# Updated per ralight 2025-07-14
+# Updated per ralight 2026-09-25
 # Replaces separate stanzas for Collection of Chinese Rare Medicine Books in Overseas and Zhonghua jing dian gu ji ku
 # Stanza previously called Ancient Books
 Title JiHeWang
@@ -743,7 +743,11 @@ HJ https://publish.ancientbooks.cn
 HJ https://jingdian.ancientbooks.cn
 HJ https://p.docj.cn
 HJ publish.ancientbooks.cn
+# Additional hosts to account for Stone Inscriptions Database
+HJ https://inscription.ancientbooks.cn
+HJ inscription.ancientbooks.cn
 DJ ancientbooks.cn
+
 
 # Updated per ralight 2026-01-13
 Title Annali della Scuola Normale Superiore di Pisa, Classe di Scienze
