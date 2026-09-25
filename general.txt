@@ -129,6 +129,16 @@ Option Cookie
 
 ###################################   TEMPORARY RESOURCES   #######################################
 
+
+# Added per cwlamb 2026-09-22
+# Trial through 2026-10-22; however, we are likely to subscribe once a11y process is sorted out
+Title Billboard Pro
+URL https://www.billboard.com/
+HJ www.billboard.com
+HJ http://www.billboard.com
+HJ billboard.com
+DJ billboard.com
+
 # Added per cwlamb 2026-08-24
 # Trial access through 2026-09-24
 Title Film Secession
@@ -1069,14 +1079,6 @@ HJ https://www.biblioscout.net
 HJ www.biblioscout.net
 DJ biblioscout.net
 
-# Added per cwlamb 2026-09-22
-Title Billboard Pro
-URL https://www.billboard.com/
-HJ www.billboard.com
-HJ http://www.billboard.com
-HJ billboard.com
-DJ billboard.com
-
 # Updated per ralight 2022-08-15
 AnonymousURL +https://api.digitalconcerthall.com/*
 AnonymousURL +https://sentry.digitalconcerthall.com/*
@@ -1280,19 +1282,23 @@ HJ www.ca-c.org
 HJ https://ca-c.org
 DJ ca-c.org
 
-# Added per RAL 2020-12-28
-# Additional site to access CABI Resources
-Title CAB Direct
-URL https://www.cabdirect.org/
-HJ cabdirect.org
-HJ https://www.cabdirect.org
-HJ www.cabdirect.org
-DJ cabdirect.org
-# Scienceconnect.io HJ & DJ lines added to resolve dropped proxy issue per ralight 2024-08-01
-HJ cabidigitallibrary.scienceconnect.io
-DJ cabidigitallibrary.scienceconnect.io
+# Updated 2026-09-25 per ralight
+Title CABI Resources (updated 20260918)
+HTTPHeader -request -process AF_TOKEN
+HTTPHeader -request -process authToken
+HTTPHeader -request -process CONNECT_APP
+URL https://www.cabi.org/
+HJ cabi.org
+HJ https://cabi.org
+HJ https://www.cabi.org
+HJ www.cabi.org
+DJ cabi.org
+NeverProxy https://api.cabi.org
+NeverProxy https://cdn.cabi.org
+NeverProxy https://cdnjs.cloudflare.com
+NeverProxy https://help.cabi.org 
 
-# Updated per ralight 2025-04-02
+# Updated 2026-09-25 per ralight
 Option DomainCookieOnly
 Title CABI digital library
 URL https://cabidigitallibrary.org
@@ -1792,7 +1798,7 @@ HJ citeasy-api.dbpia.co.kr
 HJ pay-api.dbpia.co.kr
 DJ dbpia.co.kr
 
-# Updated per ralight 2026-09-21
+# Updated per ralight 2026-09-25
 AnonymousURL +https://vmnmedia-community.azurewebsites.net/account*
 AnonymousURL +https://vmnmedia-community.azurewebsites.net/api*
 AnonymousURL +https://vmnmedia-community.azurewebsites.net/articles*
@@ -1807,29 +1813,26 @@ AnonymousURL +https://vmnmedia-community.azurewebsites.net/Subscription*
 AnonymousURL +https://vmnmedia-community.azurewebsites.net/tracking*
 AnonymousURL +https://vmnmedia-community.azurewebsites.net/UpSellProducts*
 AnonymousURL +*.woff*
-AnonymousURL +*.woff2*
 AnonymousURL +*.ttf*
-T Detail (updated 20260916)
+Title Detail (updated 20260922)
 HTTPHeader -request -process X-XSRF-TOKEN
 HTTPHeader -request -process X-VMN-Origin
 HTTPHeader -request -process X-VMN-Request-IpAddress
 HTTPHeader -request -process X-VMN-Publisher
 HTTPHeader -request -process X-VMN-User-Agent
 HTTPHeader -request -process api_key
-U https://detail.de
+URL https://detail.de
+HJ arch.inspiration.detail.de
 HJ cdn.vakmedianet.com
 HJ detail.de
+HJ https://arch.inspiration.detail.de
 HJ https://cdn.vakmedianet.com
 HJ https://detail.de
+HJ https://inspiration.detail.de
 HJ https://privacy.vakmedianet.nl
 HJ https://vmnmedia-community.azurewebsites.net
-HJ https://detail.de
-HJ https://inspiration.detail.de
-HJ https://arch.inspiration.detail.de
 HJ https://www.detail.de
 HJ inspiration.detail.de
-HJ arch.inspiration.detail.de
-HJ www.detail.de
 HJ privacy.vakmedianet.nl
 HJ vmnmedia-community.azurewebsites.net
 HJ www.detail.de
