@@ -2400,13 +2400,6 @@ HJ guidestar.org
 DJ guidestar.org
 
 
-# Added per CWL 2022-3-31
-Title Gu dai li shi wen hua yan jiu ji kan hui shuo ku 
-URL https://elib.infolinker.com.tw/login_hua.htm  
-HJ https://elib.infolinker.com.tw/login_hua.htm  
-HJ elib.infolinker.com.tw
-DJ infolinker.com.tw
-
 ## **************************HHHHH*****************************************************************
 
 # Updated per ralight 2024-08-24
