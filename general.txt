@@ -4622,27 +4622,10 @@ NeverProxy api.draftable.com
 NeverProxy diff-api.draftable.com
 AnonymousURL -*
 
-# Updated per RAL 2020-10-26
-Title RIPM Retrsospective Index to Music Periodicals with Full Text
-URL https://www.ripmfulltext.org/Ripm/Digitization/SearchBrowse.aspx
+# Updated per RAL 2026-10-09
+Title RIPM Retrospective Index to Music Periodicals with Full Text
+URL https://www.ripmfulltext.org
 HJ www.ripmfulltext.org
-HJ http://www.ripmfulltext.org
-DJ ripmfulltext.org
-
-# Updated per RAL 2020
-Title RIPM European and North American Music Periodicals
-URL https://elib.ripmfulltext.org/eLibrary/search.php
-HJ https://www.ripmfulltext.org
-HJ https://elib.ripmfulltext.org
-HJ http://www.ripmfulltext.org/
-HJ www.ripmfulltext.org
-HJ elib.ripmfulltext.org
-DJ ripmfulltext.org
-
-# Updated per RAL 2021-01-08
-Title RIPM Jazz Periodicals
-URL https://jazz.ripmfulltext.org
-HJ elib.ripmfulltext.org
 HJ https://elib.ripmfulltext.org
 HJ https://jazz.ripmfulltext.org
 HJ https://ripmfulltext.org
