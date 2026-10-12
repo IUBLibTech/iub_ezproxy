@@ -4623,7 +4623,9 @@ NeverProxy diff-api.draftable.com
 AnonymousURL -*
 
 # Updated per RAL 2026-10-09
+# Stanza does not match OCLC Stanza or Stanza Supplied by the providor
 Title RIPM Retrospective Index to Music Periodicals with Full Text
+MimeFilter text/plain .* javascript
 URL https://www.ripmfulltext.org
 HJ www.ripmfulltext.org
 HJ https://elib.ripmfulltext.org
