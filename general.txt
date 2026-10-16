@@ -440,16 +440,7 @@ Title Aevum
 URL http://aevum.vitaepensiero.it
 DJ vitaepensiero.it
 
-# Added per ralight 2025-07-14
-# Content has migrated multiple times, the latest from Oxford to Elsevier
-# Stanza for Society site where we also have access
-Title American Society for Nutrition Journals
-URL https://journals.nutrition.org
-HJ https://jn.nutrition.org
-HJ https://ajcn.nutrition.org
-HJ https://advances.nutrition.org
-HJ https://cdn.nutrition.org
-DJ nutrition.org
+# American Society for Nutrition Journals moved to common stanza: american-society-nutrition.txt
 
 # Updated per ralight 2024-03-20
 Title Africa-Confidential (updated 20240312)
@@ -520,19 +511,6 @@ HJ americanarchivist.org
 DJ kglmeridian.com
 DJ americanarchivist.org
 
-# Updated per RAL 2020-09-04
-# Modified from OCLC to include http host line
-Title American Economic Association
-HTTPHeader -request -process X-CSRF-Token
-HTTPHeader -request -process X-Key
-HTTPHeader -request -process X-Requested-With
-URL https://www.aeaweb.org/
-HJ aeaweb.org
-HJ pubs.aeaweb.org
-HJ www.aeaweb.org
-HJ http://www.aeaweb.org/
-DJ aeaweb.org
-
 
 # Updated per ralight 2025-07-18
 # Combines OCLC stanzas for Weston Medical Publishing and American Journal of Recreation Therapy
@@ -590,70 +568,7 @@ HJ thenationshealth.aphapublications.org
 HJ www.aphapublications.org
 DJ aphapublications.org
 
-# Updated per ralight 2021-06-24
-Option DomainCookieOnly
-Title American Society for Microbiology (updated 20210617)
-URL https://journals.asm.org/
-HJ aac.asm.org
-HJ aem.asm.org
-HJ asm.org
-HJ cdli.asm.org
-HJ cmr.asm.org
-HJ cvi.asm.org
-HJ ec.asm.org
-HJ genomea.asm.org
-HJ https://aac.asm.org
-HJ https://aem.asm.org
-HJ https://asm.org
-HJ https://cmr.asm.org
-HJ https://cvi.asm.org
-HJ https://ec.asm.org
-HJ https://iai.asm.org
-HJ https://jb.asm.org
-HJ https://jcm.asm.org
-HJ https://journals.asm.org
-HJ https://jvi.asm.org
-HJ https://mbio.asm.org
-HJ https://mcb.asm.org
-HJ https://mmbr.asm.org
-HJ https://mra.asm.org
-HJ https://msphere.asm.org
-HJ https://msystems.asm.org
-HJ https://www.asm.org
-HJ https://www.asmscience.org
-HJ iai.asm.org
-HJ intl-aac.asm.org
-HJ intl-aem.asm.org
-HJ intl-cmr.asm.org
-HJ intl-cvi.asm.org
-HJ intl-ec.asm.org
-HJ intl-genomea.asm.org
-HJ intl-iai.asm.org
-HJ intl-jb.asm.org
-HJ intl-jcm.asm.org
-HJ intl-journals.asm.org
-HJ intl-jvi.asm.org
-HJ intl-mbio.asm.org
-HJ intl-mcb.asm.org
-HJ intl-msphere.asm.org
-HJ intl-msystems.asm.org
-HJ jb.asm.org
-HJ jcm.asm.org
-HJ journals.asm.org
-HJ jvi.asm.org
-HJ mbio.asm.org
-HJ mcb.asm.org
-HJ mmbr.asm.org
-HJ mra.asm.org
-HJ msphere.asm.org
-HJ msystems.asm.org
-HJ www.asm.org
-HJ www.asmscience.org
-HJ www.journals.asm.org
-DJ asm.org
-DJ asmscience.org
-NeverProxy asm.metastore.ingenta.com
-Option Cookie
+# American Society for Microbiology moved to common stanza: asm-journals.txt
 
 # Updated per ralight 2026-01-13
 Title American Society of Plant Biologists
@@ -756,13 +671,6 @@ HJ http://annaliscienze.sns.it
 HJ annaliscienze.sns.it
 HJ journals.sns.it
 DJ sns.it
-
-# Updated per RAL 2021-02-04
-Title Annals of Mathematics
-URL https://annals.math.princeton.edu/
-HJ http://annals.math.princeton.edu
-HJ annals.math.princeton.edu
-DJ princeton.edu
 
 # Annual Reviews moved to common stanza: annual-reviews.txt
 
@@ -1315,10 +1223,10 @@ DJ cabidigitallibrary.org
 Option Cookie
 NeverProxy cabi.scienceconnect.io
 
-# Updated per ralight 2026-05-22
+# Updated per ralight 2026-10-16
 AnonymousURL +*.woff*
 AnonymousURL +https://shs.cairn.info/build/assets/*.js*
-Title Cairn (OCLC IncludeFile updated 20260518)
+Title Cairn (updated 20261015)
 HTTPHeader -request -process X-Livewire
 HTTPHeader -response -process accept-ch
 URL https://www.cairn.info/
@@ -1347,6 +1255,8 @@ DJ cairn-int.info
 DJ cairn-mundo.info
 DJ cairn-sciences.info
 DJ cairn.info
+Find "redirect":"https:\/\/droit.cairn.info\/
+Replace "redirect":"https://^Sdroit.cairn.info^/
 Find "redirect":"https:\/\/shs.cairn.info\/
 Replace "redirect":"https://^Sshs.cairn.info^/
 Find redirect":"https:\/\/stm.cairn.info\/
@@ -2025,17 +1935,7 @@ DJ annphys.org
 DJ edpsciences.org
 
 
-# Updated per RAL 2021-02-25
-# http HJ included to avoid needhost errors
-Title eHRAF World Cultures (updated 20210218)
-URL https://ehrafworldcultures.yale.edu
-HJ http://ehrafworldcultures.yale.edu
-HJ 130.132.52.51
-HJ ehrafworldcultures.yale.edu
-HJ hraf01.its.yale.edu
-HJ https://ehrafworldcultures.yale.edu
-DJ yale.edu
-
+# eHRAF World Cultures moved to common stanza: ehraf-world-cultures.txt
 # Electronic Enlightenment moved to requireauthentication
 
 Title Electronic Text Centre - University of New Brunswick
@@ -2207,13 +2107,7 @@ Replace var _mnmHost_ = "bert.lib.indiana.edu:2048/login?url=http://129.79.10.44
 #Find var _mnmHost_ = "129.79.5.119:9797";
 #Replace var _mnmHost_ = "bert.lib.indiana.edu:2048/login?url=http://129.79.5.119:9797";
 
-# Added per CWL 2018-08-08
-Title Film Platform
-URL https://filmplatform.net
-Host filmplatform.net
-Host https://www.filmplatform.net
-Host www.filmplatform.net
-DJ filmplatform.net
+# Film Platform moved to common stanza: film-platform.txt
 
 # Added per CWL 10-16-2019
 Title Fire Insurance Maps Online
@@ -2330,13 +2224,6 @@ DJ czytnik.wyborcza.pl/
 HJ https://classic.wyborcza.pl
 HJ classic.wyborcza.pl
 DJ classic.wyborcza.pl
-
-# Updated per ralight 2021-08-03
-Title Genetics (Austin)
-URL https://www.genetics.org/
-HJ http://www.genetics.org
-HJ www.genetics.org
-DJ genetics.org
 
 # GeoScienceWorld moved to common stanza: geoscienceworld.txt
 
@@ -2699,40 +2586,7 @@ DJ e-unwto.org
 HJ e-unwto.scienceconnect.io
 DJ e-unwto.scienceconnect.io
 
-# Updated per ralight 2021-07-22
-Title INFORMS PubsOnline (updated 20210719)
-URL https://pubsonline.informs.org/
-HJ da.journal.informs.org
-HJ deca.informs.org
-HJ https://journals.informs.org
-HJ https://www.informs.org/
-HJ ijoc.informs.org
-HJ inte.informs.org
-HJ interfaces.journal.informs.org
-HJ isr.journal.informs.org
-HJ ite.journal.informs.org
-HJ ited.informs.org
-HJ joc.journal.informs.org
-HJ journals.informs.org
-HJ mansci.journal.informs.org
-HJ mktsci.journal.informs.org
-HJ mksc.informs.org
-HJ mnsc.informs.org
-HJ moor.informs.org
-HJ mor.journal.informs.org
-HJ msom.informs.org
-HJ msom.journal.informs.org
-HJ opre.informs.org
-HJ or.journal.informs.org
-HJ orgsci.journal.informs.org
-HJ orsc.informs.org
-HJ pubsonline.informs.org
-HJ transci.journal.informs.org
-HJ trsc.informs.org
-HJ www3.informs.org
-HJ www.informs.org
-DJ informs.org
-
+# INFORMS PubsOnline moved to common stanza: informs-pubsonline.txt
 # Ingenta moved to common stanza
 
 # Added per ralight 2025-12-10
@@ -3574,12 +3428,12 @@ DJ materialconnexion.com
 DJ library.materialconnexion.com
 DJ materialconnexion.online
 
-# Updated per ralight 2026-07-07
-Title Mathematical Sciences Publishers (updated 20190209)
+# Updated per ralight 2026-10-16
+Title Mathematical Sciences Publishers (updated 20261009)
 URL https://msp.org
-# Hosts added to resolve needhost errors per ralight 2026-07-07
-HJ https://www.msp.org
-HJ www.msp.org
+HJ https://journals.msp.org
+HJ journals.msp.org
+HJ msp.org
 DJ msp.org
 
 # MathSciNet moved to common_stanzas
@@ -4276,19 +4130,7 @@ HJ http://www.peterlang.com/
 HJ www.peterlang.com/
 DJ peterlang.com
 
-# Updated per RAL 2020-12-30
-Title Philosophy Documentation Center
-URL http://www.pdcnet.org/
-HJ cas.pdcnet.org
-HJ https://pdcnet.org
-HJ https://secure.pdcnet.org
-HJ https://www.pdcnet.org
-HJ pdcnet.org
-HJ secure.pdcnet.org
-HJ www.pdcnet.org
-DJ pdcnet.org
-Find var urlNeu=urlAlt.replace(/http:/, "https:");
-Replace var urlNeu=urlAlt.replace(/http:\/\/www.pdcnet.org.*?(\/.*)$/, "https://^swww.pdcnet.org^$1");
+# Philosophy Documentation Center moved to common stanza: philosophy-documentation-center.txt
 
 # Updated per ralight 2026-10-02
 Title PhilPapers (updated 20260930)
@@ -4443,15 +4285,7 @@ NeverProxy https://icassets.globaldata.com
 NeverProxy https://analytics.globaldata.com
 AnonymousURL -*
 
-Title Project Euclid
-URL https://projecteuclid.org/
-HJ projecteuclid.org
-HJ www.projecteuclid.org
-HJ https://projecteuclid.org
-HJ https://www.projecteuclid.org
-DJ projecteuclid.org
-HJ http://projecteuclid.org
-
+# Project Euclid moved to common stanza: project-euclid.txt
 # Project Muse moved to common stanza
 
 # Added per CWL 2020-02-13
@@ -4879,14 +4713,13 @@ DJ jneurosci.org
 # Extra host added to reduce needhost logs
 HJ http://www.eneuro.org
 
-# Platform change per RAL 2019-08-12
-# Previously called Simmons OneView
+# Updated per ralight 2026-10-16
+# Cannot move to common stanza.
 Title Simmons Insights
-URL https://simmonsinsights.com
+URL https://insights.mrisimmons.com/university/indiana
 HJ https://simmonsinsights.com
 HJ https://oneview.simmonsresearch.com
 HJ oneview.simmonsresearch.com
-HJ https://insights.mrisimmons.com/university/indiana
 HJ insights.mrisimmons.com
 D insights.mrisimmons.com
 DJ simmonsinsights.com
@@ -5661,14 +5494,7 @@ HJ www.thewirechina.com
 DJ www.thewirechina.com
 DJ thewirechina.com
 
-# Updated per ralight 2022-07-21
-Title Old City Publishing (updated 20210401)
-URL https://www.oldcitypublishing.com/
-HJ https://www.oldcitypublishing.com
-HJ https://oldcitypublishing.com
-HJ www.oldcitypublishing.com
-DJ oldcitypublishing.com
-
+# Old City Publishing moved to common stanza: old-city-publishing.txt
 #  Wiley Digital Archives moved to common stanza
 
 
