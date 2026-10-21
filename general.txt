@@ -4724,6 +4724,10 @@ HJ insights.mrisimmons.com
 D insights.mrisimmons.com
 DJ simmonsinsights.com
 DJ experian.com
+HJ https://catalyst.mrisimmons.com/university/indiana
+HJ https://catalyst.mrisimmons.com
+HJ catalyst.mrisimmons.com
+DJ catalyst.mrisimmons.com
 
 # Updated per ralight 2023-01-23
 # Stanza provided by publisher during renewal process. May not match OCLC.
