@@ -139,14 +139,12 @@ HJ http://www.billboard.com
 HJ billboard.com
 DJ billboard.com
 
-# Added per cwlamb 2026-08-24
-# Trial access through 2026-09-24
-Title Film Secession
-URL https://www.filmsecession.com
-HJ www.filmsecession.com
-HJ https://filmsecession.com
-HJ filmsecession.com
-DJ filmsecession.com
+# Added per cwlamb 2026-10-22
+# Trial through 2026-10-31; however, we are likely to subscribe 
+Option CookiePassThrough
+Title Inorganic Crystal Structure Database
+URL https://icsd.fiz-karlsruhe.de/
+DJ fiz-karlsruhe.de
 
 # Added per cwlamb 2026-09-09
 # Trial access though approximately 2026-12-09
