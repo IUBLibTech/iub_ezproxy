@@ -1989,11 +1989,7 @@ HJ telerehab.pitt.edu
 HJ ethnology.pitt.edu
 DJ pitt.edu
 
-# Moved to always authenticate in config.txt 6/22/17
-Title Ethnologue
-URL https://www.ethnologue.com
-HJ ethnologue.com
-DJ ethnologue.com
+# Ethnologue moved to common stanza: ethnologue.txt
 
 Title Les Etudes classiques
 URL http://lesetudesclassiques.be/index.php/lec
@@ -2067,13 +2063,7 @@ HJ www.fastcase.com
 HJ fastcase.com
 DJ fastcase.com
 
-# Updated per RAL 2019-09-11
-T Feature Films for Education
-U https://ffusa.infobase.com/
-HJ https://MEDIA3.CRITERIONPIC.COM /
-HJ https://MEDIA2.CRITERIONPIC.COM /
-D infobase.com
-DJ CRITERIONPIC.COM
+# Feature Films for Education moved to common stanza: feature-films-education.txt
 
 Title Federated Search
 # Changed machines [per jpillan] 4 November 2009 cs
@@ -4211,67 +4201,6 @@ DJ privco.com
 HJ system.privco.com
 HJ https://system.privco.com
 
-# Updated per ralight 2025-03-19
-AnonymousURL +https://assets.globaldata.com/*.ttf*
-AnonymousURL +https://assets.globaldata.com/*.woff*
-AnonymousURL +https://assets.globaldata.com/*.woff2*
-AnonymousURL +https://assets.hc.globaldata.com/*.ttf*
-AnonymousURL +https://assets.hc.globaldata.com/*.woff*
-AnonymousURL +https://assets.hc.globaldata.com/*.woff2*
-Title GlobalData (updated 20250314)
-HTTPHeader -process -request Tableau-Viz-Location
-HTTPHeader -process -request Tableau-Viz-Path
-HTTPHeader -process -request X-Requested-With
-HTTPHeader -process -request X-XSRF-TOKEN
-URL https://login.globaldata.com/login/iplogin
-HJ ads.globaldata.com
-HJ apparel.globaldata.com
-HJ auto.globaldata.com
-HJ construction.globaldata.com
-HJ consumer.globaldata.com
-HJ covid.globaldata.com
-HJ disruptor.globaldata.com
-HJ explorer.globaldata.com
-HJ financialservices.globaldata.com
-HJ foodservice.globaldata.com
-HJ healthcare.globaldata.com
-HJ pla-consumer.globaldata.com
-HJ https://ads.globaldata.com
-HJ https://apparel.globaldata.com
-HJ https://auto.globaldata.com
-HJ https://construction.globaldata.com
-HJ https://consumer.globaldata.com
-HJ https://covid.globaldata.com
-HJ https://disruptor.globaldata.com
-HJ https://explorer.globaldata.com
-HJ https://financialservices.globaldata.com
-HJ https://foodservice.globaldata.com
-HJ https://healthcare.globaldata.com
-HJ https://insurance.globaldata.com
-HJ https://medical.globaldata.com
-HJ https://mining.globaldata.com
-HJ https://oilgas.globaldata.com
-HJ https://packaging.globaldata.com
-HJ https://pharma.globaldata.com
-HJ https://pla-consumer.globaldata.com
-HJ https://power.globaldata.com
-HJ https://retail.globaldata.com
-HJ https://technology.globaldata.com
-HJ https://tourism.globaldata.com
-HJ insurance.globaldata.com
-HJ medical.globaldata.com
-HJ mining.globaldata.com
-HJ oilgas.globaldata.com
-HJ packaging.globaldata.com
-HJ pharma.globaldata.com
-HJ power.globaldata.com
-HJ retail.globaldata.com
-HJ technology.globaldata.com
-HJ tourism.globaldata.com
-DJ globaldata.com
-NeverProxy https://icassets.globaldata.com
-NeverProxy https://analytics.globaldata.com
-AnonymousURL -*
 
 # Project Euclid moved to common stanza: project-euclid.txt
 # Project Muse moved to common stanza
@@ -4404,12 +4333,7 @@ DJ my.refinitiv.com
 DJ refinitiv.com
 DJ lseg.com
 
-# Updated per ralight 2022-03-31
-Title Revista Iberoamericana
-URL http://revista-iberoamericana.pitt.edu/ojs/index.php/Iberoamericana/index
-HJ https://revista-iberoamericana.pitt.edu
-HJ revista-iberoamericana.pitt.edu
-DJ pitt.edu
+# Revista Iberoamericana moved to common stanza: revista-iberoamericana.txt
 
 # Added per ralight 2021-08-31
 Title Rheinisches Museum fur Philologie
@@ -4531,12 +4455,7 @@ HJ rem.routledge.com
 HJ www.rem.routledge.com
 DJ routledge.com
 
-Title Routledge Encyclopedia of Philosophy
-URL https://www.rep.routledge.com
-HJ http://www.rep.routledge.com
-HJ rep.routledge.com
-HJ www.rep.routledge.com
-DJ routledge.com
+# Routledge Encyclopedia of Philosophy moved to common stanza: routledge-encyclopedia-philosophy.txt
 
 # Updated per ralight 2023-03-08
 # Includes extra host for figshare not in OCLC stanza
@@ -4605,12 +4524,7 @@ Replace var pdfUrl = "https:\/\/^Sjs.sagamorepub.com^
 
 # Salem Press moved to common stanza: salem-press.txt
 
-# Added per ralight 2021-10-14
-Title Scholarly Publishing Collective (updated 20211013)
-URL https://scholarlypublishingcollective.org/
-HJ http://scholarlypublishingcollective.org
-HJ scholarlypublishingcollective.org
-DJ scholarlypublishingcollective.org
+# Scholarly Publishing Collective moved to common stanza: scholarly-publishing-collective.txt
 
 # Updated per ralight 2022-01-14
 Title Association for Science Education (updated 20220111)
