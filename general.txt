@@ -2409,49 +2409,7 @@ DJ co.kr
 
 ## **************************IIIII*****************************************************************
 
-# Updated per ralight 2023-12-06
-AnonymousURL +https://content.ibisworld.com/umbraco/api/*
-Title IBISWorld (OCLC IncludeFile updated 20231129)
-URL https://my.ibisworld.com
-HJ my.ibisworld.com
-HJ www.ibisworld.com
-HJ https://www.ibisworld.com
-HJ ibisworld.com
-HJ https://ibisworld.com
-HJ www.ibisworld.com.au
-HJ https://www.ibisworld.com.au
-HJ www.ibisworld.ca
-HJ https://www.ibisworld.ca
-HJ www.ibisworld.co.uk
-HJ https://www.ibisworld.co.uk
-HJ www.ibisworld.de
-HJ https://www.ibisworld.de
-HJ www.ibisworld.cn
-HJ https://www.ibisworld.cn
-HJ www.procurementiq.com
-HJ https://www.procurementiq.com
-HJ clients1.ibisworld.com
-HJ https://clients1.ibisworld.com
-HJ clients1.ibisworld.com.au
-HJ https://clients1.ibisworld.com.au
-HJ clients1.ibisworld.co.uk
-HJ https://clients1.ibisworld.co.uk
-HJ clients1.ibisworld.ca
-HJ https://clients1.ibisworld.ca
-HJ clients1.ibisworld.de
-HJ https://clients1.ibisworld.de
-HJ client.procurementiq.com
-HJ https://client.procurementiq.com
-HJ https://content.ibisworld.com
-HJ content.ibisworld.com
-DJ ibisworld.com
-DJ ibisworld.com.au
-DJ ibisworld.com.cn
-DJ ibisworld.co.uk
-DJ ibisworld.de
-DJ ibisworld.ca
-DJ procurementiq.com
-AnonymousURL -*
+# IBISWorld moved to common stanza: ibisworld.txt
 
 ## IEEE Xplore moved to common stanza
 
