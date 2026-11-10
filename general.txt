@@ -2113,11 +2113,7 @@ HJ https://fortunoff.aviaryplatform.com
 HJ fortunoff.aviaryplatform.com
 DJ aviaryplatform.com
 
-# Added per BRB 2021-04-02
-Title Forum : for Promoting 3-19 Comprehensive Education
-URL https://journals.lwbooks.co.uk/forum
-HJ journals.lwbooks.co.uk
-DJ lwbooks.co.uk
+# Forum : for Promoting 3-19 Comprehensive Education moved to common stanza: forum-lwbooks.txt
 
 Title Foundation Directory Online
 URL https://fconline.foundationcenter.org/ipl.php
