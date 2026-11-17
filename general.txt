@@ -3012,10 +3012,13 @@ DJ karger.com
 DJ karger.ch
 AnonymousURL -*
  
-
+# Updated per ralight 2026-11-17
 Title Keesing's Online
-URL http://www.keesings.com
+URL https://www.keesings.com/
+HJ http://www.keesings.com
 HJ www.keesings.com
+HJ http://keesings.com
+HJ https://kessings.com
 DJ keesings.com
 
 # Updated per RAL 2020-02-17
