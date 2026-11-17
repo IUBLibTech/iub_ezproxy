@@ -3018,7 +3018,7 @@ URL https://www.keesings.com/
 HJ http://www.keesings.com
 HJ www.keesings.com
 HJ http://keesings.com
-HJ https://kessings.com
+HJ https://keesings.com
 DJ keesings.com
 
 # Updated per RAL 2020-02-17
