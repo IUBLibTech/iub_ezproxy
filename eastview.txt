@@ -50,15 +50,14 @@ HJ http://wnc.eastview.com
 HJ wnc.eastview.com
 Option Cookie
 
-# Updated per ralight 2022-03-28
-AnonymousURL +https://static-cdn.arcanum.hu* 
+# Updated per ralight 2026-11-19
 Title Arcanum Digitheca
-URL https://adtplus.arcanum.hu/en/ 
-HJ adtplus.arcanum.hu 
+URL https://adt.arcanum.com/en
 HJ https://adt.arcanum.com
+HJ https://www.arcanum.com
 HJ adt.arcanum.com
-DJ arcanum.hu 
-AnonymousURL -*
+HJ www.arcanum.com
+DJ arcanum.com
 
 # Updated per ralight 2026-09-18
 Option CookiePassThrough
