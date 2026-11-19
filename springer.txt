@@ -1,1 +1,0 @@
-#### Moved to INCLUDEFILE ../common_stanzas/springerlink.txt ####
