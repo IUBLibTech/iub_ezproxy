@@ -129,23 +129,6 @@ Option Cookie
 
 ###################################   TEMPORARY RESOURCES   #######################################
 
-
-# Added per cwlamb 2026-09-22
-# Trial through 2026-10-22; however, we are likely to subscribe once a11y process is sorted out
-Title Billboard Pro
-URL https://www.billboard.com/
-HJ www.billboard.com
-HJ http://www.billboard.com
-HJ billboard.com
-DJ billboard.com
-
-# Added per cwlamb 2026-10-22
-# Trial through 2026-10-31; however, we are likely to subscribe 
-Option CookiePassThrough
-Title Inorganic Crystal Structure Database
-URL https://icsd.fiz-karlsruhe.de/
-DJ fiz-karlsruhe.de
-
 # Added per cwlamb 2026-09-09
 # Trial access though approximately 2026-12-09
 Title IndiastatJournals
@@ -187,16 +170,18 @@ DJ astpublications.com
 DJ artsongtranspositions.com
 DJ artsonginstitutional.com
 
+# Updated per ralight 2026-11-19
 T A&AePortal
 U https://www.aaeportal.com
 HJ https://www.aaeportal.com
+HJ www.aaeportal.com
 DJ aaeportal.com
 
 # AAPG Datapages moved to common stanza
 
 # ABC-CLIO Databases and Ebooks moved to common_stanza
 
-# Updated per ralight 2022-08-01
+# Last reviewed by ralight 2026-11-19
 Title Abbreviationes Online
 URL https://abbrev.net
 HJ http://abbrev.net
@@ -230,20 +215,6 @@ HJ musicid.academicrightspress.com
 DJ academicrightspress.com
 
 # NewspaperArchive moved to common stanza
-
-# Updated per RAL 2020-12-30
-Title Acoustical Society of America
-URL http://www.acousticalsociety.org/
-HJ acousticalsociety.org
-HJ asadl.org
-HJ https://acousticalsociety.org
-HJ https://asadl.org
-HJ https://www.acousticalsociety.org
-HJ https://www.asadl.org
-HJ www.acousticalsociety.org
-HJ www.asadl.org
-DJ acousticalsociety.org
-DJ asadl.org
 
 # Updated per ralight 2026-01-13
 Title Acta Astronomica
