@@ -319,6 +319,7 @@ INCLUDEFILE ../common_stanzas/oxford-music-online.txt
 INCLUDEFILE ../common_stanzas/harvard-educational-review.txt
 
 INCLUDEFILE ../common_stanzas/uptodate.txt
+INCLUDEFILE ../common_stanzas/rotunda.txt
 
 # Moved to always authenticate because IPv6 isn't working
 # Updated per ralight 2025-12-17
