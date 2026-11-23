@@ -9,8 +9,8 @@ Option CookiePassThrough
 AnonymousURL +https://api.maptiler.com*
 AnonymousURL +https://gpa.eastview.com/*js*
 Title East View Information Services Inc (updated 20260616)
-ByteServe https://dlib\\.eastview\\.com/api/book/.*
-ByteServe https://dlib\\.eastview\\.com/ui-components/static/.*
+ByteServe https://dlib\.eastview\.com/api/book/.*
+ByteServe https://dlib\.eastview\.com/ui-components/static/.*
 HTTPHeader -response -edit Content-Security-Policy RewriteURL(https://gpa.eastview.com)
 HTTPHeader -request -process Bib-Token
 URL https://dlib.eastview.com/login
