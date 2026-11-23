@@ -3334,12 +3334,15 @@ DJ materialconnexion.com
 DJ library.materialconnexion.com
 DJ materialconnexion.online
 
-# Updated per ralight 2026-10-16
+# Updated per ralight 2026-11-23
 Title Mathematical Sciences Publishers (updated 20261009)
 URL https://msp.org
 HJ https://journals.msp.org
 HJ journals.msp.org
 HJ msp.org
+# Additional hosts added to reduce needhost errors
+HJ https://www.msp.org
+HJ www.msp.org
 DJ msp.org
 
 # MathSciNet moved to common_stanzas
