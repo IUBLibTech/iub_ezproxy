@@ -88,8 +88,8 @@ I 10.79.76.0/24
 
 
 
+# Last reviewed by ralight 2026-11-25
 # Stanza moved to top of includes file per OCLC instruction to try to resolve ongoing access problem
-# Updated per ralight 2024-01-03
 Option CookiePassThrough
 HTTPMethod DELETE
 HTTPMethod PUT
@@ -145,30 +145,6 @@ DJ indiastatjournals.in
 
 
 
-# Updated per ralight 2026-01-07
-# Stanza formerly called Art Song Transpositions
-Title AST Publications (updated 20251217)
-URL https://artsonginstitutional.com
-HJ https://artsonginstitutional.com
-HJ https://www.artsonginstitutional.com
-HJ https://artsongtranspositions.com
-HJ http://artsongtranspositions.com
-HJ https://astpublications.com
-HJ http://astpublications.com
-HJ artsonginstitutional.com
-HJ https://www.astpublications.com
-HJ https://www.artsongtranspositions.com
-HJ www.astpublications.com
-HJ www.artsongtranspositions.com
-HJ www.artsonginstitutional.com
-HJ https://www.astfree.com
-HJ www.astfree.com
-HJ https://astfree.com
-HJ astfree.com
-DJ astfree.com
-DJ astpublications.com
-DJ artsongtranspositions.com
-DJ artsonginstitutional.com
 
 # Updated per ralight 2026-11-19
 T A&AePortal
@@ -177,9 +153,8 @@ HJ https://www.aaeportal.com
 HJ www.aaeportal.com
 DJ aaeportal.com
 
-# AAPG Datapages moved to common stanza
-
-# ABC-CLIO Databases and Ebooks moved to common_stanza
+# AAPG Datapages moved to common stanza: aapg-datapages.txt
+# ABC-CLIO Databases and Ebooks moved to common stanza: abc-clio.txt
 
 # Last reviewed by ralight 2026-11-19
 Title Abbreviationes Online
@@ -203,7 +178,7 @@ DJ ruhr-uni-bochum.de
 DJ rub.de
 DJ ru.nl
 
-# Updated per RAL 2020-11-12
+# Last reviewed by ralight 2026-11-25
 # Previously called Academic Rights Press
 Title MusicID ARP
 URL http://www.academicrightspress.com/
@@ -214,7 +189,6 @@ HJ academicrightspress.com
 HJ musicid.academicrightspress.com
 DJ academicrightspress.com
 
-# NewspaperArchive moved to common stanza
 
 # Updated per ralight 2026-01-13
 Title Acta Astronomica
@@ -233,21 +207,6 @@ HJ www.adparnassum.org
 DJ utorpheus.com
 DJ adparnassum.org
 
-# Updated per ralight 2022-11-15
-# Formerly called AdSpender
-Title Advertising Insights
-URL https://edu-adinsights.kantarmediana.com
-HJ http://edu.adspender.kantarmediana.com
-HJ edu-adinsights.kantarmediana.com
-HJ edu.adspender.kantarmediana.com
-HJ tms-mi.com
-HJ kantarmediana.com
-HJ products.kantarmediana.com
-HJ adspender.kantarmediana.com
-HJ adspender.tns-mi.com
-HJ adinsights.kantarmediana.com
-DJ kantarmediana.com
-
 # Added per CWL 10-25-2023
 Title Ad Age
 URL https://home.adage.com/site/IndianaUniversity
@@ -259,7 +218,14 @@ DJ home.adage.com
 DJ mag.adage.com
 DJ adage.com
 
-# Updated per RAL 2026-03-19
+# Updated per ralight 2026-11-25
+Title Aevum
+URL https://aevum.vitaepensiero.it
+HJ http://aevum.vitaepensiero.it
+HJ aevum.vitaepensiero.it
+DJ vitaepensiero.it
+
+# Updated per ralight 2024-03-20
 Title Africa-Confidential (updated 20240312)
 URL https://www.africa-confidential.com
 HJ africa-confidential.com
@@ -267,7 +233,7 @@ HJ https://africa-confidential.com
 HJ www.africa-confidential.com
 DJ africa-confidential.com
 
-# Added per ralight 2023-01-23
+# Last reviewed by ralight 2026-11-25
 # Stanza needed in conjunction with Sabinet African Journals
 Title African Journals Online (updated 20191108)
 URL http://www.ajol.info/
@@ -278,7 +244,32 @@ HJ https://www.ajol.info
 HJ www.ajol.info
 DJ ajol.info
 
-# Updated per RAL 2020-09-04
+# Last reviewed by ralight 2026-11-25
+Title Against the Grain
+URL https://www.charleston-hub.com/media/atg/
+HJ www.charleston-hub.com
+HJ https://www.against-the-grain.com
+HJ www.against-the-grain.com
+DJ against-the-grain.com
+DJ charleston-hub.com
+
+# Last reviewed by ralight 2026-11-25
+Title Airiti Library (updated 20251205)
+URL https://www.airitilibrary.com
+HJ https://www.airitilibrary.com
+HJ https://www.airitibooks.com
+HJ https://www.airitiaci.com
+HJ https://www.ainoscosearch.com
+HJ www.airitibooks.com
+HJ www.airitilibrary.com
+HJ www.airitiaci.com
+HJ www.ainoscosearch.com
+DJ airitibooks.com
+DJ airitilibrary.com
+DJ airitiaci.com
+DJ ainoscosearch.com
+
+# Last reviewed by ralight 2026-11-25
 Title Akademiai Kiado
 HTTPHeader -request -process X-Requested-With
 URL https://akjournals.com/
@@ -294,44 +285,23 @@ HJ http://akjournals.com
 DJ akademiai.com
 DJ akjournals.com
 
-# Add per RAL 2019-03-14
+# Last reviewed by ralight 2026-11-25
 Title Al Jadid
 URL https://www.aljadid.com/content/digiuser
 HJ www.aljadid.com
 HJ aljadid.com
 DJ aljadid.com
 
-# Updated to https per RAL 2019-08-27
-Option DomainCookieOnly
-Title AAIDD Online Journals (updated 20190410)
-URL https://www.aaiddjournals.org
-H 65.156.1.66
-HJ aaiddjournals.org
-HJ https://aaiddjournals.org
-HJ https://pinnacle-secure.allenpress.com
-HJ https://www.aaiddjournals.org
-HJ www.aaiddjournals.org
-DJ aaiddjournals.org
-DJ pinnacle-secure.allenpress.com
-Option Cookie
+# ALA Journals moved to common stanza: ala-journals.txt
 
-# Added per ralight 2021-08-25
-Title Against the Grain
-URL https://www.charleston-hub.com/media/atg/
-HJ www.charleston-hub.com
-HJ https://www.against-the-grain.com
-HJ www.against-the-grain.com
-DJ against-the-grain.com
-DJ charleston-hub.com
-
-# Added per ralight 2021-10-14
+# Last reviewed by ralight 2026-11-25
 Title Allen Press
 URL https://meridian.allenpress.com
 HJ meridian.allenpress.com
 HJ allenpress.com
 DJ allenpress.com
 
-# Updated per ralight 2021-07-30
+# Last reviewed by ralight 2026-11-25
 HTTPMethod DELETE
 Title Almanac of the Federal Judiciary (updated 20210726)
 HTTPHeader -request -process X-GWT-*
@@ -349,43 +319,26 @@ Replace http://
 Find name="redirect_uri" value="https://
 Replace name="redirect_uri" value="https://^A
 
-# Added per CWL 12-17-2020
-Title American Bench
-URL http://bench.forster-long.com/search
-HJ bench.forster-long.com
-DJ bench.forster-long.com
+# American Chemical Society moved to common stanza: american-chemical-society.txt
 
-# American Chemical Society moved to common stanza
-
+# Updated per ralight 2026-11-25
 Title American Institute of Mathematical Sciences
-URL http://aimsciences.org/journals/index.jsp
+URL https://aimsciences.org/journals/index.jsp
+HJ https://www.aimsciences.org
+HJ http://aimsciences.org
 HJ www.aimsciences.org
 DJ aimsciences.org
 
-# Added per ralight 2023-04-25
+# Last reviewed by ralight 2026-11-25
 # Elsevier title with access on native platform
 Title American Journal of Obstetrics & Gynecology
 URL https://www.ajog.org/
 HJ www.ajog.org
 DJ ajog.org
 
-#Updated per RAL 2018-05-14
-Title American Marketing Association
-URL https://www.ama.org/
-HJ ama.org
-HJ archive.ama.org
-HJ https://ama.org
-HJ https://archive.ama.org
-HJ http://journals.ama.org
-HJ journals.ama.org
-HJ www.ama.org
-DJ ama.org
-Find journals.ama.org
-Replace ^pjournals.ama.org^
-
 # American Physiological Society moved to common stanza: american-physiological-society.txt
 
-# Updated per ralight 2023-04-26
+# Last reviewed by ralight 2026-11-25
 T American Society for Biochemistry and Molecular Biology (Updated 20230418)
 U http://www.asbmb.org
 HJ asbmb.org
@@ -405,50 +358,11 @@ DJ asbmb.org
 DJ jbc.org
 DJ jlr.org
 DJ mcponline.org
-Title Aevum
-URL http://aevum.vitaepensiero.it
-DJ vitaepensiero.it
 
 # American Society for Nutrition Journals moved to common stanza: american-society-nutrition.txt
 
-# Updated per ralight 2024-03-20
-Title Africa-Confidential (updated 20240312)
-URL https://www.africa-confidential.com
-HJ africa-confidential.com
-HJ https://africa-confidential.com
-HJ www.africa-confidential.com
-DJ africa-confidential.com
 
-
-# Updated per ralight 2025-12-10
-Title Airiti Library (updated 20251205)
-URL https://www.airitilibrary.com
-HJ https://www.airitilibrary.com
-HJ https://www.airitibooks.com
-HJ https://www.airitiaci.com
-HJ https://www.ainoscosearch.com
-HJ www.airitibooks.com
-HJ www.airitilibrary.com
-HJ www.airitiaci.com
-HJ www.ainoscosearch.com
-DJ airitibooks.com
-DJ airitilibrary.com
-DJ airitiaci.com
-DJ ainoscosearch.com
-
-# ALA Journals moved to common stanza: ala-journals.txt
-
-# Updated to https per RAL 2019-04-08
-Title AMA Manual of Style
-URL https://www.amamanualofstyle.com
-HJ https://www.amamanualofstyle.com
-HJ https://amamanualofstyle.com
-HJ http://www.amamanualofstyle.com
-HJ www.amamanualofstyle.com
-HJ amamanualofstyle.com
-DJ amamanualofstyle.com
-
-# Updated per RAL 2021-02-16
+# Last reviewed by ralight 2026-11-25
 AnonymousURL +https://www.ambrosevideo.com/*
 Title Ambrose Video Publishing (updated 20210212)
 URL https://www.ambrosevideo.com
@@ -470,7 +384,7 @@ NeverProxy cfsh.ambrosevideo.com
 NeverProxy cfsr.ambrosevideo.com
 AnonymousURL -*
 
-# Updated per RAL 2025-09-22
+# Last reviewed by ralight 2026-11-25
 Title American Archivist
 URL https://american-archivist.kglmeridian.com/view/journals/aarc/aarc-overview.xml
 HJ https://american-archivist.kglmeridian.com
@@ -481,7 +395,7 @@ DJ kglmeridian.com
 DJ americanarchivist.org
 
 
-# Updated per ralight 2025-07-18
+# Last reviewed by ralight 2026-11-25
 # Combines OCLC stanzas for Weston Medical Publishing and American Journal of Recreation Therapy
 Title American Journal of Recreation Therapy 
 URL https://wmpllc.org/
@@ -497,14 +411,18 @@ DJ recreationtherapy.org
 Find wmpllc.org
 Replace ^swmpllc.org^
 
+# Last reviewed by ralight 2026-11-25
 T American Mathematical Society Journals
-URL http://www.ams.org
+URL https://www.ams.org
+HJ https://pubs.ams.org
 HJ www.ams.org
+HJ http://www.ams.org
+HJ pubs.ams.org
 HJ www.mathjournals.org
 DJ mathjournals.org
 DJ ams.org
 
-# Updated per ralight 2022-06-24
+# Last reviewed by ralight 2026-11-25
 T American Meteorological Society (updated 20220621)
 HTTPHeader -request -process X-Requested-With
 URL http://journals.ametsoc.org
@@ -527,8 +445,8 @@ HJ www.plantmanagementnetwork.org
 DJ apsnet.org
 DJ plantmanagementnetwork.org
 
-# Updated per RAL 2020-09-04
-Title American Public Health Association
+# Last reviewed by ralight 2026-11-25
+Title American Public Health Association (updated 20200210)
 URL http://ajph.aphapublications.org/
 HJ ajph.aphapublications.org
 HJ aphapublications.org
@@ -607,7 +525,7 @@ HJ www.asha.org
 HJ www.pubs.asha.org
 DJ asha.org
 
-# Added per ralight 2021-07-21
+# Last reviewed by ralight 2026-11-25
 Title Amsterdam University Press
 URL https://www.aup.nl/en/journal
 HJ https://www.aup-online.com/
@@ -616,22 +534,7 @@ HJ www.aup.nl
 DJ aup.nl
 DJ aup-online.com
 
-# Updated per ralight 2026-09-25
-# Replaces separate stanzas for Collection of Chinese Rare Medicine Books in Overseas and Zhonghua jing dian gu ji ku
-# Stanza previously called Ancient Books
-Title JiHeWang
-HTTPHeader -request -process siteid
-HTTPHeader -request -process x-requested-with
-URL https://www.ancientbooks.cn
-HJ https://publish.ancientbooks.cn
-HJ https://jingdian.ancientbooks.cn
-HJ https://p.docj.cn
-HJ publish.ancientbooks.cn
-# Additional hosts to account for Stone Inscriptions Database
-HJ https://inscription.ancientbooks.cn
-HJ inscription.ancientbooks.cn
-DJ ancientbooks.cn
-
+# Ancestry Library moved to commonstanza: ancestry-library.txt
 
 # Updated per ralight 2026-01-13
 Title Annali della Scuola Normale Superiore di Pisa, Classe di Scienze
@@ -643,28 +546,14 @@ DJ sns.it
 
 # Annual Reviews moved to common stanza: annual-reviews.txt
 
-# Updated per ralight 2022-07-21
-Title Schweizerbart/Borntraeger Journals, Stuttgart (updated 20220718)
-URL https://www.schweizerbart.de
-HJ https://www.schweizerbart.de
-HJ www.schweizerbart.de
-HJ schweizerbart.de
-HJ https://schweizerbart.de
-HJ http://www.schweizerbart.com
-HJ www.schweizerbart.com
-HJ https://schweizerbart.com
-HJ schweizerbart.com
-DJ schweizerbart.de
-DJ schweizerbart.com 
 
-
-# Updated per ralight 2025-07-29
-# Changed to Newsroom portion to NeverProxy directive based on information from EZproxy listserv
+# Last reviewed by ralight 2026-11-25
+# Changed Newsroom portion to NeverProxy directive based on information from EZproxy listserv
 # Additional changes per EBSCO support to change fully to NeverProxy and remove all other elements of stanza.
 Title AP Newsroom
 NeverProxy newsroom.ap.org
 
-# Updated per ralight 2024-04-17
+# Last reviewed by ralight 2026-11-25
 Title The Arabidopsis Information Resource (updated 20240416)
 URL https://www.arabidopsis.org/
 HJ api.arabidopsis.org
@@ -691,14 +580,14 @@ HJ seqviewer.arabidopsis.org
 HJ www.arabidopsis.org
 DJ arabidopsis.org
 
-# Added per RAL 2020-08-21
+# Last reviewed by ralight 2026-11-25
 # Elsevier title with access on native platform
 Title Archives of Physical Medicine and Rehabilitation
 URL https://www.archives-pmr.org/
 HJ www.archives-pmr.org
 DJ archives-pmr.org
 
-# Updated per ralight 2024-09-05
+# Last reviewed by ralight 2026-11-25
 Title ARL Publications
 URL https://www.arl.org
 HJ https://publications.arl.org
@@ -710,7 +599,7 @@ HJ http://publications.arl.org
 DJ arl.org
 DJ arlstatistics.org
 
-# Updated per ralight 2024-03-13
+# Last reviewed 2026-11-25
 Title Armand Colin Revues (updated 20240311)
 URL https://www.revues.armand-colin.com
 HJ https://www.revues.armand-colin.com
@@ -721,22 +610,14 @@ DJ armand-colin.com
 Find http://www.revues.armand-colin.com
 Replace https://www.revues.armand-colin.com
 
-# added per CWL 03-13-23
-Title Art Song Transpositions
-URL https://astpublications.com
-HJ https://artsongtranspositions.com
-HJ http://artsongtranspositions.com
-HJ http://astpublications.com
-DJ astpublications.com
-DJ artsongtranspositions.com
-
-# Updated per ralight 2026-01-13
+# Updated per ralight 2026-11-25
 Title Arte lombarda
 URL https://artelombarda.vitaepensiero.it/
 HJ http://artelombarda.vitaepensiero.it
+HJ artelombarda.vitaepensiero.it
 DJ vitaepensiero.it
 
-# updated per cwl 2020-04-22
+# Last reviewed by ralight 2026-11-25
 Title ARTFL Project, University of Chicago
 URL https://artfl-project.uchicago.edu/
 HJ artfl-project.uchicago.edu
@@ -751,7 +632,7 @@ HJ https://artflsrv03.uchicago.edu
 DJ uchicago.edu
 DJ artfl-project.uchicago.edu
 
-# Updated per RAL 2021-01-19
+# Last reviewed by ralight 2026-11-25
 Title Art History Research net
 URL https://www.arthistoryresearch.net/database/index.php
 HJ http://www.arthistoryresearch.net
@@ -759,19 +640,23 @@ HJ www.arthistoryresearch.net
 HJ arthistoryresearch.net
 DJ arthistoryresearch.net
 
-# Updated per ralight 2021-10-28
-Title ASPET Journals Online (updated 20211025) 
-URL http://www.aspetjournals.org/ 
-HJ aspet.org HJ aspetjournals.org 
-HJ dmd.aspetjournals.org 
-HJ https://aspet.org 
-HJ https://aspetjournals.org 
-HJ https://dmd.aspetjournals.org 
-HJ https://jpet.aspetjournals.org 
+# Updated per ralight 2026-11-25
+Title ASPET Journals Online (updated 20211028)
+URL http://www.aspetjournals.org/
+HJ aspet.org
+HJ aspetjournals.org
+HJ dmd.aspetjournals.org
+HJ https://aspet.org
+HJ https://aspetjournals.org
+HJ https://dmd.aspetjournals.org
+HJ https://jpet.aspetjournals.org
 HJ https://molpharm.aspetjournals.org
 HJ https://pharmrev.aspetjournals.org
 HJ https://www.aspet.org
+HJ intl-dmd.aspetjournals.org
+HJ intl-jpet.aspetjournals.org
 HJ intl-molpharm.aspetjournals.org
+HJ intl-pharmrev.aspetjournals.org
 HJ jpet.aspetjournals.org
 HJ molpharm.aspetjournals.org
 HJ pharmrev.aspetjournals.org
@@ -780,7 +665,7 @@ HJ www.aspetjournals.org
 DJ aspet.org
 DJ aspetjournals.org
 
-# added per CWL 2-7-22
+# Last reviewed by ralight 2026-11-25
 Title askART
 URL https://www.askart.com/
 HJ https://www.askart.com/
@@ -789,20 +674,47 @@ HJ askart.com
 DJ www.askart.com
 DJ askart.com
 
-# Added per CWL 2022-11-14
+# Updated per ralight 2026-01-07
+# Stanza formerly called Art Song Transpositions
+Title AST Publications (updated 20251217)
+URL https://artsonginstitutional.com
+HJ https://artsonginstitutional.com
+HJ https://www.artsonginstitutional.com
+HJ https://artsongtranspositions.com
+HJ http://artsongtranspositions.com
+HJ https://astpublications.com
+HJ http://astpublications.com
+HJ artsonginstitutional.com
+HJ https://www.astpublications.com
+HJ https://www.artsongtranspositions.com
+HJ www.astpublications.com
+HJ www.artsongtranspositions.com
+HJ www.artsonginstitutional.com
+HJ https://www.astfree.com
+HJ www.astfree.com
+HJ https://astfree.com
+HJ astfree.com
+DJ astfree.com
+DJ astpublications.com
+DJ artsongtranspositions.com
+DJ artsonginstitutional.com
+
+
+# Last reviewed by ralight 2026-11-25
 Title Astronomical Society of the Pacific
 URL https://www.aspbooks.org/
 HJ http://www.aspbooks.org/
 HJ www.aspbooks.org
 DJ aspbooks.org
 
-# Added per ralight 2023-07-25
+# Last reviewed by ralight 2026-11-25
 # Title tracked in Single Journals in 360 KB
 Title Atlantic Geology
 URL https://journals.lib.unb.ca/index.php/ag/issue/archive
 HJ journals.lib.unb.ca
 DJ unb.ca
 
+# Last reviewed by ralight 2026-11-25
 Title AustLit
 URL https://www.austlit.edu.au
 HJ http://www.austlit.edu.au
@@ -815,7 +727,7 @@ URL https://www.australianliterarystudies.com.au/archive
 HJ www.australianliterarystudies.com.au
 DJ australianliterarystudies.com.au
 
-# Updated per RAL 2019-10-07
+# Last reviewed by ralight 2026-11-25
 Title Austrian Academy of Sciences Press
 URL https://austriaca.at
 URL http://austriaca.at
@@ -824,9 +736,7 @@ HJ http://hw.oeaw.ac.at
 HJ hw.oeaw.ac.at
 DJ austriaca.at
 
-# Ancestry Library moved to commonstanza: ancestry-library.txt
-
-# added per CWL 2-19-25
+Last reviewed by ralight 2026-11-26
 AnonymousURL +https://prodbiserver3-auditedmedia-com.*
 Title Alliance for Audited Media
 HTTPHeader -request -process __cfduid "*"
@@ -845,9 +755,10 @@ NeverProxy chartservice.auditedmedia.com
 NeverProxy https://xhr.spec.whatwg.org/
 AnonymousURL -*
 
-# Updated per ralight 2025-05-06
+# Updated per ralight 2026-11-25
 Title Audio Engineering Society  
 URL https://aes2.org/publications/elibrary/  
+HJ https://aes.org
 HJ https://www.aes.org  
 HJ https://www.aes2.org  
 HJ www.aes2.org  
@@ -2695,6 +2606,22 @@ HJ japanknowledge.com
 DJ japanknowledge.com
 AnonymousURL -*
 
+# Updated per ralight 2026-09-25
+# Replaces separate stanzas for Collection of Chinese Rare Medicine Books in Overseas and Zhonghua jing dian gu ji ku
+# Stanza previously called Ancient Books
+Title JiHeWang
+HTTPHeader -request -process siteid
+HTTPHeader -request -process x-requested-with
+URL https://www.ancientbooks.cn
+HJ https://publish.ancientbooks.cn
+HJ https://jingdian.ancientbooks.cn
+HJ https://p.docj.cn
+HJ publish.ancientbooks.cn
+# Additional hosts to account for Stone Inscriptions Database
+HJ https://inscription.ancientbooks.cn
+HJ inscription.ancientbooks.cn
+DJ ancientbooks.cn
+
 # Added per brboren via ralight 2026-05-13
 # Comes with Zasshi kiji sakuin shusei (Japanese Periodicals Index Database)
 Title Jinbutsu Plus
@@ -3766,6 +3693,8 @@ URL https://www.amis.org/newsletter-archive
 HJ www.amis.org
 DJ amis.org
 
+# NewspaperArchive moved to common stanza: newspaperarchive.txt
+
 # Added per CWL 2021-3-1
 Title Nikkei Asia
 URL https://asia.nikkei.com/
@@ -4503,6 +4432,20 @@ HJ discover.sabinet.co.za
 HJ https://reference.sabinet.co.za
 HJ reference.sabinet.co.za
 DJ sabinet.co.za
+
+# Last reviewed by ralight 2026-11-25
+Title Schweizerbart/Borntraeger Journals, Stuttgart (updated 20220718)
+URL https://www.schweizerbart.de
+HJ https://www.schweizerbart.de
+HJ www.schweizerbart.de
+HJ schweizerbart.de
+HJ https://schweizerbart.de
+HJ http://www.schweizerbart.com
+HJ www.schweizerbart.com
+HJ https://schweizerbart.com
+HJ schweizerbart.com
+DJ schweizerbart.de
+DJ schweizerbart.com 
 
 # Updated per ralight 2023-08-14
 Title Scripta Sinica
